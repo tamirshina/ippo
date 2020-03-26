@@ -1,0 +1,65 @@
+@font-face {
+  font-family: titleFont;
+  src: url('./assets/VarelaRound-Regular.ttf') format('truetype');
+}
+
+body, html {
+  height: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.fullBackground{
+  height: -webkit-fill-available;
+  object-fit: fill;
+  width: 100%;
+}
+.textBoxCss{
+  position: fixed;
+  top: 15%;
+  right: 6%;
+  width: 34%;
+  display: grid;
+}
+.addTitleFont{
+  font-family: titleFont;
+}
+.ippoTitle{
+  position: fixed;
+  top: 14%;
+  left: 10%;
+}
+.headsOfTitle{
+  position: fixed;
+  top: 24%;
+  left: 10%;
+}
+.humanitarianTitle{
+  position: fixed;
+  top: 34%;
+  left: 10%;
+}
+.importentStructuresTitle{
+  position: fixed;
+  top: 44%;
+  left: 10%;
+}
+.hitrovoTitle{
+  position: fixed;
+  top: 54%;
+  left: 10%;
+}
+.languagesDiv{
+  position: fixed;
+  display: flex;
+  grid-row-gap: 8px;
+  z-index: 99;
+  bottom: 25px;
+  left: 40px;
+}
+.activeTitle{
+  position: relative;
+    background-color: #7fff00;
+    left: -28px;
+    top: -51px;
+}
