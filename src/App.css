@@ -1,55 +1,97 @@
 @font-face {
   font-family: titleFont;
-  src: url('./assets/VarelaRound-Regular.ttf') format('truetype');
+  src: url("./assets/VarelaRound-Regular.ttf") format("truetype");
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 ::-webkit-scrollbar {
   display: none;
 }
-.fullBackground{
+.frontTitle {
+  position: fixed;
+  top: 15%;
+  left: 35%;
+  font-size: 25px;
+  opacity: 1;
+  transition: opacity 1s;
+}
+.frontTitle.fade {
+  opacity: 0;
+}
+.frontTitleIppo {
+  position: relative;
+  left: 45%;
+  bottom: 15px;
+}
+.frontLogo {
+  position: fixed;
+  top: 29%;
+  left: 35%;
+  opacity: 1;
+  transition: opacity 1s;
+}
+.frontLogo.fade {
+  opacity: 0;
+}
+.fullBackground {
   height: -webkit-fill-available;
   object-fit: fill;
   width: 100%;
 }
-.textBoxCss{
+.textBoxCss {
   position: fixed;
   top: 15%;
   right: 6%;
   width: 34%;
   display: grid;
 }
-.addTitleFont{
+.addTitleFont {
   font-family: titleFont;
 }
-.ippoTitle{
+.ippoTitle {
   position: fixed;
   top: 14%;
-  left: 10%;
+  left: 9.5%;
+  word-wrap: break-word;
+  width: 173px;
+  font-size: 13px;
 }
-.headsOfTitle{
+.headsOfTitle {
   position: fixed;
   top: 24%;
-  left: 10%;
+  left: 9.5%;
+  word-wrap: break-word;
+  width: 173px;
+  font-size: 13px;
 }
-.humanitarianTitle{
+.humanitarianTitle {
   position: fixed;
   top: 34%;
-  left: 10%;
+  left: 9.5%;
+  word-wrap: break-word;
+  width: 173px;
+  font-size: 13px;
 }
-.importentStructuresTitle{
+.importentStructuresTitle {
   position: fixed;
   top: 44%;
-  left: 10%;
+  left: 9.5%;
+  word-wrap: break-word;
+  width: 173px;
+  font-size: 13px;
 }
-.hitrovoTitle{
+.hitrovoTitle {
   position: fixed;
   top: 54%;
-  left: 10%;
+  left: 9.5%;
+  word-wrap: break-word;
+  width: 173px;
+  font-size: 13px;
 }
-.languagesDiv{
+.languagesDiv {
   position: fixed;
   display: flex;
   grid-row-gap: 8px;
@@ -57,9 +99,20 @@ body, html {
   bottom: 25px;
   left: 40px;
 }
-.activeTitle{
+.activeTitle {
   position: relative;
-    background-color: #7fff00;
-    left: -28px;
-    top: -51px;
+  background-color: #7fff00;
+  left: -28px;
+  top: -51px;
+}
+.homeBtn {
+  position: fixed;
+  bottom: 15px;
+  right: 200px;
+  z-index: 10;
+}
+.reMenu {
+  position: fixed;
+  top: 1%;
+  left: 3%;
 }

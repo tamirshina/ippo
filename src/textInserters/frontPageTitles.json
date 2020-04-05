@@ -1,0 +1,13 @@
+{ 
+    "id": "frontPageTitles",
+    "titles":{
+        "english":"Imperial Orthodox Palestine Society",
+        "russian":"Импера́торское правосла́вное палести́нское о́бщество",
+        "hebrew":"החברה הארץ-ישראלית הפרבוסלבית הקיסרית"
+    },
+    "ippo":{
+        "english":"IPPO",
+        "russian":"ИППО",
+        "hebrew":"IPPO"
+    }
+}

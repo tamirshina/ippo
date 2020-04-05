@@ -1,0 +1,14 @@
+<img
+        src={frontBackground}
+        alt="backgroundImage"
+        className="fullBackground"
+      ></img>"fullBackground"
+      ></img>
+
+
+<img
+        onClick={playVideoLogic}
+        src={frontLogo}
+        alt="backgroundImage"
+        className="frontLogo"
+      />
