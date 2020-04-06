@@ -18,13 +18,13 @@ function App() {
     const videoElem = document.getElementById("zoomInVideo");
     if (videoElem) {
       videoElem.play();
-      videoElem.onplay = event => {
-        setTimeout(function() {
+      videoElem.onplay = (event) => {
+        setTimeout(function () {
           setIsIppoPage(true);
         }, 3500);
         // setTimeout(function(){ setIsInfoRouting(true); }, 3500);
       };
-      videoElem.onended = event => {
+      videoElem.onended = (event) => {
         setIstFrontPage(false);
       };
     }
@@ -33,7 +33,7 @@ function App() {
   return (
     <>
       {isFrontPage ? <FrontPage playVideoLogic={playVideo} /> : null}
-      {isIppoPage ? <IppoPage /> : null}
+      {isIppoPage ? <IppoPage homeBtn={homeBtn} /> : null}
       <LanguageButtons />
       {isFrontPage ? null : <HomeBtn homeBtnLogic={homeBtn} />}
     </>

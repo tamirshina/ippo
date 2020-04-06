@@ -8,23 +8,33 @@ import russianText from "./textInserters/russianText";
 import englishText from "./textInserters/englishText";
 import hebrewText from "./textInserters/hebrewText";
 import aactiveArrow from "./assets/11-activeArrow.png";
+import ImageTextEl from "./fragments/ImageTextEl";
 import "./App.css";
 import TextInserter from "./textInserters/TextInserter";
 
-function IppoPage({ homeBtnLogic }) {
+function IppoPage({ homeBtn }) {
   const lang = useContext(LangContext).lang;
   const [whichIsActive, setWhichIsActive] = useState("ippo");
 
   useEffect(() => {
-    timer(homeBtnLogic);
+    timer(homeBtn);
 
     return () => {
       // Return callback to run on unmount.
 
       removeTimer();
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [homeBtn]);
+
+  function isHeadsOf() {
+    if (
+      whichIsActive === "headsOf" ||
+      whichIsActive === "importentStructures"
+    ) {
+      return true;
+    }
+    return false;
+  }
 
   function whichFileToUse() {
     if (lang === "hebrew") {
@@ -111,7 +121,11 @@ function IppoPage({ homeBtnLogic }) {
           />
         ) : null}
       </div>
-      <TextInserter subject={whichIsActive} />
+      {isHeadsOf() ? (
+        <ImageTextEl subject={whichIsActive} />
+      ) : (
+        <TextInserter subject={whichIsActive} />
+      )}
     </div>
   );
 }
