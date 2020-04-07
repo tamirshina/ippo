@@ -51,7 +51,7 @@ html {
 .addTitleFont {
   font-family: titleFont;
 }
-.ippoTitle {
+.ippo-title {
   position: fixed;
   top: 14%;
   left: 9.5%;
@@ -59,7 +59,7 @@ html {
   width: 173px;
   font-size: 13px;
 }
-.headsOfTitle {
+.headsOf-title {
   position: fixed;
   top: 24%;
   left: 9.5%;
@@ -67,7 +67,7 @@ html {
   width: 173px;
   font-size: 13px;
 }
-.humanitarianTitle {
+.humanitarian-title {
   position: fixed;
   top: 34%;
   left: 9.5%;
@@ -75,7 +75,7 @@ html {
   width: 173px;
   font-size: 13px;
 }
-.importentStructuresTitle {
+.importentStructures-title {
   position: fixed;
   top: 44%;
   left: 9.5%;
@@ -83,7 +83,7 @@ html {
   width: 173px;
   font-size: 13px;
 }
-.hitrovoTitle {
+.hitrovo-title {
   position: fixed;
   top: 56%;
   left: 9.5%;
@@ -154,4 +154,12 @@ html {
 }
 .item-container-image-text {
   display: -webkit-inline-box;
+}
+.scroll-button-container {
+  position: fixed;
+  bottom: 7%;
+  right: 45%;
+}
+.left-scroll {
+  margin-right: -20px;
 }

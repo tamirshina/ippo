@@ -22,7 +22,7 @@ function ImageTextEl({ subject }) {
     return whichLangToUse()[subject];
   }
   return (
-    <div className="image-text-container">
+    <div id="imageTextContainer" className="image-text-container">
       {whichFileToUse().map((item) => {
         return (
           <div key={item.id} className="item-container-image-text">
