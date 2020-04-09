@@ -3,7 +3,7 @@ import LangContext from "../IppoContext";
 import englishText from "../textInserters/englishText";
 import hebrewText from "../textInserters/hebrewText";
 import russianText from "../textInserters/russianText";
-import activeArrow from "../assets/11-activeArrow.png";
+import activeArrow from "../assets/09-menu-arrow.png";
 import "../App.css";
 
 function TitleEl({ setWhichIsActive, whichIsActive }) {
@@ -27,9 +27,12 @@ function TitleEl({ setWhichIsActive, whichIsActive }) {
             key={item.name}
             id={item.name}
             onClick={() => setWhichIsActive(item.name)}
-            className={`${item.name}-title addTitleFont`}
+            className={
+              lang === "hebrew"
+                ? `${item.name}-title menu-general-heb addTitleFont`
+                : `${item.name}-title menu-general-title addTitleFont`
+            }
           >
-            <h1>{item.text}</h1>
             {whichIsActive === item.name ? (
               <img
                 src={activeArrow}
@@ -37,6 +40,15 @@ function TitleEl({ setWhichIsActive, whichIsActive }) {
                 className={"activeTitle"}
               />
             ) : null}
+            <h1
+              className={
+                lang === "hebrew"
+                  ? "menu-title-add heb-menu-title"
+                  : "menu-title-add"
+              }
+            >
+              {item.text}
+            </h1>
           </div>
         );
       })}

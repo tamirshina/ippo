@@ -15,6 +15,8 @@ html {
   top: 15%;
   left: 35%;
   font-size: 25px;
+  width: 818px;
+  text-align: center;
   opacity: 1;
   transition: opacity 1s;
 }
@@ -23,7 +25,6 @@ html {
 }
 .frontTitleIppo {
   position: relative;
-  left: 45%;
   bottom: 15px;
 }
 .frontLogo {
@@ -51,45 +52,50 @@ html {
 .addTitleFont {
   font-family: titleFont;
 }
-.ippo-title {
+.menu-general-title {
   position: fixed;
-  top: 14%;
-  left: 9.5%;
+  left: 9%;
   word-wrap: break-word;
-  width: 173px;
+  width: 190px;
   font-size: 13px;
+  display: inline-flex;
+  text-align: center;
+}
+.menu-general-heb {
+  position: fixed;
+  left: 10.5%;
+  word-wrap: break-word;
+  width: 138px;
+  font-size: 13px;
+  display: inline-flex;
+  text-align: center;
+}
+.heb-menu-title {
+  direction: rtl;
+  text-align: center;
+}
+.ippo-title {
+  top: 15%;
+}
+.ippo-title h1 {
+  margin-top: 25px;
+  margin-left: 22px;
 }
 .headsOf-title {
-  position: fixed;
   top: 24%;
-  left: 9.5%;
-  word-wrap: break-word;
-  width: 173px;
-  font-size: 13px;
 }
 .humanitarian-title {
-  position: fixed;
   top: 34%;
-  left: 9.5%;
-  word-wrap: break-word;
-  width: 173px;
-  font-size: 13px;
 }
 .importentStructures-title {
-  position: fixed;
-  top: 44%;
-  left: 9.5%;
-  word-wrap: break-word;
-  width: 173px;
-  font-size: 13px;
+  top: 45.5%;
 }
 .hitrovo-title {
-  position: fixed;
   top: 56%;
-  left: 9.5%;
-  word-wrap: break-word;
-  width: 173px;
-  font-size: 13px;
+}
+.hitrovo-title h1 {
+  margin-top: 25px;
+  margin-left: 40px;
 }
 .languagesDiv {
   position: fixed;
@@ -101,9 +107,11 @@ html {
 }
 .activeTitle {
   position: relative;
-  background-color: #7fff00;
-  left: -28px;
-  top: -51px;
+  right: 27%;
+  top: 14px;
+}
+.menu-title-add {
+  position: absolute;
 }
 .homeBtn {
   position: fixed;
@@ -162,4 +170,16 @@ html {
 }
 .left-scroll {
   margin-right: -20px;
+}
+.infoHeText {
+  position: fixed;
+  top: 26%;
+  right: 4%;
+  font-family: fantasy;
+  font-size: 21px;
+  text-align: right;
+  line-height: 1.6;
+  overflow: scroll;
+  width: 44%;
+  height: 57%;
 }

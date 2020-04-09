@@ -27,7 +27,7 @@ function ImageTextEl({ subject }) {
         return (
           <div key={item.id} className="item-container-image-text">
             <img
-              src={require(`../assets/${item.image}.png`)}
+              src={require(`../assets/${subject}/${item.image}.png`)}
               alt="someImage"
               className="image-for-imageText"
             />
