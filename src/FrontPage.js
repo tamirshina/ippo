@@ -5,10 +5,7 @@ import IppoTitle from "./fragments/TitleFrontPage";
 import "./App.css";
 
 function FrontPage({ playVideoLogic }) {
-  const [isFrontPage, setIsFrontPage] = useState(true);
-
   const hundelOnClick = () => {
-    setIsFrontPage(false);
     playVideoLogic();
   };
 
@@ -21,7 +18,7 @@ function FrontPage({ playVideoLogic }) {
         src={frontVideo}
         className="fullBackground"
       />
-      {isFrontPage ? <IppoTitle /> : null}
+      <IppoTitle />
     </>
   );
 }

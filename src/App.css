@@ -13,12 +13,13 @@ html {
 .frontTitle {
   position: fixed;
   top: 15%;
-  left: 35%;
+  left: 28%;
   font-size: 25px;
   width: 818px;
+  display: inline;
   text-align: center;
   opacity: 1;
-  transition: opacity 1s;
+  transition: opacity 3s;
 }
 .frontTitle.fade {
   opacity: 0;
@@ -128,7 +129,7 @@ html {
   position: fixed;
   top: 26%;
   right: 7%;
-  font-family: fantasy;
+  font-family: Papyrus;
   font-size: 21px;
   text-align: left;
   line-height: 1.6;
@@ -150,7 +151,7 @@ html {
   height: 60%;
 }
 .heads-text {
-  font-family: fantasy;
+  font-family: Papyrus;
   font-size: 21px;
   text-align: left;
   line-height: 1.6;
@@ -175,11 +176,16 @@ html {
   position: fixed;
   top: 26%;
   right: 4%;
-  font-family: fantasy;
+  font-family: Papyrus;
   font-size: 21px;
   text-align: right;
   line-height: 1.6;
   overflow: scroll;
+  direction: rtl;
+  white-space: pre-line;
   width: 44%;
   height: 57%;
+}
+.addMargin {
+  margin-right: 15px;
 }

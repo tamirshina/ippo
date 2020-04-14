@@ -16,13 +16,16 @@ function App() {
 
   const playVideo = () => {
     const videoElem = document.getElementById("zoomInVideo");
+    const headline = document.getElementById("frontPageTitle");
     if (videoElem) {
       videoElem.play();
       videoElem.onplay = (event) => {
+        if (headline) {
+          headline.classList.add("fade");
+        }
         setTimeout(function () {
           setIsIppoPage(true);
         }, 3500);
-        // setTimeout(function(){ setIsInfoRouting(true); }, 3500);
       };
       videoElem.onended = (event) => {
         setIstFrontPage(false);

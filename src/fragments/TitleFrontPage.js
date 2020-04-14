@@ -17,7 +17,7 @@ function TitleFrontPage() {
   };
 
   return (
-    <div className="frontTitle">
+    <div id="frontPageTitle" className="frontTitle">
       <div className="frontTitleIppo addTitleFont">{ippoTitleToInsert()}</div>
       <div className="addTitleFont">{titleToInsert()}</div>
     </div>

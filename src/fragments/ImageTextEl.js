@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import LangContext from "../IppoContext";
 import englishText from "../textInserters/englishText";
-import hebrewText from "../textInserters/hebrewText";
+import hebrewText from "../textInserters/HebrewText";
 import russianText from "../textInserters/russianText";
 import "../App.css";
 
@@ -10,7 +10,7 @@ function ImageTextEl({ subject }) {
 
   function whichLangToUse() {
     if (lang === "hebrew") {
-      return JSON.parse(JSON.stringify(hebrewText));
+      return hebrewText;
     }
     if (lang === "english") {
       return JSON.parse(JSON.stringify(englishText));

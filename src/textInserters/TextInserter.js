@@ -3,18 +3,22 @@ import isLeftToRight from "../fragments/IsLeftToRightFunc";
 import LangContext from "../IppoContext";
 import russianText from "./russianText";
 import englishText from "./englishText";
-import hebrewText from "./hebrewText";
+import hebrewText from "./HebrewText";
 import RighToLeftTitle from "../fragments/RightToLeftTitle";
 import LeftToRightTitle from "../fragments/LeftToRightTitle";
 import "../App.css";
 
-function TextInserter({ subject, homeBtnLogic }) {
+function TextInserter({ subject }) {
   const lang = useContext(LangContext).lang;
   const textParaEl = useRef(null);
 
+  function createMarkup(str) {
+    return { __html: str };
+  }
+
   function whichFileToUse() {
     if (lang === "hebrew") {
-      return JSON.parse(JSON.stringify(hebrewText));
+      return hebrewText;
     }
     if (lang === "english") {
       return JSON.parse(JSON.stringify(englishText));
@@ -41,9 +45,8 @@ function TextInserter({ subject, homeBtnLogic }) {
         ref={textParaEl}
         className={isLeftToRight() ? "infoEnText" : "infoHeText"}
         id="particularTextBox"
-      >
-        {infoToInsert()}
-      </p>
+        dangerouslySetInnerHTML={createMarkup(infoToInsert())}
+      ></p>
     </div>
   );
 }
