@@ -1,70 +1,19 @@
-<div
-        id="ippo"
-        onClick={() => setWhichIsActive("ippo")}
-        className={"ippoTitle addTitleFont"}
-      >
-        <h1>{whichFileToUse().ippo}</h1>
-        {whichIsActive === "ippo" ? (
-          <img
-            src={activeArrow}
-            alt="active-arrow"
-            className={"activeTitle"}
-          />
-        ) : null}
-      </div>
-      <div
-        id="headsOf"
-        onClick={() => setWhichIsActive("headsOf")}
-        className="headsOfTitle addTitleFont"
-      >
-        <h1>{whichFileToUse().headsOf}</h1>
-        {whichIsActive === "headsOf" ? (
-          <img
-            src={activeArrow}
-            alt="active-arrow"
-            className={"activeTitle"}
-          />
-        ) : null}
-      </div>
-      <div
-        id="humanitarian"
-        onClick={() => setWhichIsActive("humanitarian")}
-        className="humanitarianTitle addTitleFont"
-      >
-        <h1>{whichFileToUse().humanitarian}</h1>
-        {whichIsActive === "humanitarian" ? (
-          <img
-            src={activeArrow}
-            alt="active-arrow"
-            className={"activeTitle"}
-          />
-        ) : null}
-      </div>
-      <div
-        id="importentStructures"
-        onClick={() => setWhichIsActive("importentStructures")}
-        className="importentStructuresTitle addTitleFont"
-      >
-        <h1>{whichFileToUse().importentStructures}</h1>
-        {whichIsActive === "importentStructures" ? (
-          <img
-            src={activeArrow}
-            alt="active-arrow"
-            className={"activeTitle"}
-          />
-        ) : null}
-      </div>
-      <div
-        id="hitrovo"
-        onClick={() => setWhichIsActive("hitrovo")}
-        className="hitrovoTitle addTitleFont"
-      >
-        <h1>{whichFileToUse().hitrovo}</h1>
-        {whichIsActive === "hitrovo" ? (
-          <img
-            src={activeArrow}
-            alt="active-arrow"
-            className={"activeTitle"}
-          />
-        ) : null}
-      </div>
+{isLeftToRight() ? (
+              <>
+                <img
+                  src={require(`../assets/${subject}/${item.image}.png`)}
+                  alt="someImage"
+                  className="image-for-imageText"
+                />
+                <p className={"heads-text"}>{item.info}</p>
+              </>
+            ) : (
+              <>
+                <p className={"heads-text"}>{item.info}</p>
+                <img
+                  src={require(`../assets/${subject}/${item.image}.png`)}
+                  alt="someImage"
+                  className="image-for-imageText"
+                />
+              </>
+            )}

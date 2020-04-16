@@ -37,7 +37,9 @@ function TitleEl({ setWhichIsActive, whichIsActive }) {
               <img
                 src={activeArrow}
                 alt="active-arrow"
-                className={"activeTitle"}
+                className={
+                  lang === "hebrew" ? "heb-active-arrow" : "activeTitle"
+                }
               />
             ) : null}
             <h1

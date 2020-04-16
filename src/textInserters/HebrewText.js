@@ -1,20 +1,21 @@
+import humanitarianBuildings from "../assets/10-humanitarian-buildings.png";
 const hebrewText = {
   id: "hebrewText",
   titles: {
-    ippo: "IPPO",
-    headsOf: "ראשי ה-IPPO",
-    humanitarian: "פעילות הומניטרית",
+    ippo: "האגודה הפלשתינית הפרובוסלבית הקיסרית ה-IPPO",
+    headsOf: "ראשי האגודה",
+    humanitarian: "הפעילות ההומניטרית של ה- IPPO בארץ ישראל בסוף המאה ה-19",
     importentStructures: "מבנים חשובים",
     hitrovo: "ו.נ חיטרובו",
   },
   titles1: [
     {
       name: "ippo",
-      text: "IPPO",
+      text: "האגודה",
     },
     {
       name: "headsOf",
-      text: "ראשי ה-IPPO",
+      text: "ראשי האגודה",
     },
     {
       name: "humanitarian",
@@ -26,45 +27,51 @@ const hebrewText = {
     },
     {
       name: "hitrovo",
-      text: "ו.נ חיטרובו",
+      text: "חיטרובו",
     },
   ],
   particularInfo: {
-    humanitarian: `על פי המסורת של הכנסיות המזרחיות (אורתודוקסיות- מחזיק באמונה הישירה), הן נוסדו על ידי <b>אנדראס הקדוש</b>, אחד משנים עשר השליחים, במהלך ביקורו באזור סקיתיה - מקום מושבה של האימפריה הביזנטית, מזרח אירופה של ימינו.
-        בסוף האלף הראשון לספירה, העמים הסלאבים המזרחיים (מהם התפתחו העמים הרוסים, האוקראינים בלארוסיים של היום) הושפעו מאוד מתרבותה של האימפריה הביזנטית השכנה.
-        <b>הנסיכה אולגה</b>, שמשלה בקייב כאפוטרופסית של בנה הקטין, הייתה הראשונה ממשפחת המלוכה לקבל על עצמה את הנצרות, במהלך מסעה לקונסטנטינופול ב-957. בנה של אולגה, <b>סוויאטוסלב</b>, לא גילה עניין בנצרות, אולם בנו <b>ולדימיר</b> הוטבל לנצרות והוביל מהלך שהביא להתנצרות של רוב הקבוצות הסלאביות המזרחיות ב-988  ולאימוץ הנצרות הביזנטית בידי העמים המקומיים.
-        
-        בתחילת הדרך, הכנסייה הרוסית הייתה כפופה לפטריארך של קונסטנטינופול, שאף מינה את העומד בראשה. ראש הכנסייה נשא את תואר "המטרופוליט של קייב". עקב ירידת קרנה של קייב, מושבו של המטרופוליט הועבר ב-1299 לעיר ולדימיר, וב-1329 הוא התבסס במוסקבה שהייתה לעיר המרכזית ברוסיה. במהלך המאה ה-15, הכנסייה מילאה תפקיד חשוב בהשתחררות של העם הרוסי משלטון הטטרים ששלטו ברוסיה קרוב למאתיים שנה. דמויות כמו <b>סרגיי רוז'נסקי והמטרופוליט אלכסיי</b>, היוו מנהיגות רוחנית שפעלה יחד עם המנהיגות המדינית של נסיכי מוסקבה להשלמת תהליך היציאה לעצמאות של העם הרוסי.
-        במחצית המאה ה-15 התגבשה התפיסה הדתית של הכנסיות המזרחיות והכנסייה הרוסית בפרט. תפיסה זו דגלה בשמרנות לגבי תפיסת הפולחן הדתי. כלומר, הסתמכות על המסורת הנוצרית כפי שהועברה מפי ישו והופצה על ידי שליחיו ולא על ידי כתבים מאוחרים יותר ופרשנויות. 
-        
-        כמאה שנים מאוחר יותר, ב-1589,  הכנסייה הרוסית קיבלה הכרה רשמית על ידי כלל הכנסיות המזרחיות, והעומד בראשה קיבל את התואר "הפטריארך של מוסקבה ושל רוסיה כולה". היה זה שלב נוסף בתהליך התעצמותה של הכנסייה שנמשך לאורך כל התקופה ההיא, שבה עקב חולשתו של השלטון המדיני, ראשי הכנסייה היו גם מעורבים מאוד בניהול המדינה.
-        
-        לאחר מותו של <b>הפטריארך אדריאנוס</b> שעמד בראש הכנסייה,  החליט <b>הצאר פטר הראשון</b> שלא למנות לו מחליף ולבטל את המשרה. במקום, קבע <b>פטר</b> שמעתה בראש הכנסייה לא יעמוד אדם אחד אלא מועצה רוחנית שתכונתה "הסינוד הקדוש", המועצה , בתורה, תהיה כפופה לצאר ששימש לה פוסק עליון. בכך, הגביל פטר הראשון את כוחה של הכמורה ולמעשה הכפיף אותה למדינה.
-        
-        מצב זה נשמר קרוב ל-200 שנה, אך כאשר המונרכיה הרוסית החלה לאבד מכוחה,  נקטה הכנסייה בצעדים שנועדו להחזיר עטרה ליושנה. בכינוס כללי שנערך בקרמלין ב-15 באוגוסט 1917 , הוחלט לחדש את תפקיד הפטריארך והמצב נשמר כך גם היום.
-        כמה חודשים מאוחר יותר, עם עליית הבולשביקים לשלטון בעקבות מהפכת אוקטובר, נאלצה הכנסייה להתמודד עם משבר שכמוהו לא חוותה בכל תקופות קיומה. בהתאם לאידיאולוגיה המרקסיסטית, שראתה בכל צורותיה של הדת מכשול בדרך אל הקדמה, השלטון הבולשביקי החדש החל ברדיפות קשות כנגד הכנסייה. בנוסף לתעמולה האנטי-דתית שנוהלה בכל שכבות האוכלוסייה, השלטונות סגרו, הרסו או הסבו למבנים אזרחיים כנסיות ומנזרים רבים. כמרים ונזירים רבים נאסרו, הוגלו ונרצחו.
-        .
-        
-        <b>הבדלים בין הכנסייה הרוסית לנצרות המערבית -</b> 
-        
-        <b>הצלב</b>
-         הצלב האורתודוקסי הנפוץ במזרח אירופה שונה מהצלב הלטיני, הנהוג במדינות ברוב מדינות מערב אירופה וביבשת אמריקה. בנוסף לקו האנכי והקו האופקי בצלב הלטיני, נוסף קו אלכסוני תחתון שמסמל את שני הצלובים שנצלבו לצידו של ישו - 
-        הצלוב הראשון – <b>דסימס</b>, נודע כגנב הטוב כי הוא חזר בו מחטאיו בפני ישו והוא בתמורה הבטיח לו מקום בגן עדן, לכן צידו זה של הקו מופנה כלפי מעלה. דסימס נחשב לקדוש המגן על הגנבים והקברנים, ועל פי המסורת הנוצרית הצלב שעליו נצלב דסימס הגיע לקפריסין, שם פולחן דסימס בולט במיוחד עד היום. 
-        
-        הצלוב השני - <b>גסטאס</b> (Gestas), נודע כגנב הרע, היות ולא חזר בו מחטאיו לפני מותו, והמסורת מספרת  כי הוא נצלב לשמאלו של ישו. ישו אמנם מבטיח לדסימס, הגנב הטוב,  מקום לצידו בגן עדן, אך הוא אינו מבשר רע לגסטאס. הצד הפונה כלפי מטה בצלב מסמל את אי הכפרה של גסטאס ואת ירידתו לשאול בעקבות כך. 
-        
-        <b>לוח השנה</b>
-        
-        הכנסייה הנוצרית הפרבוסלאבית אינה מכירה בלוח השנה הגרגוריאני (המקובל בעולם המערבי), אלא משתמשת לחישוב תאריכי מועדי החגים והטקסים בלוח השנה היוליאני שקדם ללוח הגרגוריאני. 
-        
-         בנצרות האורתודוקסית מתחילה עונת חג המולד בצום המולד, שחל ארבעים יום לפני חג המולד. עונת חג המולד הפרבוסלבי מסתיימת בחג ההתגלות ב-19 בינואר על פי הלוח הגראגוראני, המוכר יותר בקרב פרבוסלבים <b>כחג הטבילה</b> המציין את טבילתו של ישו בידי יוחנן המטביל. לציון מועד זה נוהגים לקפוץ למים ולטבול באופן סמלי תוך כדי חיפוש אחר הצלב האבוד שאותו זורק הכומר למים לאחר שבירך אותם.
-        
-        ראש השנה הפרבוסלבי נחגג ב-13 בינואר, המוכר ברוסיה <b>כראש השנה הישן</b>. מנהגיו של חג זה כוללים בעיקר את נשיאת כוכב בית לחם המציין את בואו של ישו כתחילת "תקופת החסד" בהיסטוריה של העולם.
-        
-        <b>אלמנטים פולחניים בכנסיות</b>
-        
-        –בכנסיות המזרחיות אין שימוש בפסלים, רק באיקונות – דמויות מהמסורת הנוצרית, מצוירות או מעוצבות בפסיפס. בכנסיות המערביות נהוג שימוש פולחני גם באיקונות וגם בפסלים תלת ממדיים. בכנסיות קתוליות, המאמינים מתוודים על חטאיהם בפני הכומר בתוך תא וידוי, אך בכנסיות האורתודוקסיות אין שימוש בתאי וידוי.
-        בכנסיות האורתודוקסיות המאמינים לא יכולים לראות את הכומר בעת המיסה כיוון שאיקונוסטזיס, מעין קיר, מפריד בין הקהל לכומר. בכנסיות המערביות הכומר גלוי לעיני המאמינים. 
+    humanitarian: `
+    מיום הקמתה בשנת 1882 שמה לעצמה האגודה הפרבוסלבית הפלשטינית הקיסרית, מטרה לעסוק בפעילות צדקה וסיוע לאוכלוסייה היושבות בארץ הקודש. בראש התקנון שאושר עם הקמת האגודה נכתב- "החברה הפרבוסלבית נוסדה למטרות מדע וצדקה" בהמשך "להקים בתי ספר, בתי חולים ובתי הארחה, וכן להעניק סיוע לתושבים המקומיים". 
+
+האמצעים, המשאבים ורמת החיים הכללית ברוסיה של אותם ימים אימפריה בשיא כוחה הכלכלי והאינטלקטואלי הם חלומות רחוקים עבור התושבים של פלשטינה, החיים באותן ימים תחת השלטון העות'מאני מתפורר שבעוד שנים לא רבות תמחק נוכחתו מן האזור. 
+
+<b>פעילות חינוך</b> 
+
+זרמים רבים של הנצרות נוכחים בירושלים ופלשטינה עוד מראשיתה של הנצרות.
+בפלשטינה של המאה ה-19 בולט במיוחד המחסור בחינוך פרבוסלבי עבור ילדי המאמינים. ילדים רבים נאלצים ללמוד במסגרות אחרות שלא תואמות את אמונתם. החברה פועלת מיד לפתוח בתי ספר ונתקלת בקשיים רבים שמערימים השלטונות הטורקים. עם זאת ב 6 בדצמבר 1882 נפתח בית הספר הראשון בנצרת עם מורה אחד ושלושים תלמידים. 
+הפרויקט זוכה להצלחה רבה בקהילה המקומית ובתי ספר נוספים נפתחים ברחבי הגליל. האגודה מעוניינת לפתוח בתי ספר גם בירושלים אך הפטריארך היווני של העיר מתנגד לכך. לכן האגודה ממשיכה לפתוח בתי ספר ביהודה בגליל ולא רק בארץ ישראל, נפתחים בתי ספר גם בסוריה ולבנון.
+בית הספר בנצרת הופך למתחם בו התלמידים והמורים ישנים בתנאי פנימיה, נפתחת מרפאה שמשמשת לא רק את התלמידים אלא גם את אוכלוסיית האזור. בית ספר הופך לבית מדרש למורים על מנת להכשיר מורים ללמד בבתי הספר האחרים של האגודה. 
+קהילה שהייתה מעוניינת לנצל את איכות ההשכלה הרוסית הייתה אוספת תרומות, מקצה שטח שישמש את המוסד שיפתח ומקימה מבנה עבור בית הספר במידה ואין אחד פנוי. האגודה הייתה דואגת לכל שאר הצרכים בעיקר מורים אך גם שולחנות, כסאות, ספרי לימוד מחבורת ועוד. 
+תכנית הלימודים כללה מגוון נושאים ולא רק חינוך דתי פרבוסלבי. המטרה הייתה להקנות לילדים ערכים ומקצועות המתאימים לסביבתם הטבעית וישמשו אותם בעתיד לכן דגש מיוחד הושם על לימודי סביבה, ערבית ומתמטיקה.
+בתי הספר היו משרים תחושה נעימה על הצופה בהם, שרר שם סדר וארגון, התלמידים היו חוזרים לבתיהם מלאי תשבוחות והקהלה המקומית מעריכה מאוד את הנוכחות הרוסית. 
+מתחם החינוך הגדול הבא שנפתח הינו בבית ג'אלה בפרברי ירושלים, הוא נוסד במתכונת דומה לבית הספר בנצרת וגם בו נפתחת מרפאה, כנסייה ואכסנייה עבור התלמידים והמורים הלומדים בתנאי פנימיה. בית הספר נפתח בתרומתה של הקיסרית באותן ימים מריה פיודורובנה. בית הספר מיועד לנשים לחינוך תלמידות והכשרה של מורות שילמדו בבתי הספר של האגודה ברחבי הלבנט. המחזור הראשון החל ללמוד ב-
+1890. מורים שהוכשרו בנצרת ובבית ג'אלה היו עוברים הכשרה כמגישי עזרה ראשונה ולימודי רפואה בסיסים, לאחר לימודיהם הם היו מחויבים לעבוד גם בקליניקות של האגודה. 
+מלבד הדאגה לרמת ההוראה בבתי הספר החברה גם דאגה להשוות את תנאי עבודתם של המורים עם תנאי העבודה של המורים ברחבי הקיסרות הרוסית.
+בשנת 1901 חבר האגודה ולעתיד גם סגן יושב ראש האגודה א"נ אניצ'יקוב הגיע לפלשטינה לבדוק את בתי הספר וכתב "חייב אני להודות בגילוי-לב, כי נסעתי אל ארץ הקודש בחושבי, כי כל בתי-הספר הללו, אשר עליהם דובר ונכתב, קיימים יותר בדמיון. אולם כאשר ראיתי אותם השתכנעתי, שלא רק שהם קיימים, אלא רבים מהם עומדים ברמה לא-פחותה משל בתי-ספר רוסיים". 
+מפעל ההשכלה של האגודה מוכתר כהצלחה ו-25 שנה לאחר הקמתה בשנת 1907 האגודה הפעילה 101 בתי ספר ברחבי המזרח התיכון - 5 ביהודה (466 תלמידים), 19 בגליל (723 תלמידים), 50 בדרום סוריה( 5,063) ו-5 בבירות(1,018 תלמידים). בין בתי הספר הללו היו 48 בתי ספר בעלי כיתה אחת 51 בעלי שתי כיתות ושני בתי מדרש למורים בנצרת ולמורות בבית ג'אלה.
+
+<b>סיוע רפואי</b>
+
+החל מאמצע המאה ה-19 ועד למלחמת העולם הראשונה זרם צליינים מרוסיה לארץ ישראל גדל בהתמדה, רבים מהצליינים היו מבוגרים וקשישים. המסע המפרך מרחבי האימפריה הרוסית ועד לירושלים גבה מהצליינים  את מחירו. 
+שירותי הרפואה שסופקו ע"י התורכים השולטים בארץ בשנים אלו היו מצומצים ביותר והעדיפו את אזרחיה העות'מאנים. בבד ובד בתי חולים שנפתחו ע"י מדינות המערב התנו את הטיפול הרפואי בכך שהחולים ייקחו חלק בדרשה מפי נציגיה של כנסיות המערב. 
+הצורך בשירותי רפואה עצמאים היה ברור, לכן כבר ב 1863 הוקם בית החולים בירושלים. בית החולים היה גולת הכותרת של הפעילות ההומניטרית של האגודה. נבנה בהוראת הקיסרית מריה אלכסנדרובה, בית החולים צוייד בציוד החדיש ביותר של אותה תקופה מכשירים לעירוי דם, ציוד לשטיפת קיבה וכלים כירורגיים יקרי ערך.  
+מבקר מטעם האגודה כתב כי "הסדר והניקיון יכול להתחרות עם בתי החולים המשובחים ביותר".
+לאחר מגפה מדבקת קשה שהשתוללה בבית החולים בשנת 1883 נפתח שנתיים לאחר מכן בניין לטיפול במחלות מדבקות, החל משנת 1889 בוצעו בבית החולים ניתוחים ובדו"ח משנה זו דווח על עשרה ניתוחים מוצלחים שבוצעו בבית החולים.
+ביום הקמתו בית החולים הכיל שלושים מיטות אשפוז ובהדרגה גדלה התפוסה, בשנת 1887 הכיל בית החולים 75 מיטות היה הגדול ביותר בירושלים.
+בין השנים 1884-1887 הצליינים הרוסים היוו בערך 55% מכלל המטופלים בבית החולים, שאר המטופלים הגיעו מהאוכלוסייה המקומית הענייה ביותר של ירושלים. 
+כל הצליינים שילמו מס בית חולים בעלות רובל אחד וקיבלו את כל השירותים הרפואיים להם נזקקו בחינם. שאר הכסף לתפעול בתי החולים הגיע מתרומות של המעמד הגבוהה ברוסיה. 
+בין 14% ל- 50% מכלל הצליינים נזקקו לטיפול רפואי בשלב כלשהו של מסעם בארץ הקודש.
+ב- 1888 נפתחה מרפאה נוספת בנצרת כחלק ממתחם החינוך, המורים במקום עברו הכשרה כמגישי עזרה ראשונה וסייעו גם הם בתפעול המרפאה. 
+ב- 1890 נפתחה מרפאה נוספת במתחם החינוך בבית ג'אלה במתכונת דומה, כאשר המרפאות הללו מסייעות לאוכלוסיה המקומית כשם שהן מסייעות לתלמידים והמורים. 
+בשנת 1911 טופלו בבית החולים בירושלים 22,000 מטופלים. בכלל המרפאות של האגודה בפלשטינה והמזרח התיכון (ארץ ישראל, סוריה ולבנון) נרשמו במהלך השנה ההיא מעל ל-100,000 מקרים שטופלו.
+
+  <img
+    src=${humanitarianBuildings}
+    alt="humanitarian buildings"
+    class="humanitarianBuildings"
+  />
+
         `,
     ippo: `
     "לְמַעַן צִיּוֹן לֹא אֶחֱשֶׁה, וּלְמַעַן יְרוּשָׁלִַם לֹא אֶשְׁקוֹט" ישעיהו פרק סב פסוק א'
@@ -124,7 +131,21 @@ const hebrewText = {
     
     כאן מתחיל המסע שלנו להתחקות אחרי אותו מסע מופלא של אותם אנשים בעולם העתיק עליו חלמו ואותו הגשימו.  
          `,
-    hitrovo: ``,
+    hitrovo: `ואסילי ניקולאייביץ' חיטרובו היה מדינאי ודמות ציבורית באימפריה הרוסית של אמצע המאה ה-19. הוא היה בעל ההשראה והיוזמה להקמת האגודה הפרבוסלבית הפלשתינית. מעין הרצל של הנצרות הפרבוסלבית שזכה לראות את חזונו קם לתחייה. 
+    חיטרובו נולד ב- 1834 בסנט פטרסבורג, ומבקר בפלשתינה לראשונה ב- 1871 כצליין, שמתרשם עמוקות מהארץ שלא לומר מתאהב בה לחלוטין.
+    חיטרובו מחבר את ספרו "שבוע בארץ ישראל: יומן מסע" המתאר את מסעותיו. במהלך הביקור הוא מקדיש את זמנו לזיהוי את הצרכים של הצליינים הרוסים בארץ ישראל ובוחן מה על האימפריה לעשות על מנת לחזק את השפעתה באזור. חיטרובו מזהה את הצורך בהקמתו של ארגון לא ממשלתי על מנת שלא לעורר אנטגוניזם מצד השלטונות העות'מאנים. בחזונו של חיטרובו, הארגון יחזק ויחדש את ההשפעה של רוסיה והכנסייה הרוסית בארץ ישראל אל מול מעצמות וכנסיות המערב שמתחזקות גם הן באותה זמן בירושלים. 
+    בפלשתינה הוא נפגש עם איש המשלחת הדתית, הארכימנדריט אנטונין קפוסטין ובין השניים ניצתת חברות אמיצה. חיטרובו וקפוסטין מטיילים ברחבי הגליל רכובים על סוסים ומחליפים רעיונות ודעות. 
+    חיטרובו מעמיק עוד ברעיון הקמת ארגון שיפעל למען הכנסייה והצליינים הרוסים בארץ ישראל, הוא מעלה את רעיונותיו על כתב ומעביר אותן לאנטונין קפוסטין. בבד ובד הוא גם יוצר קשר עם ראש המשלחת הדתית הרוסית לארץ ישראל לשעבר הארכימנדריט ליאוניד קלווין, ראש המנזר "ירושלים החדשה" במוסקבה. 
+    
+    רעיונותיו של חיטרובו לא נושאים חן בתחילה בעיני הגורמים בכנסייה וגם לא מתחבבים על ידידו קפוסטין, שבתחילה דוחה את הרעיון. רק כשנתיים לאחר ההצעה הראשונית קפוסטין מחליט לשים את כל כובד משקלו מאחורי הרעיון. קפוסטין יוצר קשר עם הרוזן א"ו פוטאנין ומציג בפניו את חיטרובו ואת הרעיון החדש להקמת ארגון לא ממשלתי עבור פלשתינה. הרוזן מתאהב ברעיון, מציג אותו לחברה הגבוהה בסנט פטרסבורג ומעודד את יישומו. 
+    חיטרובו מציע תקנון לאגודה ומעביר אותו לאישור המפקח על הסינוד הקדוש קונסטנטין פובדונוסצב. בבד ובד הרוזן פוטאנין מקבל עותק של התקנון ומתחיל להחתים את האנשים הנכונים ובראשם הדוכס הגדול סרגיי אלכסנדרוביץ' שניאות לקבל עצמו להיות יושב הראש הראשון של האגודה. החתימה הראשית המתנוססת על תקנון האגודה היא של הצאר אלכסנדר השלישי.
+    ב-21 למאי 1882 האגודה הפרבוסלבית הפלשתינית היא עובדה מוגמרת. לימים היא תקרא האגודה הפרבוסלבית הפלשתינית הקיסרית (ברוסית: Импера́торское правосла́вное палести́нское о́бщество, בקיצור ИППО), על מנת לבטא את הקשר למשפחת המלוכה.  
+    עם הקמת האגודה מונה חיטרובו למשנה ליושב ראש האגודה תחת יושב הראש הנסיך סרגיי הוא כיהן בתפקיד עד 1889 ולאחר מכן מונה למזכיר האגודה, תפקיד בו כיהן עד מותו בשנת  1903. חיטרובו נקבר בסנט פטרסבורג.
+    
+    “Don’t extinguish the spirit” - such a testament was left to his followers in the IOPS by Vasily Nikolayevich Khitrovo
+    
+    במהלך חייו הוא הוציא לאור בעזרת האגודה שבעה ספרים כולם עוסקים בפלשתינה והמקומות הקדושים
+    `,
   },
   headsOf: [
     {
@@ -227,13 +248,13 @@ const hebrewText = {
       name: "world.the22",
       id: "fourteen",
       info: ` 1989—2000 אולג גרשימווביץ פריפרקין נולד 1935 -  דוקטור להיסטוריה, כיהן כשגריר מטעם ברית המועצות בלוב ולבנון, בעל תואר ראשון בכלכלה, רקטור של המכון ללימודי דיפלומטיה ויחסי חוץ במשרד החוץ של ברית המועצות. `,
-      image: "14-headOf",
+      image: "11-headOf",
     },
     {
       name: "world.the22",
       id: "fifteen",
       info: `2001-2003 אלכסיי פדורוביץ צ'יסטיאקוב נולד ב - 1946 - דיפלומט, סגן מנהל מחלקת המזרח התיכון וצפון אפריקה במשרד החוץ של הפדרציה הרוסית, שגריר רוסיה בסודן, הנציג של הפדרציה הרוסית עם הרשות הלאומית הפלסטינית בעזה, אחד הראשונים שהעלה את שאלת הצורך בהחזרת הנדל"ן הרוסי בארץ הקודש, כולל מתחם סרגיי בירושלים.`,
-      image: "15-headOf",
+      image: "14-headOf",
     },
     {
       name: "world.the22",
@@ -249,96 +270,215 @@ const hebrewText = {
       image: "16-headOf",
     },
   ],
+  openingParagraph: `בין השנים 1850 ועד 1917 האימפריה הרוסית והכנסייה הרוסית הקימו עשרות מבנים ברחבי המזרח התיכון ופלשתינה בפרט. בשנים אלו המהפכה התעשייתית והקדמה ששטפה את העולם המערבי מיענה להגיע לאזורנו. 
+  באותן שנים, כמו במשך אלף שנות נצרות ברוסיה, העם הרוסי חש חיבור עמוק לארץ ישראל והמקומות הקדושים לנצרות.
+   כספים ומשאבים רבים הושקעו בפלשתינה על ידי המדינה והעם הרוסי והופנו בעיקר להקמת כנסיות ומנזרים ובניית תשתיות לטובת זרם הולך וגובר של מאמינים רוסים העולים לרגל לירושלים מדי שנה. 
+  כל אלו תרמו רבות לפיתוחה של ארץ ישראל. ההשפעה של פעילות זו ניכרת גם היום כאשר כנסיות יפיפיות מעטרות את הארץ, מבני ממשל שנבנו לפני יותר ממאה שנה משמשים גם היום את מוסדותיה מדינת ישראל ואלפי תיירים מרוסיה פוקדים מדי שנה את הארץ ומגלים את המקומות הקדושים. 
+  `,
   importentStructures: [
     {
       name: "tamirShina",
       id: "one",
-      info:
-        "shina shina shina Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `
+      <b>כנסיית העלייה בהר הזיתים</b>- 
+
+נקראת בפי התושבים הערביים המקומיים אל מוסקובייה על שם הצליינים הרוסים שבנו אותה, על אף שהדמויות המרכזיות בבנייתה הגיעו מחלקים אחרים של רוסיה. היוזם והמבצע של הכנסייה המרשימה הזו, כמו יוזמות רבות אחרות של האימפריה הרוסית, הוא הארכימנדריט אנטונין קפוסטין שהגיע ממחוז פרם. הכנסייה מקדשת את זכר עלייתו של ישו השמיימה ובמרכזה מתנוסס מגדל פעמון בגובה 64 מטרים. הפעמון, שמשקלו כ- 8 טונות, היה הראשון לצלצל בירושלים אחרי מאות שנים בהם השלטונות המוסלמים אסרו על נוצרים לצלצל בפעמונים. 
+הדרך שעשה הפעמון מרוסיה מתוארת בצורה פיוטית בספרו של מאיר שלו "עשיו" - <i>"ארבעה מאות וחמישים צליינים שגררו פעמון נחושת ענקי לכנסיית מרים המגדלית (הטעות במקור). את הפעמון יצקו באודסה והציבו על גבי עגלה כבירה שנבנתה במיוחד לשם כך. הגברים משכו אותה עד לנמל. משם הפליגו באונייה "סנטה-אנה" ליפו, ושם נרתמו הנשים אל העגלה. למן אותו רגע שתקו כולם, כי כך נשבעו לעשות עד שיתלו את הפעמון במקומו. עוד
+זמר רב אחר-כך היה אפשר להכיר את משתתפי המסע ההוא לפי אופן הליכתם: פוסעים מאומצים
+105 ושחוחים, כחותרים נגד רוח עזה"</i>.
+
+המסורת על מציאת ראשו של יוחנן המטביל בהר הזיתים -
+קיימת מסורת מוקדמת הגורסת כי ראשו של יוחנן המטביל התגלה על הר הזיתים בזמנו של קונסטנטינוס הקיסר הרומי. ראשו של יוחנן המטביל נכרת משום שהוכיח את המלך הורדוס על כך שנשא לאישה את הורודיה, אשת אחיו, ולה בת מאחיו. לפי חוקי התורה, נשיאת אשת האח מותרת רק במקרה שבו האח מת לפני שהעמיד צאצאים.  על פי מסורת הנזירות במנזר הרוסי, הורודיה לא אפשרה לקבור את ראשו יחד עם יתר גופו, אלא הסתירה את הראש בארמונו של הורדוס  כיוון שחששה כי אם יקבר ראשו יחד עם הגוף יקום יוחנן לתחייה.
+תלמידתו של יוחנן גילתה את הראש והבריחה אותו באישון לילה מהארמון. את הראש הטמינה בכד וקברה בהר הזיתים. על פי מסורת זו, נתגלה הראש פעמיים. בפעם הראשונה על ידי איש עשיר, אינוצנטיוס, שהחליט להתרחק מהעולם ולחיות בפרישות ולשם כך רכש חלקה קטנה על הר הזיתים. כאשר רצה אינוצנטיוס לבנות לו במקום כנסייה קטנה הוא נתקל בכד עם הראש. לפני מותו טמן אינוצנטיוס את הכד במקום בו מצא אותו. בשנת 452 הכד נתגלה שוב בעקבות הופעתו של יוחנן המטביל שלוש פעמים בחלומותיהם של שני נזירים. בחלום סיפר להם יוחנן היכן קבור ראשו. לאחר הפעם השלישית השתכנעו הנזירים הלכו לחפש את הראש  ומצאו אותו.
+`,
       image: "01-holyPlace",
     },
     {
       name: "world.the22",
       id: "two",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `
+      <b>כנסיית מריה מגדלנה</b> -
+
+מרים המגדלית מתוארת בברית החדשה כתומכת מרכזית בישו, ונודעה כ"שליחת השליחים" (apostolorum apostola). על־פי ספרי הבשורה, היא הייתה אחת מהנשים שנכחו בצליבתו של ישו ובקומו לתחייה.
+
+על שטח שנקנה על שמו של <b>הצאר אלכסנדר השלישי</b> ב- 1882, הוקמה הכנסייה שיועדה והפכה להיות גולת הכותרת של הנוכחות הרוסית בארץ ישראל. עליה נכתב עוד לפני השלמת הבנייה שלה כי "...במקום המופלא מוקמת אנדרטה הראויה למשפחת הקיסר ולתהילת רוסיה. הנזירים הקתולים קורעים על עצמם את גלימותיהם מרוב
+קנאה".
+
+<b>הארכימנדריט קפוסטין</b>, ראש המשלחת הדתית הרוסית, הציע לנסיכים הגדולים <b>סרגיי אלכסנדרוביץ' ופאבל אלכסנדרוביץ'</b> את הרעיון להקים מקדש לזכר אמם, <b>הקיסרית מריה אלכסנדרובנה</b>, בעת ביקורם בירושלים במאי שנת 1881. 
+העבודות החלו ב- 1885 ובשנת 1988 נערך טקס ההקדשה של הכנסייה בנוכחות הפטריארך היווני של ירושלים, הנסיך הגדול וראש ה- <b>IPPO</b>(האגודה הקיסרית הפרבוסלבית לפלשתינה) <b>סרגיי אלכסנדרוביץ</b> ובת זוגו <b>הנסיכה אליזבטה פיודרובנה</b>, שביקשה להיקבר בכנסייה זו. 
+*מול שער הכניסה הראשי לכנסייה, בתוך הגדר המקיפה את מתחם גת שמנים, ניצב עמוד אבן עתיק שמקורו לא ידוע, הנקרא 'עמוד הבגידה' או 'עמוד הנשיקה'. עמוד זה מסמל את המקום בו נישק יהודה איש קריות את ישו, וכך הסגירו לחיילים הרומאיים, על פי המתואר בהבשורה על-פי מרקוס בברית החדשה:
+"<i>עודנו מדבר, ויהודה בא והוא אחד משנים העשר, ועמו המון רב בחרבות ובמקלות מאת ראשי הכהנים והסופרים והזקנים. והמוסר אתו נתן להם אות לאמור: האיש אשר אשקהו, זה הוא. תפשו אותו והוליכוהו, אל יימלט. הוא בא והוא נגש אליו ויאמר: רבי רבי וינשק לו. וישלחו בו את-ידיהם ויתפשוהו</i>".
+לאחר המהפכה הבולשביקית ברוסיה רדפו הבולשביקים את משפחת הצאר ובהם הנסיכה אליזבטה פיודרובנה. מאז מות בעלה, הפכה אליזבטה לנזירה, אשר הקדישה את חייה לעזרה לזולת ולא הסכימה לעזוב את רוסיה עבור בטחונה האישי, על מנת להישאר עם בני הקהילה שלה במוסקבה. אליזבטה נתפסה על ידי הבולשביקים ולאחר כשנה במעצר היא נרצחה באכזריות. תומכי הצאר שמצאו את הנסיכה לאחר מותה,ביקשו להביאה לקבורה ראויה. גופתה הועברה קודם לסיביר, לאחר מכן לבית הקברות של משפחת המלוכה בסין וב-1920 בהוראת אחותה ויקטוריה ובהתאם לרצונה של אליזבטה עצמה, הועברו עצמותיה בפעם האחרונה לקבורה בכנסייה מריה מגדלן. אליזבטה מוכרת כקדושה חדשה על ידי הדת הנוצרית. `,
       image: "02-holyPlace",
     },
     {
       name: "world.the22",
       id: "three",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `<b>חצר נצרת</b> - 
+      קומפלקס של מבנים שנרכשו על שמו של <b>ואסילי ניקולאיביץ' חיטרובו</b> ונועדו לשמש כבית ספר פרבוסלבי לאוכלוסיה הנוצרית באזור. 
+      החצר תוכננה ונבנתה על פי תוכניות של אדריכל גרמני מחיפה בשם <b>גוטליב שומאכר</b>.
+      ב-1886 הוקם המבנה הראשון ששימש כבית ספר ולמחזור הראשון נרשמו 35 תלמידים. הפעילות וההשקעה הרוסית באזור עלתה בהדרגה, בית הספר הפך לסמינר למורים עבור בתי ספר אחרים במזרח התיכון ובהמשך התווספו לו מבנים נוספים כגון מרפאה, כנסייה, אכסנייה לצליינים וסדנא לאמנים. באופן לא מפתיע גם אזור זה בנצרת נקרא בפי המקומיים המוסקוביה. המבנה משמש כיום את עיריית נצרת. 
+      `,
       image: "03-holyPlace",
     },
     {
       name: "world.the22",
       id: "four",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `<b>חצר אלכסנדר, כנסיית אלכסנדר נייבסקי</b> - 
+
+      חלקה שנרכשה על" ידי רוסיה הצארית בשנת 1857 מהכנסייה האתיופית, במטרה להקים שם את הקונסוליה הרוסית בירושלים. במהלך עבודות הבנייה של הקונסוליה התגלו ממצאים ארכיאולוגים מרעישים;  שער קדום וסרקופג (ארון קבורה) המאמינים כי הוא מכיל את תכריכיו של ישו. בעקבות חשיפת הממצאים הוחלט להקים במקום כנסייה במקום הקונסוליה המתוכננת. <b>הארכימנדריט קפוסטין</b> בשיתוף עם הארכיאולוג הנודע <b>קונרד שיק</b> המשיכו בחפירות ובמקום התגלו ממצאים מתאימים ל"שערי המשפט" המתוארים בצורה מפורטת בברית החדשה ודרכם עבר ישו הצלוב אל עבר גבעת גלגלתא, שם לבסוף מצא את מותו. בנוסף לכנסייה הוקמו בחצר אלכסנדר מנזר ואכסנייה למבקרים. המבנה עשוי מאבן שיש ורודה ואבן שיש אדומה בתבנית אבלק המאפיינת את התקופה הממלוכית. 
+      `,
       image: "04-holyPlace",
     },
     {
       name: "world.the22",
+      id: "16",
+      info: `<b>שטח מגרש הרוסים</b> -
+
+        בשנת 1857 ניאותו העות 'מאנים למכור לרוסיה שטח אדמה של 68 דונם בנקודה סמוכה מאוד לחומות העיר העתיקה ממערב. הצאר שילם בפועל על חמש שישיות מהקרקע, ואילו החלק השישי ניתן לו במתנה על ידי העות'מאנים. היה זה צעד יוצא דופן ביותר, שכן המקום חולש על העיר העתיקה מבחינה אסטרטגית; הוא קרוב מאוד לדרך יפו הראשית, ואף אילץ את העות'מאנים לפנות את הכיכר ששימשה עבור חגיגות, טקסים ומסדרים צבאיים. למעשה, מגרש הרוסים היה אחד המתחמים הראשונים בו העות'מאנים התירו לבנות כה קרוב לחומת העיר העתיקה. החזון להקים את רוסיה הפלשתינית יוצא לדרך בירושלים המתחדשת בפריים לוקיישן.
+        התוכנית הייתה להקים מעין עיר קטנה שתשרת את הצליינים הרוסים הפוקדים את ארץ הקודש. היא כללה את כנסיית השילוש הקדוש, בית חולים, האכסניות ע"ש מריה ואליזבטה, מבנה למשלחת הדתית, מבנה לקונסוליה הרוסית ומאגרי מים.
+        
+        `,
+      image: "05-holyPlace",
+    },
+    {
+      name: "world.the22",
       id: "five",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `<b>בניין המשלחת הדתית</b> -
+
+        המבנה הוקם על מנת לשמש את חברי המשלחת הרוסית הדתית למזרח התיכון. המבנה כלל את המשרדים שריכזו את הפעילות בארץ ישראל, לבנון וסוריה, חדרי לינה ואירוח  לאורחים רמי דרג, קבלה וספרייה. המבנה בנוי בצורה של ארבעה מסדרונות ארוכים בני שתי קומות ובמרכזם קפלה לתפילה. 
+        גולת הכותרת של המבנה היא הספרייה הענפה המכילה עד היום את אוצר הארכיון של הכנסייה הרוסית בישראל ובנוסף אלפי ספרים וכותרים שנתרמו על ידי הנסיך <b>קונסטנטין</b>. כיום הספרייה עדיין פעילה ומכילה מעל ל- 17,000 כותרים. 
+        המבנה נותר מאוכלס על ידי נציגים של הכנסייה הרוסית מאז הקמתו ועד היום במשך מעל 150 שנה. באותה תקופה התחלף  השלטון בארץ מספר פעמים, מן הממשל העות'מאני לממשל האנגלי ובסוף לממשל הישראלי. חלקו של המבנה מאכלס כיום את בית המשפט המחוזי של ירושלים. 
+        `,
       image: "05-holyPlace",
     },
     {
       name: "world.the22",
       id: "six",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
-      image: "06-holyPlace",
-    },
-    {
-      name: "world.the22",
-      id: "seven",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `<b>חצר אליזבטה</b> -
+
+      נבנתה בשנת 1864 על ידי האדריכל <b>מרטין איוונוביץ אפינגר</b> כאכסנייה לגברים בת קומה אחת ובה 300 מקומות לינה, המעוצבת בסגנון רנסנס רוסי. על אף כמות המיטות הגדולה במקום, במשך עונת הצליינים מאוקטובר ועד אפריל התפוסה במקום הייתה מלאה. מיטות נוספות היו ממוקמות במסדרונות ואף אוהלים הוקמו לאחסן את עשרות הצליינים. האכסנייה קרויה על שם אלישבע, אימו של יוחנן המטביל, הנקראת אליזבטה ברוסית. 
+      `,
       image: "07-holyPlace",
     },
     {
       name: "world.the22",
+      id: "15",
+      info: `<b>אכסניית הנשים ע"ש מריה</b> -
+
+      "אכסניית הנשים הצלייניות" נקראה על שם <b>מריה פיודורובנה</b>, אשתו של <b>הצאר אלכסנדר השני</b> ואמו של הצאר האחרון <b>ניקולאי השני</b>. המבנה תוכנן על ידי "אדריכל הבית" של ה-IPPO, <b>מרטין איוונוביץ' אפינגר</b>. המבנה עצמו הורכב משני מבנים מרובעים מחוברים זה לזה ובמרכזו של כל מרובע חצר, בה יכלו הצלייניות לכבס ולהתחמם בשמש, שכן קירותיו העבים של המבנה גרמו לחדרים להיות קרים במיוחד.
+בניית המתחם הסתיימה ב- 1864 ומלבד מתחם האכסנייה והחצרות, היו במתחם שני מטבחים שהגישו ארוחות חמות ופשוטות. מתחם הלינה היה בסיסי  מאוד וכלל חללים גדולים שהכילו כמה עשרות מיטות.
+בקיץ 1914 , בזמן מלחמת העולם הראשונה, נכבש המתחם על ידי הפיקוד הגרמני: הנזירים ויתר אנשי הדת הורשו לחזור לארץ מוצאם, ואילו הצלייניות גורשו לרחובות כשכותונת לילה בלבד לעורן. אכסניית הצלייניות הפכה לאורווה של סוסי החילות הגרמנים אשר לחמו לצד הצבא העות'מאני. בשלהי שנת 1917, לאחר הניצחון הבריטי, קבעו האנגלים את מרכז שלטונם במגרש הרוסים  ואת חצר מריה הסבו לבית סוהר. 
+בתקופת המנדט הבריטי המקום שימש כבית מעצר ובמקום נתלו כמאה אסירים ערבים. רבים מאסירי המחתרות היהודיות נכלאו אף הם בבית מעצר זה, אך לא הוצאו בו להורג. שני אסירים יהודים שהיו צפויים להיתלות במקום (משה בראזני ומאיר פיינשטין), התאבדו באמצעות רימון לפני הוצאתם להורג על מנת לא למות מיד שוביהם. 
+
+      `,
+      image: "07-holyPlace",
+    },
+    {
+      name: "world.the22",
+      id: "seven",
+      info: `<b>חצר ניקולאי</b> -
+      אכסניית הצליינים האחרונה והגדולה ביותר שהוקמה בירושלים על ידי האגודה (IPPO האגודה הקיסרית הפרבוסלבית לפלשתינה) ונקראת על שמו של הצאר האחרון של רוסיה, <b>ניקולאי השני</b>. המבנה תוכנן ע"י האדריכל הפטרבורגי <b>א"א אלקין</b> להכיל 1,200 מקומות לינה בשלוש דרגות אירוח שונות. הדרגה הראשונה עלתה 13 קופיקות ללילה, הדרגה השנייה עלתה שני רובל ללילה והדרגה השלישית, שיועדה לאורחים מבוססים, עלתה 4 רובל ללילה. 
+      עלות בניית החצר הסתכמה ב- 432,000 פרנקים (שווה ערך ל- 2.8 מיליון אירו כיום) שנתרמו על ידי ה-  <b>IPPO</b>. 
+      
+      `,
+      image: "06-holyPlace",
+    },
+    {
+      name: "world.the22",
       id: "eight",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `<b>בית החולים הרוסי בירושלים</b> - 
+      בית החולים הראשון שהוקם בירושלים מחוץ לחומות העיר העתיקה. נוסד בהוראת הצארינה <b>מריה אלכסנדרובה</b> נועד בראשיתו לספק שירותי רפואה לצליינים רוסים שסבלו מהדרך הארוכה מרוסיה לירושלים ומן המחלות שהיו נפוצות באותה תקופה באזור כמו מלריה, טיפוס ודיזנטריה. בית החולים נפתח כאשר הוא מכיל 35 מיטות אשפוז וציוד חדיש ביותר. על אף שנפתח על מנת לשרת את הצליינים הרוסים בית החולים פתח את שעריו לחולים לכלל האנשים שנזקקו לעזרה. בהדרגה עלה מספר המיטות עד שהגיע ל-75 והיה בית החולים הגדול בעיר לקראת סוף המאה ה-19. לאחר מלחמת העולם הראשונה בימי המנדט הבריטי בית החולים שימש כבית החולים הממשלתי המרכזי של השלטון בארץ. בזמן מלחמת העצמאות בית החולים שימש את צה"ל כבית חולים צבאי, ולאחר הקמת מדינת ישראל קיבל את השם העברי אביחיל ושימש כמעבדה עבור בית החולים הדסה ואף שימש בהמשך כחדר מתים. כיום המבנה משמש את אגף החנייה של עיריית ירושלים.
+      `,
       image: "08-holyPlace",
     },
     {
       name: "world.the22",
       id: "nine",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `<b>כנסיית השילוש הקדוש</b> - 
+      אחד מן המבנים הראשונים שהוקמו ע"י האימפריה הרוסית כחלק מן העיר הקטנה שקמה לה בכיכר מוסקבה, היא מגרש הרוסים. את הכנסייה תכנן האדריכל הרוסי <b>מרטין איוונוביץ' אפינגר</b>, כבזיליקה הכוללת אולם תווך ושתי סטראות ארוכות, בחזיתה אפסיס מעוגל, וחדרים מעוגלים בצדיה. הכנסייה בנויה אבן לבנה ולה שמונה מגדלים שבראשם כיפות, שהיו צבועות במשך שנים בירוק ועתה הן מצופות נחושת, ובראשן צלבים. הכנסייה מזכירה במראה את מנזר העלייה לשמים שנמצא בקרמלין שבמוסקבה.
+      
+      הכנסייה נבנתה מלכתחילה לשימושם של צליינים המתאכסנים באחת האכסניות במגרש הרוסים. ההנחה הייתה כי הצליינים יעדיפו לשאת את תפילותיהם החשובות בכנסיות ההיסטוריות בעיר העתיקה. לכן הכנסייה אינה גדולה, בעצם היא המבנה הקטן ביותר בשטחו מבין מבני מגרש הרוסים, אך גובהה, מיקומה והסגנון המפואר שלה הופכים אותה למבנה בולט.
+      `,
       image: "09-holyPlace",
     },
     {
       name: "world.the22",
       id: "ten",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `<b>חצר בנימין</b> - 
+
+      קרויה על שם נזיר נוצרי בשם בנימין שהגיע לראשונה לארץ ישראל בשנת 1846 וכמו אחרים התאהב בארץ הקודש. בזמן מלחמת טורקיה רוסיה טיפל בפצועים בחזית הטורקית ועל פועלו זכה בעיטור גבורה. 
+      בשנת 1887 באמצעות כספים שגייס בעצמו, פתח בנימין אכסנייה ברובע היהודי. בניגוד לאכסניות העונתיות (עונת הצליינות נמשכת בד"כ מאוקטובר עד מאי) של ה-IPPO, האכסנייה של בנימין נועדה להיות כמעין בית מחסה לאנשים שרצו לסיים את חייהם בירושלים וכך תמורת תשלום זעום היה ניתן לשכור חדר לשם כך. במקום היו גם חדרים משותפים בהם יכלו אנשי האגודה ה-IPPO האגודה הקיסרית הפרבוסלבית לפלשתינה) לשהות בחינם. הנזיר בנימין היה חביב מאוד על הכמורה בירושלים והלווייתו נערכה בכנסיית השילוש הקדוש. את החצר שהקים הוא הוריש לאגודה ורשם אותה על שם יושב ראש האגודה <b>סרגיי אלכסנדרוביץ</b>.
+      במשך שנים המבנה אוכלס על "ידי עמותת יד שרה.
+      `,
       image: "10-holyPlace",
     },
     {
       name: "world.the22",
       id: "eleven",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `<b>מתחם החינוך בבית ג'אלה</b> -
+
+      בית ג'אלה הינה יישוב עירוני בין ירושלים לבית לחם. המקום עלה על מפת הנצרות היות ועל פי המסורת קבור שם ישי, אביו של דוד המלך, אשר נחשב לאחד מאבותיו של ישו. לכן אין זה מפתיע שבית שג'אלה או "כפר בז'ולובו" כפי שהוא קרוי בפי הרוסים, תפס את עינו של <b>הארכימנדריט קפוסטין</b>.  ב-1886 נרכש שטח האדמה בבית ג'אלה מתרומות של הקיסרית <b>מריה פיודורובנה</b> ונפתח בית ספר פרבוסלבי עבור בנות במקום. בהמשך, כפי שקרה בנצרת, בית הספר הפך לסמינר למורות, המבנה הורחב ונפתחה בו מרפאה אמבולטורית, אכסנייה וקפלה. אלו נבנו בעזרת  תרומות של <b>אלנה פוטיאטין</b>, בתו של האדמירל והדיפלומט <b>א"ו פוטיאטין</b> שהיה דמות מרכזית בהקמת ה-<b>IPPO</b>.
+      `,
       image: "11-holyPlace",
     },
     {
       name: "world.the22",
       id: "twelve",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `<b>כנסיית פטרוס הקדוש באבו כביר, קבר טביתא</b> -
+
+      כנסייה זו, הממוקמת בחלקה הדרומי של העיר תל אביב, משלבת אמונה עמוקה ופולקלור עשיר ביחד עם נחיצות מנהלית עבור הצליינים היורדים מהאונייה ביפו. האדמה נרכשה על ידי איש הכנסייה רב הפעלים מיודענו <b>הארכימנדריט אנטונין קפוסטין</b> בשנת 1868, ועל שטחה הוקמה כנסיית פטרוס הקדוש עבור אלפי הצליינים אשר היו מסיימים את מסעם הארוך באוניה מאודסה לנמל יפו.
+      הצליינים, אשר סיימו מסע בן שבועיים לפחות מרוסיה לפלשתינה דרך הים, קיבלו בכנסייה קבלת פנים ברוסית שכללה ארוחה חמה במחיר סמלי ותפילה משותפת שתפתח את מסעם בארץ הקודש.
+      
+      בשטח הכנסייה קבורה טביתא או צביה בשמה העברי, צדיקה נוצרית שהייתה מראשוני המאמינים בישו עוד בחייו. "וְתַלְמִידָה בְּיָפוֹ וּשְׁמָהּ טָבִיתָא תַּרְגּוּמוֹ צְבִיָּה וְהִיא מְלֵאָה מַעֲשִׂים טוֹבִים וּצְדָקוֹת אֲשֶׁר עָשָׂתָה". 
+      <b>פטרוס הקדוש</b>, שעל שמו קרויה הכנסייה, היה אחד מ-12 השליחים ובמקום זה על פי האמונה הפרובוסלבית הוא הקים את טביתא לתחייה. 
+      "וַיּוֹצֵא פֶטְרוֹס אֶת־כֻּלָּם הַחוּצָה וַיִּכְרַע עַל־בִּרְכָּיו וַיִּתְפַּלֵּל וַיִּפֶן אֶל־גְּוִיָּתָה וַיֹּאמֶר טָבִיתָא קוּמִי וַתִּפְתַּח אֶת־עֵינֶיהָ וַתֵּרֶא אֶת־פֶטְרוֹס וַתִּתְעוֹדָד׃ וַיִּשְׁלַח יָדוֹ וַיָּקֶם אֹתָהּ וַיִּקְרָא אֶת־הַקְּדוֹשִׁים וְאֶת־הָאַלְמָנוֹת וַיַּעֲמֵד אֹתָהּ חַיָּה לִפְנֵיהֶם׃ וַיִּוָּדַע הַדָּבָר בְּכָל־יָפוֹ וַיַּאֲמִינוּ רַבִּים בָּאָדוֹן׃" 
+      `,
       image: "12-holyPlace",
     },
     {
       name: "world.the22",
       id: "thirdteen",
-      info:
-        "22the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the 19th century, Jerusalem was waking up to a 400-year hibernation and igniting the imagination of Christians around the world.the end of the ",
+      info: `<b>חברון, כנסיית שילוש הקדוש, אלון ממרא</b> - 
+
+      סמוך לעיר חברון, לצד עץ אלון עתיק שגילו מוערך בכ-5000 שנה, עמד על פי המסורת אוהלו של אברהם, האב התנ"כי, שם ע"פ המסורת קיבל את שלושת המלאכים שבישרו לו כי שרה, אשתו העקרה, תלד בשנה הבאה ילד. אברהם נחשב ל"אבינו הצדיק" בנצרות האורתודוקסית וזכרונו צוין בשני מועדים בלוח השנה האורתודוקסי. 
+      המקום נחשב קדוש כבר בתקופה העתיקה, כאשר קיסר האימפריה הרומית <b>קונסטנטינוס</b> בנה במקום בזיליקה, <b>הבישוף דניאל הצליין</b> מזכיר את המקום בכתביו, כמו גם <b>יוספוס פלביוס</b> (<b>יוסף בן מתתיהו</b> בשמו העברי), היסטוריון מהתקופה העתיקה. 
+      בשנת ,1868 במרחק מה ממקום אוהלו של אברהם,  רכש <b>הארכימנדריט אנטונין קפוסטין</b> שטח עליו הוקמה כנסיית השילוש הקדוש לזכר האב הקדום אברהם.  
+      `,
+      image: "13-holyPlace",
+    },
+    {
+      name: "world.the22",
+      id: "thirdteen",
+      info: `<b>טבריה</b> - 
+
+      על שפת הכנרת בנוף הגליל, קמה כנסייה על שם <b>מריה מגדלן</b>. ב- 1908 רכש <b>הארכימנדריט לאוניד</b> סצנוב את השטח עליו הוקמה שנים מאוחר יותר הכנסייה ותיאר את המקום כך: " אואזיס נפלא לצידו של האגם". 
+      כאן, על פי המסורת הנוצרית, ריפא ישו את מרים המגדלית, הלא היא מריה מגדלן. 
+      "וְנָשִׁים אֲשֶׁר נִרְפְּאוּ מֵרוּחוֹת רָעוֹת וּמֵחֳלָיִים מִרְיָם הַנִּקְרָאָה מַגְדָּלִית אֲשֶׁר גֹּרְשׁוּ מִמֶּנָּה שִׁבְעָה שֵׁדִים׃." הבשורה ע"פ לוקאס.
+      נזירות רוסיות מטפלות במקום היפיפיה במורדות הגליל.
+      `,
+      image: "13-holyPlace",
+    },
+    {
+      name: "world.the22",
+      id: "thirdteen",
+      info: `<b>חיפה - כנסיית אליהו הנביא </b> - 
+
+      אט אט, עם התגברות זרם הצליינים לארץ ישראל ולקראת שיא נוכחותם בפלשתינה ב-1913, החלו צליינים להגיע גם לנמל חיפה. בעקבות כך נרכשה חלקת אדמה על ידי <b>הארכימנדריט ליאוניד סצנוב</b> במטרה להקים כנסייה ובית מחסה לצליינים. בתחילה, השלטון העות'מני  סירב לתת למקום אישור, אך בסופו של דבר התרצה וביום שבו ציינו 300 שנה לשושלת רומנוב, מתחם אליהו הנביא בחיפה נפתח לקהל הרחב. 
+      לאליהו הנביא, אשר על שמו קרויה הכנסייה, מקום של כבוד בנצרות גם משום שמקורות מסוימים מציינים שיוחנן המטביל ואליהו הנביא הם אותה הדמות וגם בשל מלחמתו של אליהו הנביא בעבודת האלילים. 
+      
+      `,
+      image: "13-holyPlace",
+    },
+    {
+      name: "world.the22",
+      id: "thirdteen",
+      info: `<b>יריחו</b> - 
+      ביריחו מצוי אתר מיוחד מאוד עבור הנוצרים הנקרא "עצו של זכאי", המוזכר בבשורה על פי לוקאס. על פי האמונה הנוצרית, כאשר ישו היה עובר ביריחו בדרכו לגליל, רבבות אנשים היו מקיפים אותו, ואדם אחד בשם זכאי, גובה מיסים מקומי, היה מטפס על עץ תאנה גבוה על מנת להיטיב לראות את ישו. כאשר ראה אותו ישו, ביקש דווקא להתארח בביתו של זכאי, למרות שהיה אדם שנוא בקהילה(היות והיה גובה מיסים עבור הרומאים). זכאי כה התרגש מהמעמד, עד שהחליט לתרום מחצית מרכושו לעניים. 
+      החלקה ביריחו נרכשה על ידי <b>הארכימנדריט קפוסטין</b> בשנת 1873, ובאותו המקום נבנתה קפלה קטנה לזכרו של גובה המיסים.
+      
+      
+      `,
       image: "13-holyPlace",
     },
   ],

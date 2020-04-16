@@ -58,7 +58,7 @@ html {
   left: 9%;
   word-wrap: break-word;
   width: 190px;
-  font-size: 13px;
+  font-size: 11px;
   display: inline-flex;
   text-align: center;
 }
@@ -73,20 +73,19 @@ html {
 }
 .heb-menu-title {
   direction: rtl;
-  text-align: center;
 }
 .ippo-title {
   top: 15%;
 }
 .ippo-title h1 {
-  margin-top: 25px;
-  margin-left: 22px;
+  margin-top: 32px;
+  width: 100%;
 }
 .headsOf-title {
   top: 24%;
 }
 .humanitarian-title {
-  top: 34%;
+  top: 35%;
 }
 .importentStructures-title {
   top: 45.5%;
@@ -95,9 +94,10 @@ html {
   top: 56%;
 }
 .hitrovo-title h1 {
-  margin-top: 25px;
-  margin-left: 40px;
+  width: 100%;
+  margin-top: 33px;
 }
+
 .languagesDiv {
   position: fixed;
   display: flex;
@@ -108,11 +108,17 @@ html {
 }
 .activeTitle {
   position: relative;
-  right: 27%;
+  right: 17%;
+  top: 14px;
+}
+.heb-active-arrow {
+  position: relative;
+  right: 37%;
   top: 14px;
 }
 .menu-title-add {
   position: absolute;
+  color: #ddc175;
 }
 .homeBtn {
   position: fixed;
@@ -168,6 +174,7 @@ html {
   position: fixed;
   bottom: 7%;
   right: 45%;
+  opacity: 0.5;
 }
 .left-scroll {
   margin-right: -20px;
@@ -177,7 +184,7 @@ html {
   top: 26%;
   right: 4%;
   font-family: Papyrus;
-  font-size: 21px;
+  font-size: 19px;
   text-align: right;
   line-height: 1.6;
   overflow: scroll;
@@ -188,4 +195,24 @@ html {
 }
 .addMargin {
   margin-right: 15px;
+}
+.humanitarianBuildings {
+  width: 100%;
+  margin-top: -78px;
+}
+.item-container-heb {
+  direction: rtl;
+  display: -webkit-inline-box;
+  margin-top: 25px;
+  width: 782px;
+}
+.heb-heads-text {
+  font-family: Papyrus;
+  white-space: pre-line;
+  font-size: 18px;
+  line-height: 1.6;
+  overflow: scroll;
+  margin-top: 0;
+  margin-right: 16px;
+  direction: rtl;
 }
