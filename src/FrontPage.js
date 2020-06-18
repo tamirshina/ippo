@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import frontBackground from "./assets/04-Poster.png";
 import frontVideo from "./assets/03-IPPO-Transion.mp4";
 import IppoTitle from "./fragments/TitleFrontPage";

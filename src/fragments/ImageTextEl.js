@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import LangContext from "../IppoContext";
 import englishText from "../textInserters/englishText";
 import hebrewText from "../textInserters/HebrewText";
-import russianText from "../textInserters/russianText";
+import russianText from "../textInserters/russianText.json";
 import "../App.css";
 
 function ImageTextEl({ subject }) {

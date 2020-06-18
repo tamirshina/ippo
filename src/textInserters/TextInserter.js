@@ -1,7 +1,6 @@
 import React, { useContext, useRef } from "react";
-import isLeftToRight from "../fragments/IsLeftToRightFunc";
 import LangContext from "../IppoContext";
-import russianText from "./russianText";
+import russianText from "./russianText.json";
 import englishText from "./englishText";
 import hebrewText from "./HebrewText";
 import RighToLeftTitle from "../fragments/RightToLeftTitle";
@@ -12,6 +11,12 @@ function TextInserter({ subject }) {
   const lang = useContext(LangContext).lang;
   const textParaEl = useRef(null);
 
+  function isLeftToRight() {
+    if (lang === "english" || lang === "russian") {
+      return true;
+    }
+    return false;
+  }
   function createMarkup(str) {
     return { __html: str };
   }
