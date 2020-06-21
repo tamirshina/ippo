@@ -3,31 +3,31 @@ const russianText = {
   id: "russianText",
   titles: {
     ippo: "Представление Императорского Палестинского Православного Общества",
-    headsOf: "Главы ИППО а хронологическом порядке",
-    humanitarian: "Diseas book",
-    importentStructures: "some",
-    hitrovo: "some",
+    headsOf: "Главы ИППО",
+    humanitarian: "Гуманитарная деятельность ИППО",
+    importentStructures: "Российская недвижимость в Израиле",
+    hitrovo: "Василий Николаевич Хитрово",
   },
   titles1: [
     {
       name: `ippo`,
-      text: `Представление Императорского Палестинского Православного Общества`,
+      text: `ИППО`,
     },
     {
       name: `headsOf`,
-      text: ``,
+      text: `Главы ИППО`,
     },
     {
       name: `humanitarian`,
-      text: ``,
+      text: `Гуманитарная деятельность`,
     },
     {
       name: `importentStructures`,
-      text: ``,
+      text: `Российская недвижимость в Израиле`,
     },
     {
       name: `hitrovo`,
-      text: ``,
+      text: `В.Н Хитрово`,
     },
   ],
   particularInfo: {

@@ -1,6 +1,6 @@
 import React, { useContext, useRef } from "react";
 import LangContext from "../IppoContext";
-import russianText from "./russianText.json";
+import russianText from "./RussianText";
 import englishText from "./englishText";
 import hebrewText from "./HebrewText";
 import RighToLeftTitle from "../fragments/RightToLeftTitle";
@@ -28,7 +28,7 @@ function TextInserter({ subject }) {
     if (lang === "english") {
       return JSON.parse(JSON.stringify(englishText));
     } else {
-      return JSON.parse(JSON.stringify(russianText));
+      return russianText;
     }
   }
 

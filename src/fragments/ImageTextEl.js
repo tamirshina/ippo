@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import LangContext from "../IppoContext";
 import englishText from "../textInserters/englishText";
 import hebrewText from "../textInserters/HebrewText";
-import russianText from "../textInserters/russianText.json";
+import russianText from "../textInserters/RussianText";
 import "../App.css";
 
 function ImageTextEl({ subject }) {
@@ -26,7 +26,7 @@ function ImageTextEl({ subject }) {
     if (lang === "english") {
       return JSON.parse(JSON.stringify(englishText));
     } else {
-      return JSON.parse(JSON.stringify(russianText));
+      return russianText;
     }
   }
   function whichFileToUse() {
