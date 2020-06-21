@@ -3,7 +3,7 @@ import "../App.css";
 
 function RightToLeftTitle({ titleToInsert }) {
   return (
-    <div className="titleBoxHeb">
+    <div>
       <h1 className="addTitleFont heInfoPageTitle">{titleToInsert}</h1>
     </div>
   );

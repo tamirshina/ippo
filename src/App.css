@@ -132,21 +132,15 @@ html {
   left: 3%;
 }
 .infoEnText {
-  position: fixed;
-  top: 26%;
-  right: 7%;
   font-family: Papyrus;
   font-size: 21px;
   text-align: left;
   line-height: 1.6;
   overflow: scroll;
-  width: 44%;
-  height: 57%;
+  width: 88%;
+  height: 589px;
 }
 .enInfoTitle {
-  position: fixed;
-  top: 20%;
-  left: 51%;
 }
 .image-text-container {
   position: fixed;
@@ -215,4 +209,9 @@ html {
   margin-top: 0;
   margin-right: 16px;
   direction: rtl;
+}
+.en-text-box {
+  position: fixed;
+  top: 20%;
+  left: 49%;
 }

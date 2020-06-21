@@ -40,7 +40,7 @@ function TextInserter({ subject }) {
   }
 
   return (
-    <div className={isLeftToRight() ? null : "textBoxCss"}>
+    <div className={isLeftToRight() ? "en-text-box" : "textBoxCss"}>
       {isLeftToRight() ? (
         <LeftToRightTitle titleToInsert={titleToInsert()} />
       ) : (

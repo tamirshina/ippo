@@ -37,7 +37,7 @@ function ImageTextEl({ subject }) {
       <div id="imageTextContainer" className="image-text-container">
         {subject === "importentStructures" ? (
           <p
-            className={"heb-heads-text"}
+            className={isLeftToRight() ? "heads-text" : "heb-heads-text"}
             dangerouslySetInnerHTML={createMarkup(
               whichLangToUse().openingParagraph
             )}
