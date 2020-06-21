@@ -153,6 +153,8 @@ html {
 .heads-text {
   font-family: Papyrus;
   font-size: 21px;
+  margin-top: 0;
+  margin-left: 17px;
   text-align: left;
   line-height: 1.6;
   overflow: scroll;
@@ -163,6 +165,8 @@ html {
 }
 .item-container-image-text {
   display: -webkit-inline-box;
+  width: 782px;
+  margin-top: 25px;
 }
 .scroll-button-container {
   position: fixed;
