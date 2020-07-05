@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import LangContext from "../IppoContext";
-import englishText from "../textInserters/englishText";
+import englishText from "../textInserters/EnglishText";
 import hebrewText from "../textInserters/HebrewText";
 import russianText from "../textInserters/RussianText";
 import activeArrow from "../assets/09-menu-arrow.png";
@@ -14,7 +14,7 @@ function TitleEl({ setWhichIsActive, whichIsActive }) {
       return hebrewText.titles1;
     }
     if (lang === "english") {
-      return JSON.parse(JSON.stringify(englishText)).titles1;
+      return englishText.titles1;
     } else {
       return russianText.titles1;
     }

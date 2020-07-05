@@ -1,33 +1,33 @@
 import humanitarianBuildings from "../assets/10-humanitarian-buildings.png";
-const russianText = {
+const englishText = {
   id: "russianText",
   titles: {
-    ippo: "Представление Императорского Палестинского Православного Общества",
-    headsOf: "Главы ИППО",
-    humanitarian: "Гуманитарная деятельность ИППО",
-    importentStructures: "Российская недвижимость в Израиле",
-    hitrovo: "Василий Николаевич Хитрово",
+    ippo: "Imperial Orthodox Palestine Society",
+    headsOf: "IOPS Chairmen",
+    humanitarian: "Humanitarian Work",
+    importentStructures: "Russian Buildings in the Holy Land",
+    hitrovo: "Vasily Nikolayevich Khitrovo",
   },
   titles1: [
     {
       name: `ippo`,
-      text: `ИППО`,
+      text: `IOPS`,
     },
     {
       name: `headsOf`,
-      text: `Главы ИППО`,
+      text: `IOPS Chairmen`,
     },
     {
       name: `humanitarian`,
-      text: `Гуманитарная деятельность`,
+      text: `Humanitarian Work`,
     },
     {
       name: `importentStructures`,
-      text: `Российская недвижимость в Израиле`,
+      text: `Russian Buildings in the Holy Land`,
     },
     {
       name: `hitrovo`,
-      text: `В.Н Хитрово`,
+      text: `V.N Khitrovo`,
     },
   ],
   particularInfo: {
@@ -76,187 +76,192 @@ const russianText = {
 
         `,
     ippo: `
-    «Ради Сиона не умолкну, ради Иерасалима не успокоюсь» так писал пропок Исайя глава 62, стих первый.
-Эти строки, взятые из Ветхого Завета и вытесненные на гербе Императорского Палестинского Православного Общества, раскрывают глубокую, сильную и многолетнюю связь между русским народом и Святой Землёй с её священными для православия достопримечательностями.
-Эта связь как нить соединяет все сословия: простых крестьян, священников, среднее сословие как светское, так и религиозное, и тянется к Главе Империи.
-Императорское Палестинское Праврславное Общество ( сокращённо ИППО ) научно-гуманитарная организация, основанная в 1882 г., спустя почти столетие с начала русской деятельности на Святой земле и спустя почти тысячелетие с прихода христианства в Российскую империю.
-Образование, археология, медицинская помощь христианским паломникам – это неполный перечень тех целей, которые Общество поставило перед собой и успешно осуществляло в течение многих лет. Значительную роль играет Общество в возвращении Иерусалиму его историческую миссию – служить центром трёх монотеистических религий: иудаизма, христианства и ислама.
-В начале 19-го столетия Иерусалим, с его 2500-летней историей, находится в запущенном состоянии, как часть древнего мира, не осиливший переход в современность, в отличие от европейских городов. Османская империя, владевшая городом на протяжении почти 400 лет ( с 1517 г.), переживала период экономического и культурного застоя, приведшему к утрате власти на Ближнем Востоке.
+    “For the sake of Zion I will not be silent and for the sake of Jerusalem I will not rest” - Isaiah 62:1
+This verse is taken from the Old Testament and is inscribed upon the emblem of the Imperial Orthodox Palestine Society and expresses a deep, powerful and long-established connection between the Russian people and the Holy Land along with all its holy sites to Christianity.
+This affinity to the Holy Land constitutes the guideline from the simplest of peasants, through the community priests, to the middle class and the rest of the social and religious hierarchy to the head of the Empire.
+The IOPS – Imperial Orthodox Palestine Society (Russian: ИППО – Импера́торское правосла́вное палести́нское о́бщество) is a scientific and humanitarian organization that was formally established in 1882 after almost a century of Russian activity in the Holy Land and around a thousand years of Christianity in the Russian Empire.
+Education, medicine, archaeology, support to Orthodox pilgrims in their journeys comprise only a part of the objectives the Society sets to itself, which will be achieved during the years to come. The Society plays a vital role to the return of Jerusalem to its natural condition as the epicenter of the three monotheistic religions – Jewry, Christianity and Islam.
+In the rise of the 19th century Jerusalem, with its 2,500 years of history, stands neglected and forgotten, as a part of the ancient world that did not manage to perform the transition to modern times that characterized other European cities. The Ottoman Empire, which has been ruling the city for around 400 years (since 1517), is experiencing an economical and cultural decline that ultimately brings to the end of the Empire’s sovereignty over the Middle East.
 
 
-Руины площади Мористан и храма Гроба Господня. 1860 г.
-«Вид толпы инвалидов, убогих и больных, заполонивших  Святые места и заградивших ворота, наводит на мысль о возвращении в древность, о божьем ангеле, способном сойти на землю в любую минуту и превратить в кипяток воду в купальне Вифезда. Иерусалим – город холодный, унылый и безжизненный. Не хотел бы я в нём жить.»  Марк Твен, 1867 г.
-Идея посещения святых мест в Палестине и Иерусалиме прочно укоренилась в русском народе. Многочисленные стихи и истории  о приключениях, передавались из поколения в поколение, разжигая фантазию слушателей. Христианская вера объединяла все слои общества: простых рабочих и крестьян, писателей, художников, интеллигнцию, а также представителей высших слоёв общества, включая императорскую семью. Путешествие в Иерусалим из Росии на протяжении сотен лет было опасным и очень дорогим. Тысячи километров надо было проделать верхом на лошади или осле. Лишь немногие решались на поездку, некоторые из них не возвращались.
-С появлением пароходов в 19 веке, путешествие в Святую Землю стало реальным для многочисленных верующих, многие сотни лет мечтавших увидеть Землю, по которой ходил Иесус. Поездка, занимавшая ранее много недель, сократилась вдвое. Российские паломники не говорили по-арабски, на котором говорили в Палестине, не были знакомы с дорогами на Востоке. Несмотря на это, поток паломников, увеличивался из года в год.
-В отличие от Иерусалима и Османской империи, христианские государства были на пике технической революции. Священники и монашки, представители правящей элиты, архитекторы, паломники и дальновидцы начинают постепенно стекаться в город с начала 19 века. Небольшой ручеёк превращается в полноводную реку к началу 20 века, но прекращается с началом Первой Мировой войны.
-Так, например, русские паломники добирались до Палестины и Иерусалима, в середине 19 века. Их подстерегали многочисленные трудности, а также опасности со стороны местного населения: насилие, мошенничество и т.д. Посланники Российской империи и церкви докладывали о необходимости защиты паломников, прибывающих в Палестину, а также  об ослабевании православной церкви  на Святой земле и необходимости оказания помощи от Империи.
-Царская семья, стоявшая во главе Российской империи, была глубоко религиозной. Кроме того, связь с Ближним Востоком, отвечала российским политическим интересам в регионе в противостоянии влиянию Запада.
-Посланники ортодоксальной церкви также должны были оказывать помощь верующим, прибывшим на Святую землю.
-Так, царица Мария Александровна и её супруг царь Александр Второй, содействовали сбору пожертвований среди российских жителей на нужды церкви. На совместные средства были приобретены участки земли в Иерусалиме для ночлега паломников, а также для Российского консульства и посланников церкви. Но поток паломников только усиливался, из-за нехватки мест, они ночевали в коридорах, а также – в палатках, которые ставили прямо на земле.
-Возникла необходимость в  создании единой организции, вне государства и церкви, которая бы функционировала  под надзором Османских властей.
-Первым эту идею письменно сформулировал  мелкий чиновник, прибывший в Палестину в качестве туриста-паломника по имени Василий Николаевич Хитрово. Ему удалось, при поддержке многих других, убедить отца Антонина Капустина, образованного человека, создать такую организацию. Вместе им удалось привлечь Великого князя Сергея Александровича, брата царя Александра 3, встать во главе организации, а также создать её устав, утверждённый царём.
-21 мая 1882 г. состоялось торжественное открытие ИППО.
-Первым проектом ИППО стало объединение российской собственности под контроль организации в целях увеличения эффективности управления. Среди этих объектов было Александровское подворье в Старом городе, гостиницу для паломников имени Марии Александровны, церковь Святой Троицы и т.д.
-Организация действовала под властью Османской империи, известной своим бюрократизмом, до Первой Мировой войны.
-К концу 19 века число паломников постоянно увеличивалось и достигло 4000 человек в год. Здания, принадлежавшие Росии, могли вместить до 1000 человек.
-Организация начала срочно создавать новые здания для ночлега паломников. На территории Русского подворья были построены три центральных здания для проживания паломников, среди них – Сергиевское подворье, предназначенное для проживания элиты российского общества. Кроме того, была построена мужская гостиница имени Николая 2, а также гостиница для паломников в Яффо.
-Помимо обеспечения жильём паломников,  ИППО помогает местным жителям, церквям, монастырям построить школы, больницы и приюты на Святой земле.
-Создаются школы в Назарете и Бейт Джале, больница в Иерусалиме, 50% пациентов которой составляют паломники. Общество финансирование прокладки более 2 км канализации в Иерусалиме. Ей также удаётся поставить в город питьевую воду путём строительства колодцев и сбора дождевой воды.
-Общество строит церкви, являющиеся украшением иерусалимского пейзажа и производящие неизгладимое впечатление на туристов, до наших дней, -церковь Святой Троицы, церковь Марии Магдалены, церковь Всех святых в Эйн Керем и т.д.
-В высшем обществе Санкт Петербурга начинают проявлять большой интерес к посещению Святой Земли, благодаря обширной просветительской деятельности Общества в России.
-С 1897 г. Общество проводит лекции о Священных местах в Палестине в качестве подготовки паломников к поездке на Святую Землю. На лекции прибывают тысячи людей, и в течение пяти лет их прослушали около пяти миллионов человек.
-Церкви, в корых проходили лекции, не выдерживали наплыва всех желающих, в результате чего лекции начали проводиться под открытым небом.
+
+<b> insert images </b>
 
 
-Манифест ИППО, утверждённый Священным Синодом в 1882 г.
 
-Дополнительной целью общества стало высококачественное православного просвещения для ортодоксальной общины на Ближнем Востоке.
-Общество выявило нехватку ортодоксального просвещения среди лавантийских христиан и выделило на эти цели значительные ресурсы.
-Сначала эта проблема решалась предоставлением денежной помощи, а впоследствие – строительством школ и назначением персонала. 6 декабря 1882 г., после многочисленных усилий, дошедших до князя Сергея Александровича, Общество открыло первую школу на Святой Земле, с одним учителем и 30 учениками, обозначив себя впервые просветительско-гуманитарной организацией.
-К 25-илетнему юбилею Общества в 1907 году были созданы 101 школа от Сирии на севере до Бейт Джалы на юге. 
-Главной же целью Организации было предоставить помощь поломникам, осуществившим мечту о посещении Святой Земли. ИППО сопровождает паломника от его деревни до Иерусалима, выдаёт специальный паспорт, предоставляющий субсидии небогатым паломникам, от отправки пароходом из Одессы до прибытия в порт Яффо, включая посещение Святых мест, в которых побывал Иесус.
-В Иерусалиме паломникам предоставляется ночлег в специально созданных для них гостиницах на известном всем сегодня Русском подворье в Иерусалиме. Паломники получают еду и медицинское обслуживание по себестоимости.
-В сопровождении специалистов паломники выезжают большими группами в святые места, о которых читали книги и слышали в молитвах, от Тиберитского озера на севере до Мёртвого моря на юге.
-Итак, мы начнём наше путешествие по следам тех людей из прошлого, которые мечтали и осуществили свою мечту.
+The ruins of the Muristan square and the church of the Holy Sepulchre – 1860
+“In spite of the myriads of crippled people, the defect and the ill flocking to the holy sites, blocking the gates, one can think that ancient times revive and that the Angel of God is about to come any minute and boil the water of the Bethesda pool. Jerusalem is a dull, desolate and lifeless city. I will not desire to dwell in it.” - Mark Twain, 1867.
+The idea of pilgrimage journeys to the holy sites in the land of Israel and Jerusalem is deeply rooted in the Russian people. Numerous songs, stories and adventures are being told in family homes and ignite the listeners’ imagination. Christian faith constitutes the common denominator among all levels of society – peasants and laborers, writers and artists, educated and high-society people and up to the royal family itself.
+The journey to Jerusalem from Russia was a dangerous and very expensive venture for hundrends of years, including riding donkeys or horses for thousands of kilometers. A few people only made the  journey and only part of them returned.
+The invention of the steamboat in the 19th century makes the journey to the Holy Land accessible to many believers, who can now fulfill the hundreds of years old dream, to see with their own eyes the land on which Jesus walked. A journey of several weeks was reduced at least by half the time, but the journey still remained challenging. Pilgrims from Russia did not speak Arabic, the prevalent language in Palestine, and were not knowledgeable of the ways of the East. Despite the dangers entailed in the quest, the pilgrims trend became stronger by the year.
+Contrary to Jerusalem and the Ottoman Empire, the Christian powers are at the peak of the industrial revolution. Priests and nuns, government representatives, architects, pilgrims and visionaries begin to slowly flow into the city since the beginning of the 19th century. The trend of European visitors gradually turns into a surge that will get to its apex in the beginning of the 20th century; eventually it will stop by the outbreak of WWI.
+This way, by the middle of the 19th century numerous Russian pilgrims make their way to Jerusalem and Palestine. They encounter several difficulties and are exposed to harassment and fraud from the local population. Government and church  representatives of the Russian Empire sent in those years report back that there is a dire need to protect Russian pilgrims who get to Palestine. Moreover, they report that the presence of the Russian Orthodox Church in the Holy Land is weakening and is in need of support from the Empire. 
+The Russian Empire led by the tsarist family, who are faithful Christians, see in the development of the connection to the Near East a political interest, as well, whose objective is to avoid the further expansion of the West.
+The Russian Orthodox Church dispatches delegates to help the local Orthodox Church and simultaneously provide for the Russian believers’ needs that perform the quest to the Holy Land.
+As such, Tsarina Maria Alexandrovna and her husband Tsar Alexander II aid with considerable donations and get the Russian public triggered to help, too, by donating money to the Church. As a collective effort, land plots in Jerusalem are bought and on them several buildings are constructed, such as hostels for pilgrims, permanent buildings for the Russian Consulate and religious missions. Nevertheless, the pilgrimage journey is getting more and more popular, and the buildings already constructed to host the pilgrims are not sufficient, resulting in many people sleeping in the corridors or even in tents outside the buildings.
+The need to concentrate all the action under one umbrella-organization is born; this organization needs to be neither governmental nor of the Church so that it can perform under the watchful eye of the Ottoman rule.
+The idea gets on the paper for the first time by the hand of a junior government official that reaches Palestine as a sojourner and pilgrim – Vasily Nikolayevich Khitrovo. After multiple efforts, he manages to persuade Russia’s visionary priest in Palestine, Fr. Antonin Kapustin, to found such an organization. Together they accomplish to recruit the Grand Duke Sergey Alexandrovich, brother of Tsar Alexander III, to be the head of the Society and establish a statute for it, certified by the Tsar himself.
+On May 21st 1882 the Imperial Orthodox Palestine Society (IOPS) is inaugurated in an ultimately impressive ceremony.
+The first undertaking of the IOPS is the unification of the Russian assets in the Holy Land that are controlled by various factors, under a unitary direction in order to achieve more efficient logistic activity. Among the different buildings one can discern Alexander’s Courtyard in the old city of Jerusalem, the pilgrims hostel in honor of Maria Alexandrovna, the Holy Trinity Cathedral and more.
+The organization has to cope with the pre-WWI Ottoman rule, which was known to be based on a complex bureaucratic system.
+By the end of the 19th century the pilgrimage movement is expanding year by year, and reaches 4,000 pilgrims per annum. During this period the buildings under Russian control in the Holy Land can host a thousand pilgrims in full occupancy.
+The organization acts immediately towards the erection of edifices designated to host the ever-increasing numbers of pilgrims. On the land plot of the Russian Compound three principal buildings are erected for the accommodation of pilgrims, the leading one being Sergey’s Courtyard that is intended for Russia’s high-society visitors. Moreover, a men’s hostel was constructed in the name of Nikolai II and another hostel for pilgrims in Jaffa.
+Apart from pilgrims’ accommodation, the Imperial Orthodox Palestine Society sets the goal of providing aid to the local inhabitants of the Holy Land, to the churches, to the monasteries and the clergy and also raise schools, hospitals and shelters in the Holy Land.
+Schools are built in Nazareth and Beit Jala, a hospital in Jerusalem, where pilgrims that get treatment constitute less than 50% of the people treated. Moreover, the Society digs more than 2 kilometers of sewage pipeline in Jerusalem and manages to supply its own potable water via usage of a system of water pits and rainwater harvesting.
+The Society also builds churches that magnificently integrate in the landscape of Jerusalem and excite visitors to this day – the Holy Trinity church, the church of Mary Magdalene, the church of All-Saints in Ein Karem and more.
+Saint Peterburg’s high society begins to get very interested in visiting the Holy Land owing to the Society’s extensive activity of spreading the word about it in Russia.
+Since 1897, the Society organizes lectures on holy sites in Palestine as a preparation for the pilgrimage journey in the Holy Land. Thousands arrive to the lectures and five years later, the total number of people that had attended these preparatory lectures came up to five million.
+The churches chosen to host these lectures are far from being able to contain the enormous numbers of people and, having no other choice, the lectures are carried out in the open sky.
+
+
+
+<b> insert images </b>
+
+
+
+The manifest of the IOPS approved by the Holy Synod in 1882
+
+A complementary objective of the organization is the provision of Russian Orthodox quality education for the Orthodox communities of the Middle East.
+The Society detects a severe inadequacy in Orthodox education in the Christian Levant and invest a lot of resources on the development of education in the region.
+Initially, the solution implemented by the Society was granting financial aid, but later it progressed to the founding of schools and appointing its own educational staff. In December 6th 1882, after very serious efforts that eventually entailed the chairman of the Society, Grand Duke Sergey Alexandrovich, the first school in the Holy Land on behalf of the IOPS is created with one teacher and thirty students; this is the point the Society starts acting as a humanitarian – educational body in the Holy Land.
+By the completion of the 25th anniversary since the establishment of the Society, in 1907, its educational operations already included 101 schools stretching from Syria in the north to Beit Jala in the south.
+The principal goal of the Society was to provide aid to pilgrims that fulfill the dream of setting foot at the holy Christian sites.
+The IOPS accompanies the pilgrims in their epic journey from their village in Russia up until Jerusalem by issuing a special passport that grants them a subsidy, as most pilgrims cannot afford this expensive sojourn. It began with a ride on a steamboat from Odessa to the port of Jaffa, from there a road ride to Jerusalem and then to all the holy places on which Jesus Christ walked. Upon the pilgrims’ arrival to Jerusalem, they are hosted in the buildings constructed especially for them, which are collectively known to every citizen of Jerusalem as the “Russian Compound”. The are provided with food and medical services at cost prices.
+Accompanied by certified escorts, the pilgrims travel in big groups to the holy sites about which they had only read in books and heard in prayers before, from the sea of Galilee in the north until the Dead sea in the south.
+Here our quest begins to follow the footsteps of these people that accomplished this wonderful journey that they dreamt of.
          `,
     hitrovo: `
-    Василий Николаевич Хитрово
-Российский общественный и политическй деятель середины 19 века. Ему принадлежала идея и инициатива создания Палестинского Православного общества. Его можно назвать Герцлем православного христианства, но, в отличие от Герцля, Хитрово посчастливилось увидеть осуществление своей мечты.
-Хитрово родился в 1834 г. в Санкт-Петербурге.
-Первое посещение Палестины в 1871 г. в качестве паломника, произвело на Хитрово сильнейшее впечатление, он по-настоящему влюбился в эту землю.
-Хитрово написал книгу «Неделя в Палестине. Из путевых воспоминаний », в которой описал свою поездку. Хитрово уделил много времени нуждам русских паломников в Палестине, а также проблеме усиления влияния Российской империи в регионе.
-Хитрово пришёл к выводу о необходимости создания негосударственной организации, чтобы не вызвать антогонизм Османских властей. По замыслу Хитрово, такая организация укрепит влияние России и Русской церкви в Палестине, где укреплялось и расширялось влияние Западных держав и их церквей.
-В Палестине Хитрово познакомился с сотрудником Религиозной миссии Архимандритом Антонином Капустиным, между ними завязалась настоящая дружба. Вмести они объездили верхом всю Галилею, обмениваяси мнениями и идеямм.
-Хитрово углубляет идею создания организации в интересах церкви и паломников в Палестине, переносит её на бумагу и передаёт документ Архимандриту Антонину Капустину. Параллельно он обратился к бывшиму начальнику  российской ралигиозной миссии в Палестине Архимандриту Леониду Кавелину, настоятелю монастыря «Новый Иерусалми» в Москве.
-В начале идеи Хитрово не понравились ни руководству церкви, ни его другу Капустину, отклонившему его идею. Но через два года Капустин решил поддержать идею Хитрово. 
-Капустин обратился к графу Е.В. Путятинуи рассказал об идее создания негосударственной организации в Палестине. Графа идея вдохновила, он представил и продвинул её осуществление в высших слоях Санкт-Петербургского общества.
-Хитрово представил Устав общества на утверждение обер-прокурора  Святейшего синода К.П. Победоносцева. Одновременно с этим граф  Путятин получил копию Устава и добился подписей под ним высоких лиц, в том числе и подписи Великого князя Сергея Александровича, согласившегося стать первым Председателем Общества. Главную подпись на Уставе поставил царь Александр Третий.
-21 мая 1882 г. создание Общества стало свершившимся фактом. Со временем оно стало называться Императорское Православное Палестинское Общество, сокращённо ИППО.
-Хитрово был избран его почётным членом и помощником Августейшего Председателя , а затем стал секретарём Общества., и оставался им до своей кончины в 1903 г. Хитрово похоронен в Санкт-Петербурге.
-«Не теряйте духом» - такое завещание оставил своим последователям Василий Николаевич Хитрово.
-На протяжении своей жизни при поддержке ИППО Хитрово выпустил семь книг, все они посвящены Палестине и Святым местам:
-«Научное значение раскопок, произведённых православным палестинским обществом на русском месте близ Храма Гроба Господня в Иерусалиме» (1885 г.)
-«Неделя в Палестине. Из путевых воспоминаний» (1879 г.)
-«Палестина и Синай» (1876 г.)
-«Ортодоксы в Св. Земле (1881 г.)
-«Православие в Св. Земле» (1898 г.)
-«Письма из Св. Земли (1898 г.)
-«Русские паломники Святой Земле» (1905 г.)
+    Vasily Nikolayevich Khitrovo was a statesman and public figure in the Russian Empire during mid-19th  century. He was the visionary and initiator of the foundation of the Imperial Orthodox Palestine Society; some kind of Herzl for Orthodox Christianity that got to see his vision materialized.
 
+Khitrovo was born in 1834 in Saint-Peterburg and he performs his first-ever visit in Palestine in 1871 as a pilgrim; one that gets remarkably impressed by the Land of Israel, or better said, got passionate about it.
+Khitrovo composes his book “A week in Palestine, from travel memories” narrating his adventures. Over the course of his visit he dedicated his time to the identification of the Russian pilgrims’ needs in the Holy Land and investigates what are the necessary measures the Empire has to take in order to 
+reinforce its influence in the region. Khitrovo recognizes the need of the establishment of a non-governmental organization so that feelings of antagonism are avoided from the Ottoman rule. In Khitrovo’s vision the organization would strengthen and re-establish the influence of the Russian Empire and the Russian Orthodox Church in Palestine, while competing with the Great Powers and the Churches of the West that also reinforce their presence in Jerusalem at the time. 
+In Palestine he meets one of the men of the religious mission, Archimandrite Antonin Kapustin, and a bold and solid friendship is developed between the two. Khitrovo and Kapustin travel on horses around the region of Galilee and exchange ideas, opinions and ideologies.
+Khitrovo delves further into the concept of an organization operating for the sake of the church and the Russian pilgrims reaching the Holy Land, thus he wrote his ideas down and hands the document over to Antonin Kapustin. At the same time, he contacts the former head of the Russian Ecclesiastical Mission in Palestine, Archimandrite Leonid Kavelin, who was at the time head of the “New Jerusalem” (Novo-Jerusalimsky) Monastery located in Moscow.
+Khitrovo’s ideas are initially not welcomed by the circles of the Church, as well as by his friend Kapustin, who rejected the idea at first. Only two years after this introductory proposal, Kapustin decides to invest all his energies for the realization of the idea. Kapustin gets in contact with Count E. V. Putyatin and introduces him to Khitrovo and the new idea of founding a non-governmental organization for Palestine. The Count gets passionate about it, presents it to the high society in Saint-Peterburg and encourages its materialization.
+Khitrovo proposes a set of articles of association for the organization and submits it for confirmation to the supervisor of the Holy Synod, Konstantin Pobedonostsev. Simultaneously, Count Putyatin gets a copy of the articles of association and begins gathering signatures from the “right people”, the most prominent of whom is the Duke Sergey Alexandrovich that is willing to accept to serve as the first chairman of the Society. The primary signature featured in the document containing the articles of association is that of Tsar Alexander III.
+In May 21st, 1882 the Orthodox Palestine Society is an undisputed fact. In time, it will be called Imperial Orthodox Palestine Society (Russian -  Импера́торское правосла́вное палести́нское о́бщество, abbrev. -  ИППО) in order to outline the connection to the royal family.
+By the time the Society was established Khitrovo was appointed deputy chairman of the Society under the chairman Prince Sergey. He served at this position until 1889 and subsequently was appointed secretary of the Society, a position which he held until his last day in 1903. Khitrovo was buried in Saint-Peterburg.
 
+“Don’t extinguish the spirit” - such a testament was left to his followers in the IOPS by Vasily Nikolayevich Khitrovo
+ During his days Khitrovo published, with the Society’s assistance, seven books, all of which focus in the Holy Land and the holy sites:
+●      "The scientific significance of the excavations carried out by the Orthodox Palestinian society in the Russian place near the Church of the Holy Sepulcher in Jerusalem" (St. Petersburg, 1885)
+●      “A week in Palestine. From Traveling Memories ”(ib., 1879)
+●      “Palestine and the Sinai” ( issue I, ib., 1876 ; issue II, ib., 1886)
+●      "Orthodoxy in the Holy Land" (St. Petersburg, 1881)
+●      Light, truth and the peoples of Russia of all times, or The complete history of the Russian state.
+●      "Letters of the Holy Land" (St. Petersburg, 1898)
+●      “Russian pilgrims of the Holy Land” (ib., 1905).
     `,
   },
   headsOf: [
     {
       name: "world.the",
       id: "one",
-      info: `       1882-1905 гг.- Великий князь Сергей Александрович (1857-1905), пятый сын царя Александра II, брат царя Александра III, дядя и правая рука последнего царя Николая II, супруг Великой княгини Елизаветы Фёдоровны, Московский генерал-губернатор, командующий Московским военным округом, носивший звание полковника Российской армии. Глубоко верующий христианин. Погиб от бомбы террористов в 1905 г.`,
+      info: `1882 – 1905: Grand Duke Sergey Alexandrovich (1857 – 1905) – the fifth son of Tsar Alexander II, brother of Tsar Alexander III, brother-in-law and the right hand of the last Tsar Nikolai II, spouse of Elizabeth Princess of Hesse, Governor of Moscow, member of the Russian Empire State Council, Colonel of the Imperial Russian Army, the first chairman of the Imperial Orthodox Palestine Society. A faithful Christian, got assassinated in 1905.`,
       image: "01-headOf",
     },
     {
       name: "world.the22",
       id: "two",
-      info: `1905-1917 -Великая княгиня Елизавета Фёдоровна, принцесса Гессен-Дармштадтская, внучка английской королевы Виктории, старшая сестра последней Российской царицы Александры фёдоровны, Основательница монастыря Марии Магдалены в Москве. Была супругой Великого князя Сергея Александровича с 1884 г. Будучи ревностной христианкой, много занималась благотворительностью для жителей Москвы, в период, когда её муж был Московским генерал-губернатором. После его гибели продала всё своё имущество, чтобы построить монастырь и приют для неимущих. 
-      Убита большевиками после Октябрьского переворота. Похоронена, по её просьбе, в церкви Марии Магдалены на Масличной горе горе в Иерусалиме.`,
+      info: `905 – 1917: Grand Duchess Elizabeth Feodorovna (1864 – 1918) – Princess of Hesse and by Rhine, grand-daughter of Victoria Queen of England, older sister of the last Tsarina of Russia Alexandra, founder of the St. Martha and St. Mary Convent in Moscow, new saint in the Russian Church since 1981. She was born a princess in the Duchy of Hesse-Darmstadt and married Grand Duke Sergey Alexandrovich in 1884. As a faithful Christian, she was involved in widespread charitable activity for the sake of the citizens of Moscow in the period her husband was Governor of Moscow. Following his assassination, she sold all of her positions in order to establish a monastery and a shelter for marginalized women in Moscow. She was killed by the Bolsheviks after the October revolution and is buried according to her will in the church of Mary Magdalene on the Mount of Olives in Jerusalem.`,
 
       image: "02-headOf",
     },
     {
       name: "world.the22",
       id: "three",
-      info: `1917-1918 –   князь Алексей Александрович Ширинский-Шихматов (1862-1930). Русский государственный и общественный деятель, гофмейстер Высочайшего Двора, действительный статский советник, обер-прокурор Святейшего Синода, сенатор, член Государственного Совета. Основатель Общества Возрождения Художественной Руси.`,
+      info: `1917 – 1918: Duke Alexey Alexandrovich Shirinski Shikhmatov (1862 – 1930) – statesman, public figure, clerk of the Supreme Court, official state consultant of the Russian Empire, chief prosecutor of the Holy Synod, senator, member of the Russian Empire State Council, founder of the Society for the Russian Artistic Renaissance.`,
       image: "03-headOf",
     },
     {
       name: "world.the22",
       id: "four",
-      info: `1918-1921 – Латышев Василий Васильевич (1855-1921). Русский филолог-классик, эпиграфист и историк. Академик Петербургской академии наук, член-корреспондент Прусской академии наук. Член Германского археологического института. Автор классических трудов, наибольшее значение среди них имеют: «Свод античных надписей, найденных в Северном Причерноморье» и «Известия древних писателей, греческих и латинских, о Скифии и Кавказе».`,
+      info: `1918 – 1921: Vasily Vasilyevich Latishev (1855 – 1921) – Academic of the Saint-Peterburg Academy, corresponding member of the Russian Academy of Sciences, philologist, classical historian of the Russian culture, member of the German Institute of Archaeology. Composer of two classic creations - “Code of Ancient Inscriptions Found in the Northern Black Sea” and “Reports of ancient writers, Greek and Latin in Scythia and in Caucasus”.`,
       image: "04-headOf",
     },
     {
       name: "world.the22",
       id: "five",
-      info: `1921-1928 гг.  – Успенский Фёдор Иванович  (1845-1928). Российский и советский византист, Академик Российской академии наук, академик Петербургской академии наук, академик АН СССР, директор Русского археологического института в Константинополе, редактор Византийского временника. Автор трёхтомного труда «История Византийской империи», над которым он работал в течение 25 лет.`,
+      info: `1921 – 1928: Feodor Ivanovich Uspensky (1845 – 1928) – expert in Byzantine history and culture, academic of the Russian Academy of Sciences, head of the Russian Institute of Archaeology in Constantinople between 1894 and 1914; his life’s work consists of three volumes of Byzantine history on which he worked for 25 years.`,
       image: "05-headOf",
     },
     {
       name: "world.the22",
       id: "six",
-      info: `1928-1934 гг. – Марр Николай Яковлевич (1865-1934). Российский и советский востоковед и кавказовед, филолог, историк, этнограф и археолог, академик Императорской академии наук, академик и вице-президент АН СССР. Создатель «нового учения о языке», или «яфеетской теории».`,
+      info: `1928 – 1934: Nikolai Yakovlevich Marr (1865 – 1934) – orientalist and Caucasus researcher, historian and philologist, graduate of the Russian Academy of Sciences, academic and vice president of the Soviet Academy of Sciences, composer of “The New Doctrine of the Language”, father of the poet Yuri Marr.`,
       image: "06-headOf",
     },
     {
       name: "world.the22",
       id: "seven",
-      info: `1934-1951 гг. – Крачковский Игнатий Юлианович (1883-1951). Русский и советский арабист, академик Российской академии наук. Один из создателей школы советской арабистики. Один из создателей первого издания «Энциклопедии ислама».`,
+      info: `1934 – 1951: Ignaty Yulianovich Krachkovsky (1883 – 1951) – orientalist, graduate of the Soviet Academy of Sciences, co-founder of the Soviet School of Arab Culture, co-composer of the Encyclopedia of Islam.`,
       image: "07-headOf",
     },
     {
       name: "world.the22",
       id: "eight",
-      info: `1951-1970 гг. – Толстов Сергей Павлович (1907-1976). Советский историк, этнограф, археолог, исследователь истории народов Средней Азии, истории, этногенеза и культуры каракалпакского народа, открыватель древнехорезмийской цивилизации. Директор института этнографии, директор Института востоковедения и учёный секретарь Президиума АН СССР, а также заведующий кафедрой  этнографии и декан исторического факультета  МГУ.`,
+      info: `1951 – 1970: Sergey Pavlovich Tolstov (1907 – 1976) – historian, ethnographer, archaeologist, researcher of the history of the nations of Central Asia, director of the Ethnography Institute, director of the Institute of the Study of Eastern Cultures, secretary of science for the directorate of the Russian Academy of Sciences, Dean of the Faculty of History in Moscow University.`,
       image: "08-headOf",
     },
     {
       name: "world.the22",
       id: "nine",
-      info: `1970-1971 гг. – Губер Александр Андреевич (1902-1971). Советский историк, специалист по истории  стран Юго-Восточной  Азии, доктор исторических наук, профессор, академик  АН СССР.`,
+      info: `1970 – 1971: Alexander Andreyevich Guber (1902 – 1971) – historian, expert in the culture of south Asian nations, Doctor of History, Professor in the Russian Academy of Sciences, academic of the Russian Institute of Oriental Studies.`,
       image: "09-headOf",
     },
     {
       name: "world.the22",
       id: "ten",
-      info: `1971-1978 гг. – Тихвинский Сергей Леонидович (1918-2018). Советский и российский историк, дипломат, действительный член Российской  академии  наук, академик АН СССР. Специалист  в области новой и новейшей истории стран  Дальнего Востока, преимущественно  Китая, и истории международных отношений. Лауреат Государственных премий СССР  и РФ.`,
+      info: `1971 – 1978: Sergey Leonidovich Tikhvinsky (1918 – 2018) – historian, diplomat, permanent member of the Russian Academy of Sciences, expert in Middle Eastern history, winner of the Soviet award for extraordinary scientific achievements in 1982.`,
       image: "10-headOf",
     },
     {
       name: "world.the22",
       id: "eleven",
-      info: `1978-1982 гг. – Удальцова Зинаида Владимировна (1918-1987). Специалист в области  византиноведения, славяноведения и истории поздней античности. Доктор исторических наук , профессор,заведующая кафедрой истории средних веков  МГУ. Член-корреспондент  АН СССР. Директор Института всеобщей истории АН СССР.`,
+      info: `1978 – 1982: Zinayda Vladimirovna Udaltsova (1918 – 1987) – expert in the study of Byzantine and Slavic cultures, Doctor of History, Professor and Head of the Medieval History department in the University of Moscow, corresponding member in the Russian University of Sciences, director of World History Institute in the Russian University of Sciences.`,
       image: "11-headOf",
     },
     {
       name: "world.the22",
       id: "newTwelve",
-      info: `1983-1985 ואסילי גריגוריביץ סולודובניקוב (1918-2018) - כלכלן, דיפלומט, מומחה לאפריקה, חבר באקדמיה הרוסית למדעים במחלקה ליחסי חוץ. כיהן סגן נציג באו"ם מטעם רוסיה, נציג דיפלומטי של ממשלת רוסיה בזמביה וזימבבואה. כשגריר במדינות אלו היווה השראה לדמות רוסי בספרו של הסופר הנודע פרדריק פורסיית'. נולד בכפר קטן בשם צ'רוניצ'ה בקרבת נהר הוולגה במחוז סמרה. `,
+      info: `1983 – 1985: Vasily Grigorovich Solodobnikov (1918 – 2018) – economist, diplomat, expert on Africa, member of the Russian Academy of Sciences in the foreign relations department. Served as deputy representative of Russia in the UN, diplomatic delegate of Russia in Zambia and Zimbabwe. As ambassador in these countries, he inspired the famous writer Frederick Forsyth about a Russian character in one of his books. Born in a small village named Chironicha close to the river Volga in the Samara Oblast.`,
       image: "solodovnikov",
     },
     {
       name: "world.the22",
       id: "twelve",
-      info: `1985-1988 гг. – Новосельцев Анатолий Петрович (1933-1995). Советский и российский историк-востоковед. Член-корреспондент  АН СССР, директор Института российской истории РАН. Специалист по средневековой истории стран Кавказа и Закавказья, Ирана, Древней Руси.`,
+      info: `1985 – 1988: Anatoly Petrovich Novoceltsev (1933 – 1995) – historian, orientalist, corresponding member of the  Russian Academy of Sciences, manager of the Russian History Institute of the Russian Academy of Sciences, expert in medieval history of Caucasus, Iran and ancient Russia.`,
       image: "12-headOfOption2",
     },
     {
       name: "world.the22",
       id: "thirteen",
-      info: `1988-1989 гг. – Ахрамович Роман Тимофеевич (1923-1989). Советский историк-востоковед. Участник Великой Отечественной  войны. Дважды был в плену и дважды бежал. Воевал в партизанском отряде.
-      Директор Института стран Азии и Африки МГУ. Почётный член Кабульского университета.`,
+      info: `1988 – 1989: Roman Timofievich Ahramovich (1923 – 1989) – got captured and escaped twice as a partisan during WWII, academic of the Oriental Studies Institute of Moscow and Oriental Studies Institute of the Russian University of Sciences, director of the Institute of Asia and Africa of the University of Moscow, Honorary Doctor from Kabul University.`,
       image: "13-headOf",
     },
     {
       name: "world.the22",
       id: "fourteen",
-      info: `1989-2000 гг. – Пересыпкин Олег Герасимович (1935). Доктор исторических наук. Чрезвычайный и полномочный посол в Йемене, Ливии, Ливане, ректор Дипломатической  академии МИД СССР.`,
+      info: `1989 – 2000: Oleg Gerasimovich Peresypkin (born 1935) – Doctor of History, served as the Soviet ambassador in Libya and Lebanon, holds bachelor in Economics, rector of the Institute of Diplomacy and Foreign Relations of the Soviet foreign ministry.`,
       image: "top-secret",
     },
     {
       name: "world.the22",
       id: "fifteen",
-      info: `2001-2003 гг. – Чистяков Алексей  Фёдорович (1946).  Российский  дипломат, кандидат политических наук. Представитель  Российской Федерации  при Палестинской национальной администрации  в г. Газа. Заместитель директора Департамента Ближнего Востока  и Северной Африке  МИД РФ. Чрезвычайный и полномочный посол РФ в Республике Судан. Одним из первых в российской новейшей истории поднял вопрос о необходимости возвращения российской недвижимости  в Святой земле, в том числе Сергиевского подворья в Иерусалиме.`,
+      info: `2001 – 2003: Alexey Fyodorovich Chistyakov (born 1946) – diplomat, deputy manager of the Middle East and North Africa department of the Russian Federation’s foreign ministry, Russian ambassador in Sudan, the delegate of the Russian Federation with the Palestinian National Authority in Gaza, one of the first people to raise the question of the return of the Russian real estate assets in the Holy Land, including the Sergey site in Jerusalem.`,
       image: "14-headOf",
     },
     {
       name: "world.the22",
       id: "sixteen",
-      info: `2003-2006 гг. – Щапов Ярослав  Николаевич (1928-2011). Советский и российский историк, историк церкви. Доктор исторических наук, профессор. Член-корреспондент РАН, член-корреспондент АН СССР , Советник Российской академии наук. Председатель Научного совета «Роль религий в истории » РАН, председатель двусторонней Комиссии историков России и Польши, руководитель департамента науки Российского дворянского собрания и секции истории Центрального (Московского) дома учёных.`,
+      info: `2003 – 2006: Yaroslav Nikolayevich Schapov (1928 – 2011) – historian, Doctor of History Studies, professor, corresponding member of the Russian Academy of Sciences, chairman of the bilateral council of historians from Russia and Poland, head of the science department of the Russian Nobility Assembly and the head of the history department of the Central House of Scientists in Moscow.`,
       image: "15-headOf",
     },
     {
       name: "world.the22",
       id: "seventeen",
-      info: `2007 - до сегодняшнего дня – Степашин Сергей Вадимович (1952). Российский государственный и политический деятель. Депутат Государственной Думы, председатель Счётной палаты РФ, председатель Правительства РФ, Первый заместитель председателя Правительства РФ, министр внутренних дел РФ, министр юстиции РФ, директор Федеральной службы безопасности РФ, директор Федеральной службы контрразведки. Доктор юридических наук, профессор, генерал-полковник. Председатель Ассоциации юристов России.
-      `,
+      info: `2007 – today: Sergey Vadimovich Stepashyn (born 1952) – statesman, politician, served as Russian prime minister for three months in 1999, former minister of justice of the Russian Federation, former minister of internal affairs of the Russian Federation, manager of the Federal Counterintelligence Service, the first director of the Federal Security Service, chairman of the Russian Federation’s Accounts Chamber, Doctor of Law, professor, general Colonel, chairman of the Russian Lawyers’ Chamber, member of the security council of the Russian Federation, member of the State Duma of the Federal Assembly of the Russian Federation, president of the Russian Books Society, chairman of the consulting council of the Dynamo Moscow football club.`,
       image: "16-headOf",
     },
   ],
@@ -489,4 +494,4 @@ const russianText = {
     },
   ],
 };
-export { russianText as default };
+export { englishText as default };
