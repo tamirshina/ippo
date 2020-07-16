@@ -42,6 +42,7 @@ html {
   height: -webkit-fill-available;
   object-fit: fill;
   width: 100%;
+  margin-bottom: -4px;
 }
 .textBoxCss {
   position: fixed;
@@ -141,9 +142,9 @@ html {
   overflow: scroll;
   width: 88%;
   height: 589px;
+  white-space: pre-line;
 }
-.enInfoTitle {
-}
+
 .image-text-container {
   position: fixed;
   top: 24%;
@@ -160,6 +161,7 @@ html {
   text-align: left;
   line-height: 1.6;
   overflow: scroll;
+  white-space: pre-line;
 }
 .image-for-imageText {
   height: 100px;

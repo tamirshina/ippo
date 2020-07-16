@@ -45,7 +45,7 @@ const englishText = {
 
     The means, resources and general level of life in Russia at the time, an empire at its economical and intellectual peak, is only but a dream for Palestine’s inhabitants; at that time they were living under the declining Ottoman Empire’s rule that not long later will be erased from the region.
     
-    Educational activity
+    <b>Educational activity</b>
     
     Various denominations of Christianity have been present in Jerusalem and Palestine ever since the very beginning of Christianity.
     In 19th-century Palestine the lack of Orthodox education for the believers’ children was evident. Numerous children are compelled to study in educational frameworks that are not in accordance with their faith. The Society performs immediately in order to open schools and faces plenty of obstacles devised by the Turkish authorities. Despite of it all, on December 6th 1882 the first school was inaugurated in Nazareth with one teacher and thirty students.
@@ -59,7 +59,8 @@ const englishText = {
     In 1901 the Society member and prospective deputy chairman of the IPPO, Nikolai Milievich Anichkov arrived to Palestine to inspect the schools and wrote “I am compelled to sincerely admit that I traveled to the Holy Land thinking that all these schools, about which several has been said and written, are more to be found in one’s imagination. However, when I saw them, I was persuaded that not only they exist but also many of them are holding a standard similar to that of Russian schools”.
     The educational operation of the Society is crowned with success and 25 years after its creation, in 1907, the Society operates 101 schools in the Middle East – 5 in the Yehuda region (466 students), 19 in the Galilee (723 students), 50 in southern Syria (5,063 students) and 5 in Beirut (1,018 students). Among these schools, there were 48 schools of one class, 51 of two classes and two teachers’ seminars, in Nazareth for males and in Beit Jala for females.
     
-    Medical Aid
+    <b>Medical Aid</b>
+
     Starting around the middle of the 19th century and until WWI, the pilgrimage movement to the Holy Land continually grows and it is notable that many pilgrims are older adults and even elderly people. The exhausting journey from all over the Russian Empire’s territories towards Jerusalem charged its price on the pilgrims.
     The medical services provided by the Turkish authorities at the time were very scarce and were granted mainly to Ottoman citizens. In the same time, hospitals opened by Western nations conditioned their medical treatment with participation of the patient in the sermons delivered by Western Churches.
     The need for self-sustained medical services is clear, and thus in 1863 the  hospital in Jerusalem is inaugurated. The hospital constituted the culmination of the Society’s humanitarian activity. It was built under the order of Tsarina Maria Alexandrovna; it was equipped with the most novel equipment of the period including blood transfusion machines, gastric lavage equipment and valuable surgical tools.
@@ -171,7 +172,7 @@ By the time the Society was established Khitrovo was appointed deputy chairman o
     {
       name: "world.the22",
       id: "two",
-      info: `905 – 1917: Grand Duchess Elizabeth Feodorovna (1864 – 1918) – Princess of Hesse and by Rhine, grand-daughter of Victoria Queen of England, older sister of the last Tsarina of Russia Alexandra, founder of the St. Martha and St. Mary Convent in Moscow, new saint in the Russian Church since 1981. She was born a princess in the Duchy of Hesse-Darmstadt and married Grand Duke Sergey Alexandrovich in 1884. As a faithful Christian, she was involved in widespread charitable activity for the sake of the citizens of Moscow in the period her husband was Governor of Moscow. Following his assassination, she sold all of her positions in order to establish a monastery and a shelter for marginalized women in Moscow. She was killed by the Bolsheviks after the October revolution and is buried according to her will in the church of Mary Magdalene on the Mount of Olives in Jerusalem.`,
+      info: `1905 – 1917: Grand Duchess Elizabeth Feodorovna (1864 – 1918) – Princess of Hesse and by Rhine, grand-daughter of Victoria Queen of England, older sister of the last Tsarina of Russia Alexandra, founder of the St. Martha and St. Mary Convent in Moscow, new saint in the Russian Church since 1981. She was born a princess in the Duchy of Hesse-Darmstadt and married Grand Duke Sergey Alexandrovich in 1884. As a faithful Christian, she was involved in widespread charitable activity for the sake of the citizens of Moscow in the period her husband was Governor of Moscow. Following his assassination, she sold all of her positions in order to establish a monastery and a shelter for marginalized women in Moscow. She was killed by the Bolsheviks after the October revolution and is buried according to her will in the church of Mary Magdalene on the Mount of Olives in Jerusalem.`,
 
       image: "02-headOf",
     },
@@ -276,15 +277,13 @@ By the time the Society was established Khitrovo was appointed deputy chairman o
   Between the years 1850 and 1917 the Russian Empire together with the Russian Orthodox Church erected tens of buildings all over the Middle East and especially in the area of Palestine. During these years, the industrial revolution and the progress that were surging through the West were awaiting to reach our region. In the same period, as in the whole millennium of Christianity in Russia, the Russian people feel a deep connection to the Holy Land and the holy sites of Christianity.
 Remarkable amounts of money and resources were invested in Palestine by the state and the people of Russia and they were principally allocated to the construction of churches and monasteries, as well as to the creation of the foundations for the sake of the Russian believers who are drawn to the constantly expanding movement of pilgrimage to Jerusalem every year.
 All the aforementioned contributed significantly to the development of the Land of Israel. The influence of all this activity is recognized until today; magnificent churches adorn the Israeli landscape, governmental buildings over a century old still serve various institutions of the State of Israel and thousands tourists from Russia make their way to Israel every year and discover the holy places.
-
 Principal buildings erected by the IOPS (Imperial Orthodox Palestine Society), the Russian Church and the Russian Empire.
   `,
   importentStructures: [
     {
       name: "tamirShina",
       id: "Ascension-Monastery",
-      info: `
-      <b>The Church of the Ascension on the Mount Of Olives</b>
+      info: `<b>The Church of the Ascension on the Mount Of Olives</b>
       Among the Arabic-speaking local population the church is known as Al-Moskobiya in the name of the pilgrims who built it, even though the central figures related to the deed came from other places in Russia. The pioneer and operator of this impressive church, as also of many other initiatives of the Russian Empire, is the Archim. Antonin Kapustin whose origins are from the province of Perm. The church commemorates the ascension of Jesus to the Heavens and in its center stands a bell tower 64 metes high. This bell, which weighs 5 tons, was the first to sound in Jerusalem after hundreds of years that the Muslim authorities prohibited Christians to ring church bells.
 The journey of the church bell from Russia is depicted in a very poetic way in the book “Esau” by Meir Shalev - “four hundred and fifty pilgrims that dragged the enormous copper church bell to the church of Mary Magdalene (error in the source). The bell was cast in Odessa and placed on a reinforced cart built especially for this purpose. The men pulled it to the port. From there they sailed on the “Santa Ana” ship to Jaffa, and there the women made their way to the special cart. Since that very moment everybody kept silent, as they swore to do until the church bell is hung in its rightful place. A long time later one could distinguish the participants of the bell’s journey by their walking: strenuous pace with a hunched back, as if they were rowing against a strong wind”.
 
@@ -298,8 +297,7 @@ One of John’s students discovered the head and in the dead of night she smuggl
     {
       name: "world.the22",
       id: "Church-of-mary-magdalene",
-      info: `
-      <b>The Church of Mary Magdalene</b>
+      info: `<b>The Church of Mary Magdalene</b>
       Mary Magdalene is depicted in the New Testament as one of Jesus’ central supporters, and is known as the “apostle of the apostles” (apostola apostolorum). As written in the Gospels, she was one of the women that were present during Jesus’ crucifixion and resurrection.
 
 Upon the land that was bought in the name of Tsar Alexander III in 1882, the church that became the crown jewel of Russian presence in the Holy Land was erected. Even before the completion of the construction of the church, it was written that “in this wonderful location there is a monument worthy of the royal family and Russia’s glory. The Catholic monks tear their robes out of jealousy”.

@@ -18,12 +18,12 @@ function ScrollingBtn({ homeBtnLogic, whichIsActive }) {
     ) {
       let paraEl = document.getElementById("imageTextContainer");
       if (paraEl) {
-        paraEl.scrollTop += 10;
+        paraEl.scrollTop += 40;
       }
     } else {
       let paraEl = document.getElementById("particularTextBox");
       if (paraEl) {
-        paraEl.scrollTop += 10;
+        paraEl.scrollTop += 40;
       }
     }
   }
@@ -36,12 +36,12 @@ function ScrollingBtn({ homeBtnLogic, whichIsActive }) {
     ) {
       let paraEl = document.getElementById("imageTextContainer");
       if (paraEl) {
-        paraEl.scrollTop -= 10;
+        paraEl.scrollTop -= 40;
       }
     } else {
       let paraEl = document.getElementById("particularTextBox");
       if (paraEl) {
-        paraEl.scrollTop -= 10;
+        paraEl.scrollTop -= 40;
       }
     }
   }

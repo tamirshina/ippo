@@ -19,6 +19,14 @@ function ImageTextEl({ subject }) {
     }
   }
 
+  function isCssAdd() {
+    if (isLeftToRight()) {
+      if (subject === "importentStructures") {
+        return true;
+      } else return false;
+    } else return false;
+  }
+
   function whichLangToUse() {
     if (lang === "hebrew") {
       return hebrewText;
@@ -32,6 +40,10 @@ function ImageTextEl({ subject }) {
   function whichFileToUse() {
     return whichLangToUse()[subject];
   }
+  const position = {
+    position: "relative",
+    top: "35px",
+  };
   return (
     <>
       <div id="imageTextContainer" className="image-text-container">
@@ -57,6 +69,7 @@ function ImageTextEl({ subject }) {
                 src={require(`../assets/${subject}/${item.image}.png`)}
                 alt="someImage"
                 className="image-for-imageText"
+                style={isCssAdd() ? position : null}
               />
               <p
                 dangerouslySetInnerHTML={createMarkup(item.info)}
