@@ -48,6 +48,7 @@ function TitleEl({ setWhichIsActive, whichIsActive }) {
                   ? "menu-title-add heb-menu-title"
                   : "menu-title-add"
               }
+              style={item.position}
             >
               {item.text}
             </h1>

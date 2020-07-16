@@ -83,12 +83,14 @@ html {
 }
 .headsOf-title {
   top: 24%;
+  height: 68px;
 }
 .humanitarian-title {
   top: 35%;
 }
 .importentStructures-title {
   top: 45.5%;
+  height: 68px;
 }
 .hitrovo-title {
   top: 56%;
@@ -108,7 +110,7 @@ html {
 }
 .activeTitle {
   position: relative;
-  right: 17%;
+  right: 20%;
   top: 14px;
 }
 .heb-active-arrow {

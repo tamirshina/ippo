@@ -16,6 +16,10 @@ const englishText = {
     {
       name: `headsOf`,
       text: `IOPS Chairmen`,
+      position: {
+        top: "31%",
+        left: "14%",
+      },
     },
     {
       name: `humanitarian`,
@@ -24,6 +28,11 @@ const englishText = {
     {
       name: `importentStructures`,
       text: `Russian Buildings in the Holy Land`,
+      position: {
+        width: "179px",
+        bottom: "-34px",
+        left: "5px",
+      },
     },
     {
       name: `hitrovo`,
@@ -31,42 +40,39 @@ const englishText = {
     },
   ],
   particularInfo: {
-    humanitarian: `Гуманитарная деятельность ИППО в Палестине в конце 19 века 
-    С момента возникновения в 1882 г. Общество ставило перед собой цели оказания безвозмездной помощи местному населению на Святой Земле. В Уставе Общества написано «Православное общество создано в научных и благотворительных целях» и далее «создать школы, больницы и гостиницы, а также предоставить помощь местным жителям».
-    Экономическое положение и уровень жизни того периода Российской империи, находившейся на пике экономического и интеллектуального  развития, были недостижимой мечтой жителей Палестины, находящихся под мандатом разваливающейся Османской империи, которая вскоре прекратит своё существование.
+    humanitarian: `
+    Since the day it was founded in 1882, the Imperial Orthodox Palestine Society set itself the objective of providing charity and aid to the local populations residing in the Holy Land. In the beginning of the Society’s statute, with which the Society  was approved, it is written: “The Orthodox Society is established for purposes of science and charity”, going on saying, “to found schools, hospitals, guest houses and hostels, and also provide aid to local residents”.
+
+    The means, resources and general level of life in Russia at the time, an empire at its economical and intellectual peak, is only but a dream for Palestine’s inhabitants; at that time they were living under the declining Ottoman Empire’s rule that not long later will be erased from the region.
     
-    Просветительская деятельность
-    С возникновения христианства в Палестине и в Иерусалиме появились его многочисленные течения. В 19 веке остро ощущалась нехватка православного обучения для детей из религиозных семей. Дети были вынуждены учиться в альтернативных учебных заведениях. Общество немедленно приступает к открытию школ, сталкиваясь с огромными препятствиями, чинимыми турецкими властями. И всё же 6 декабря 1882 г. в Назарете открывается первая школа с одним преподавателем и тридцатью учениками.
-    Проект был настолько популярен у местного населения, что через некоторое время в Галилее открылось ещё несколько школ. Общество планировало открыть несколько школ в Иерусалиме, но столкнулось с сопротивлением со стороны греческого Патриарха. Поэтому Общество продолжило открывать школы в Иудее и Галилее, причём не только в Палестине, но и в Сирии и в Ливане.
-    Школа в Назарете превращается в интернат, в котором проживают учителя и ученики. При интернате открывается поликлиника, обслуживающая также и местное население. Школа превращается в семинарию по подготовке учителей для преподавания в других школах ИППО.
-    Община, заинтересованные в качественнов российском обучении, собирала пожертвования, отводила территорию для постройки и строила здание для школы, если не было свободного. Общество  предоставляло всё необходимое: главным образом, учителей, а также парты, стулья, учебники, тетради и т.д.
-    Обучение было не только православным, но и многоплановым. Целью было привить ученикам ценности и профессиональные навыки, соответствующие среде и полезные в будущем, поэтому особое внимание уделялось арабистике и математике.
-    Атмосфера в школах была исключительно благоприятной, в них царили порядок и дисциплина. Ученики возвращались домой довольные, а местное население ценило российское присутствие.
-    Следующий крупный образовательный комплекс, созданный по образу и подобию интерната в Назарете, был открыт в Бейт Джала в предместье Иерусалима. При школе были также больница и церковь. Школа была построена на средства императрицы Марии Фёдоровны. Это была женская школа, в которой также обучались будущие учительницы для преподавания в школах в Леванте. Первые ученики начали обучение в 1890 г. Будующие учителя проходили также основы медицины для оказания первой помощи. После завершения обучения они обязаны были отработать в одной из клиник общества.
+    Educational activity
     
-    Школа для учительниц в Бейт Джала 1892 г.
+    Various denominations of Christianity have been present in Jerusalem and Palestine ever since the very beginning of Christianity.
+    In 19th-century Palestine the lack of Orthodox education for the believers’ children was evident. Numerous children are compelled to study in educational frameworks that are not in accordance with their faith. The Society performs immediately in order to open schools and faces plenty of obstacles devised by the Turkish authorities. Despite of it all, on December 6th 1882 the first school was inaugurated in Nazareth with one teacher and thirty students.
+    The project accomplishes great success and acclamation from the local community and thus more schools are opened all around the Galilee. Part of the Society’s goal is to open a school in Jerusalem, too, but the Greek Patriarch opposes it. Therefore the IPPO progresses opening schools in the regions of Yehuda, the Galilee and not only in the land of Israel but also in Syria and Lebanon.
+    The school in Nazareth turns into a complex in which students and teachers live in boarding-school standards and also an infirmary operates covering the medical needs not only of the school but also the area’s locals. The school gradually turns into a teachers’ seminar in order to train teachers for all the rest of the Society’s schools.
+    Any community interested to take advantage of the quality of Russian education would gather donations, allocated a plot of land to be used for the erection of a building for the school, in case there is no other available building. All the rest was the Society’s responsibility, especially the teachers but also desks chairs, textbooks, notebooks, etc.
+    The curriculum of the studies included a series of subjects and not only religious Orthodox teachings. The objective was to provide the children values and professions that suit their natural environment and that will serve them in the future; as a result, great emphasis was placed in environmental studies, Arabic and mathematics. The schools would evoke a pleasant feeling to any observer, they were characterized as orderly and organized, the students would go back to their families full of praises and thus Russian presence is dearly appreciated by the local community.
+    The next large educational complex is opened in Beit Jala, in Jerusalem’s suburbs. It is founded in a similar format as the one of the school in Nazareth and, also in this school complex, an infirmary is operated, a church and dormitories for the students and teachers, who also here live according to boarding-school standards. This school is opened thanks to the donation of the Tsarina at the time, Maria Feodorovna. The school is intended for womens’ education and teacher training in order to fill teaching positions in IPPO’s schools all over the Levant. The first class began studying in the school in 1890. Teachers that had undergone training in Nazareth and Beit Jala would also go through first-aid training and basic medicine studies; after the completion of their training, the were obliged to work in the Society’s infirmaries, as well.
     
+    Apart from caring for the teaching level in the Society’s numerous schools, the Society also cared to equate the teachers’ employment conditions to the ones of the teachers in the Russian Empire.
+    In 1901 the Society member and prospective deputy chairman of the IPPO, Nikolai Milievich Anichkov arrived to Palestine to inspect the schools and wrote “I am compelled to sincerely admit that I traveled to the Holy Land thinking that all these schools, about which several has been said and written, are more to be found in one’s imagination. However, when I saw them, I was persuaded that not only they exist but also many of them are holding a standard similar to that of Russian schools”.
+    The educational operation of the Society is crowned with success and 25 years after its creation, in 1907, the Society operates 101 schools in the Middle East – 5 in the Yehuda region (466 students), 19 in the Galilee (723 students), 50 in southern Syria (5,063 students) and 5 in Beirut (1,018 students). Among these schools, there were 48 schools of one class, 51 of two classes and two teachers’ seminars, in Nazareth for males and in Beit Jala for females.
     
-    Комплекс, построенный ИППО в Назарете и названный в честь Великого князя Сергея Александровича. 22 июля 1902 г.
-    
-    Ученики старшего класса мужской учительской семинарии в Назарете. 1907 г.
-    
-    
-    Приёмная мужской учительской семинарии в Назарете. 1907 г.
-    
-    Помимо задачи обеспечить высокий уровень преподавания в школах, принадлежащих обществу, необходимо было создать учителям условия труда, соответствующие условиям в Российской империи.
-    В 1901 г. Палестину посетил Николай Милиевич Аничков,  почётный член  и будующий заместитель председателя ИППО, с целью проверки школ. После посещения он написал так: «Должен признаться, что перед поездкой на Святую землю думал, что школы, о которых писали и говорили, это всего лишь плоды фантазии. Но когда увидел их воочию, убедился, что они не только существуют, но не уступают Российским школам.
-    Образовательный проект увенчался успехом. Через 25 лет после создания Общества, к 1907 функционировали уже 101 школа на Ближнем Востоке: 5 - в Иудее (466 учеников), 19 – в Галилее (723 ученика), 50 – на юге Сирии (5063 ученика) и 5 – в Бейруте (1018 учеников). В 48 из этих школ был один класс, в 51 – два класса, кроме того, работали два учительских семинара, мужской и женский в Бейт Джала.
-    Медицинская помощь
-    Начиная  с середины 19 века и до начала Первой Мировой войны,  приток российских паломников на Святую землю. Постоянно увеличивался. Многие из низ были пожилого и преклонного возрастов. Длительное путешествие с окраин Российской империи в Иерусалим дорого обходилось многим из них. 
-    Медицинское обслуживание, предоставляемое турецкими властями было недостаточным, предпочтение отдавалось подданным Османской империи. Параллельно с этим, больницы, открытые западными странами, требовали от больных взамен лечения участие в проповедях представителей западной церкви.
-    Возникла необходимость в самостоятельной системе здравоохранения, поэтому уже в 1863 году в Иерусалиме открылась больница, ставшая вершиной гуманитарной деятельности Организации. Больница была построена по указанию императрицы Марии Александровны и обуродована новейшей техникой того времени: оборудованием для переливания крови, промывания желудка и дорогими хирургическими инструментами. Представитель ИППО, посетивший больницу с инспекцией, писал: «Чистота и порядок могут конкурировать с лучшими больницами». 
-    Через два года после тяжёлой эпидемии 1883 г. было открыто здание для лечения инфекционных болезней, с 1889 г. в больнице начали проводится хирургические операции. В отчёте за тот год сообщалось о десятке успешных операций, выполненных в больнице. В день открытия в больнице было 30 коек, в 1887 г. в больнице уже было 75 коек. Таким образом, больница ИППО стала самой большой в Иерусалиме.
-    В 1884-1887 гг. российские паломники составили около 55% пациентов больницы, остальные пациенты были выходцами из самых бедных слоёв общества Иерусалима.
-    Паломники платили больничный налог в размере одного рубля, получая за это любое бесплатное медицинское обслуживание. Остальные деньги для больницы жертвовались богатыми россиянами. От 14% до 50% паломников воспользовались медицинскими услугами на Святой Земле.
-    В 1888 г. открылась лечебница в Назарете в школьном кампусе. Учителя проходили на месте первичное обучение по оказанию первой помощи и помогали в поликлинике.
-    В 1890 г. открылась ещё одна лечебница при школе в Бейт Джала, причём в этих лечебницах оказывали помощь местным больным наряду с учителями и учениками.
-    В 1911 году в Иерусалимской больнице  было 22,000 пациентов. Во всех лечебных учреждениях ИППО в Палестине и на Ближнем Востоке (Израиль, Сирия, Ливан) были зарегистрированы более 100,000 пациентов.    
+    Medical Aid
+    Starting around the middle of the 19th century and until WWI, the pilgrimage movement to the Holy Land continually grows and it is notable that many pilgrims are older adults and even elderly people. The exhausting journey from all over the Russian Empire’s territories towards Jerusalem charged its price on the pilgrims.
+    The medical services provided by the Turkish authorities at the time were very scarce and were granted mainly to Ottoman citizens. In the same time, hospitals opened by Western nations conditioned their medical treatment with participation of the patient in the sermons delivered by Western Churches.
+    The need for self-sustained medical services is clear, and thus in 1863 the  hospital in Jerusalem is inaugurated. The hospital constituted the culmination of the Society’s humanitarian activity. It was built under the order of Tsarina Maria Alexandrovna; it was equipped with the most novel equipment of the period including blood transfusion machines, gastric lavage equipment and valuable surgical tools.
+    An IOPS inspector wrote that “The order and cleanliness can compete with the most excellent of hospitals”.
+    After a severe infectious epidemic originated in the hospital in 1883, a special department for the treatment of contagious diseases was opened two years later. Since 1899 surgical operations were performed in the hospital and in the annual report of that year it was recorded that ten successful surgeries had been performed in the hospital.
+    In its inauguration day, the hospital contained thirty beds and its occupancy gradually grew; in 1887 the hospital contained 75 beds and was the largest in Jerusalem.
+    Between 1884 and 1887 the Russian pilgrims constituted approximately 55%  of the total number of patients treated by the hospital; the rest were part of the poorest local population of Jerusalem.
+    Every pilgrim paid a hospitalization fee of one ruble and received all the necessary medical treatment free of charge. The rest of the money needed for the operation of the hospital was raised from donations offered by Russia’s high society.
+    Between 14% and 50% of all the pilgrims found themselves in need of medical attention at some point of their pilgrimage joourney in the Holy Land.
+    In 1888 an additional infirmary was opened in Nazareth as part of the school complex, where the teachers underwent first-aid training and also contributed to the infirmary’s management.
+    In 1890 another infirmary is opened, this time in the school complex of Beit Jala similar to the one in Nazareth; these infirmaries provide medical attention and aid to the local populations, as well.
+    In 1911 the hospital in Jerusalem treated 22,000 patients. Overall, all the Society’s medical centers in Palestine and the Middle East (Holy Land, Syria, Levanon) had recorded 100,000 cases that had been treated during that year.
+       
 
   <img
     src=${humanitarianBuildings}
@@ -89,7 +95,8 @@ In the rise of the 19th century Jerusalem, with its 2,500 years of history, stan
 
 
 
-The ruins of the Muristan square and the church of the Holy Sepulchre – 1860
+The ruins of the Muristan square and the church of the Holy Sepulchre – 1860.
+
 “In spite of the myriads of crippled people, the defect and the ill flocking to the holy sites, blocking the gates, one can think that ancient times revive and that the Angel of God is about to come any minute and boil the water of the Bethesda pool. Jerusalem is a dull, desolate and lifeless city. I will not desire to dwell in it.” - Mark Twain, 1867.
 The idea of pilgrimage journeys to the holy sites in the land of Israel and Jerusalem is deeply rooted in the Russian people. Numerous songs, stories and adventures are being told in family homes and ignite the listeners’ imagination. Christian faith constitutes the common denominator among all levels of society – peasants and laborers, writers and artists, educated and high-society people and up to the royal family itself.
 The journey to Jerusalem from Russia was a dangerous and very expensive venture for hundrends of years, including riding donkeys or horses for thousands of kilometers. A few people only made the  journey and only part of them returned.
@@ -266,26 +273,25 @@ By the time the Society was established Khitrovo was appointed deputy chairman o
     },
   ],
   openingParagraph: `
-  Российская недвижимость в Израиле 
-  В период 1850-1917 гг. усилиями Российской империи и русской церкви были построены десятки строений на Ближнем востоке и, в частности, в Палестине. Таким образом, прогресс и техническая революция, начавшиеся на Западе, достигли наших мест.
-Со времён распространения христианства на Руси, русский народ ощущает глубокую связь со святыми для христианства местами в Палестине.  Огромные силы и средства вкладываются сюда Российским государством и русским народом. Они направляются, в основном, на строительство церквей и монастырей, а также инфракструктуры для паломников в Иерусалим, число которых растёт с каждым годом. Эти инвестиции были очень важны для развития Палестины. Их результаты чувствуется и в наши дни: прекрасные церкви украшают Израиль, тысячи туристов приезжают ежегодно из России с целью посещения Святых мест.
+  Between the years 1850 and 1917 the Russian Empire together with the Russian Orthodox Church erected tens of buildings all over the Middle East and especially in the area of Palestine. During these years, the industrial revolution and the progress that were surging through the West were awaiting to reach our region. In the same period, as in the whole millennium of Christianity in Russia, the Russian people feel a deep connection to the Holy Land and the holy sites of Christianity.
+Remarkable amounts of money and resources were invested in Palestine by the state and the people of Russia and they were principally allocated to the construction of churches and monasteries, as well as to the creation of the foundations for the sake of the Russian believers who are drawn to the constantly expanding movement of pilgrimage to Jerusalem every year.
+All the aforementioned contributed significantly to the development of the Land of Israel. The influence of all this activity is recognized until today; magnificent churches adorn the Israeli landscape, governmental buildings over a century old still serve various institutions of the State of Israel and thousands tourists from Russia make their way to Israel every year and discover the holy places.
 
-Среди главных строений, построенных ИППО и русской церковью выделяется. 
+Principal buildings erected by the IOPS (Imperial Orthodox Palestine Society), the Russian Church and the Russian Empire.
   `,
   importentStructures: [
     {
       name: "tamirShina",
       id: "Ascension-Monastery",
       info: `
-      <b>Елионский Спасо-Вознесенский монастырь на Масличной горе</b>- 
-      Арабские местные жители назвали его «Аль Московия» в честь построивших его российских паломников, несмотря на то, что основные создатели его прибыли из других районов России.  Создания и воплощение идеи, как и многих других, принадлежат архимандриту Антонину Капустину, прибывшиму из Пермской губернии. Церковь посвящена вознесению Христа. Её центральной частью является башня высотой 64 метра. Колокол весом в 5 тонн, был первым колоколом, прозвучавшим в Иерусалиме после многих столетий, когда мусульманские власти запрещали христианам звонить в колокола. Путь, проделанный колоколом из России, весьма поэтично описан Мэиром Шалевом в книге «Эсав»: «Четыреста пятьдесят паломников волокли огромный бронзовый колокол к церкви Марии Магдалены (ошибка автора). Колокол отлили в Одессе и водрузили на специально построенную для этого телегу. Мужчины  тащили её в порт. Оттуда отплыли на пароходе «Санта Анна» в Яффо, оттуда повозку вызвались тащить женщины. Путь проделали молча. Паломники дали обет молчания до тех пор, когда колокол  будет подвешен.
-      Проделавших этот путь ещё долго можно было определить по походке: тяжёлые, будто вымученные шаги людей, идущих против сильного ветра.»
+      <b>The Church of the Ascension on the Mount Of Olives</b>
+      Among the Arabic-speaking local population the church is known as Al-Moskobiya in the name of the pilgrims who built it, even though the central figures related to the deed came from other places in Russia. The pioneer and operator of this impressive church, as also of many other initiatives of the Russian Empire, is the Archim. Antonin Kapustin whose origins are from the province of Perm. The church commemorates the ascension of Jesus to the Heavens and in its center stands a bell tower 64 metes high. This bell, which weighs 5 tons, was the first to sound in Jerusalem after hundreds of years that the Muslim authorities prohibited Christians to ring church bells.
+The journey of the church bell from Russia is depicted in a very poetic way in the book “Esau” by Meir Shalev - “four hundred and fifty pilgrims that dragged the enormous copper church bell to the church of Mary Magdalene (error in the source). The bell was cast in Odessa and placed on a reinforced cart built especially for this purpose. The men pulled it to the port. From there they sailed on the “Santa Ana” ship to Jaffa, and there the women made their way to the special cart. Since that very moment everybody kept silent, as they swore to do until the church bell is hung in its rightful place. A long time later one could distinguish the participants of the bell’s journey by their walking: strenuous pace with a hunched back, as if they were rowing against a strong wind”.
 
-      Традиция нахождения головы Иоанна Крестителя на Масличной горе – 
-Существует древнее предание, согласно которому голова Иоанна Крестителя была найдена на Масличной горе во времена римского императора Константина Великого. Голова Иоанна была отрублена, так как он доказал, что царь Ирод женился на жене своего брата Иродиаде, у которой была дочь от брата. По иудейской традиции женитьба на жене брата разрешалась только том случае, если брат умер, не оставив детей. По монашеской традиции в русском монастыре Иродиада не позволила похоронить голову Иоанна вместе с телом, а спрятала её в замке Ирода. Она опасалась, что будучи похороненным целиком, Иоанн воскреснет. 
-Ученица Иоанна обнаружила голову и вынесла её под покровом ночи из замка. Она спрятала голову в кувшине и похоронила её на Масличной горе. Согласно преданию, голова была найдена дважды. В первый раз – вельможей Иннокентием, решившим удалиться от мира и жить в одиночестве. Он купил небольшой участок земли на Масличной горе. Иннокентий решил построить небольшую церковь и натолкнулся на кувшин с головой. Перед смертью Иннокентий закопал кувшин в том же месте, в котором нашёл его. В 452 г. кувшин был найден двумя монашками, которым Иоанн Креститель трижды явился во сне. Он рассказал им, где похоронена его голова. На третий раз монашки поверили, начали искать и нашли голову.
+The tradition of finding John the Baptist’s head on the Mount of Olives:
+One of the early Christian traditions determines that John the Baptist’s head was discovered on the Mount of Olives during the period of reign of Constantine Caesar of Rome. John the Baptist was beheaded because he rebuked King Herod for marrying Herodias, his brother’s wife; she had already given birth to a girl from his brother before the marriage. According to Torah (Pentateuch) laws, marrying a brother’s wife is permitted only in the case the brother passed away before bringing offspring to the world. According to the nuns’ tradition from the Russian monastery, Herodias did not enable the burial of John’s head together with the rest of his body; she hid the head in Herod’s palace as she feared that if his head was buried in the same place with his body, John would resurrect.
 
-Место, где, согласно традиции, была найдена голова Иоанна Крестителя.
+One of John’s students discovered the head and in the dead of night she smuggled away from the palace. Then, she concealed it in an ewer, which she buried on the Mount of Olives. Following this tradition, the head was revealed twice. The first time it was discovered by a wealthy man, Innocentius, who decided to distance himself from the world and lead an ascetic life and purchased a small plot of land on the Mount of Olives. At a certain point, when Innocentius decided to build himself a small church in his plot, he bumped into the ewer with the head. Prior to his last days, Innocentius buried the ewer at the same spot in which he found it. In 452 the same container was unearthed anew owing to a recurrent dream of two monks, both of whom saw John the Baptist thrice. In the dream, John explained to the monks where his head was buried. After the third time the monks were convinced, went on to search for the head and found it.
 `,
       image: "01-holyPlace",
     },
@@ -293,156 +299,130 @@ By the time the Society was established Khitrovo was appointed deputy chairman o
       name: "world.the22",
       id: "Church-of-mary-magdalene",
       info: `
-      <b>Церковь Марии Магдалены</b> -
-      Новый Завет характеризует Марию Магдалену как ярую последовательницу Христа и известна как «апостол апостолов» (apostolorum apostola). Согласно Евангелию, она была одной из женщин, присутствовавших на месте распятия и воскрешения Христа.
+      <b>The Church of Mary Magdalene</b>
+      Mary Magdalene is depicted in the New Testament as one of Jesus’ central supporters, and is known as the “apostle of the apostles” (apostola apostolorum). As written in the Gospels, she was one of the women that were present during Jesus’ crucifixion and resurrection.
 
-      На участке, приобретённом на имя Александра III, в 1882 г. Была построена церковь, которая должна была стать и стала венцом русского присутствия на Святой Земле. О ней написано ещё до завершения строительства: «В изумительном месте создаётся памятник, достойный царской семьи и во славу России. Католические монахи рвут на себе одежды от зависти».
-      Архимандрит Капустин, глава российской религиозной миссии, предложил Великим князьям – Сергею Александровичу и Павлу Александровичу, во время их визита в Иерусалим в мае 1881 г., построить храм в память об их матери – княгини Марии Александровны.
-      Строительные работы начались в 1885 г., а в 1888 г. состоялась церемония освящения церкви с участием греческого патриарха и главы ИППО Великого князя Сергея Александровича, а также его супруги Великой княгини Елизаветы Фёдоровны, которая просила захоронить её в этой церкви.
-      Против главных входных ворот в церковь в изгороди вокруг Масличного сада установлен древний каменный столб неизвестного происхождения, названный «столбом измены» или «столб поцелуя». Столб обозначает место, на котором Иуда Искариот поцеловал Христа, выдав его римлянам, как написано в Евангелии от Марка:
-      « И тотчас, как Он ещё говорил, приходит Иуда, один из двенадцати, и с ним множество народа с мечами и кольями, от первосвященников и книжников и старейшин. Предающий же Его дал им знак, сказав: Кого я поцелую, Тот и есть, возьмите Его и ведите осторожно. И, придя, тотчас подошёл к Нему и говорит: Рабби! Рабби! И поцеловал Его. А они возложили на Него руки свои и взяли Его».
-      После революции  в России большевики преследовали царскую семью, включая Великую княгиню Елизавету Фёдоровну. После смерти мужа она приняла монашество и посвятила свою жизнь помощи ближним. Она отказалась покинуть Россию  в целях личной безопасности и осталась со своими близкими в Москве. Елизавета была схвачена большевиками и зверски убита после года заключения в застенках. Приверженцы царя, нашедшие тело Великой княгини, просили достойно похоронить её. Тело было переправлено в Сибирь , оттуда – в захоронение царской семьи в Китае. В 1920 г., по указанию её сестры Виктории и в соответствии с волей самой Елизаветы, её останки были захоронены в церкви Марии Магдалены. Елизавета причислена к лику святых и включена в Собор новомучеников и исповедников Российских.
-      . `,
+Upon the land that was bought in the name of Tsar Alexander III in 1882, the church that became the crown jewel of Russian presence in the Holy Land was erected. Even before the completion of the construction of the church, it was written that “in this wonderful location there is a monument worthy of the royal family and Russia’s glory. The Catholic monks tear their robes out of jealousy”.
+
+Archim. Kapustin, head of the Russian ecclesiastical mission, proposed to the Grand Dukes Sergey Alexandrovich and Pavel Alexandrovich the idea of the construction of a temple in memory their mother, Tsarina Maria Alexandrovna, during their visit in Jerusalem in May 1881. The works began in 1885 and in 1888 a dedication ceremony was carried out with the presence of the Greek Patriarch of Jerusalem, Grand Duke and chairman of the IOPS (Imperial Orthodox Palestine Society) Sergey Alexandrovich and his wife Princess Elizabeth Feodorovna, who requested to be buried at the site of the church.
+*Opposite the church’s main entrance gate, inside the fence that surrounds the whole Gethsemane complex, an ancient stone column of unknown origin is positioned and it called the “Betrayal Column” or the “Kiss Column”. It stands there as a symbol of the place where Judas Iscariot kissed Jesus and therefore exposed him to the Roman soldiers, as recorded in the Gospel of Mark in the New Testament:
+
+“Immediately while He was still speaking, Judas, one of the twelve, came up accompanied by a crowd with swords and clubs, who were from the chief priests and the scribes and the elders. Now he who was betraying Him had given them a signal, saying, "Whomever I kiss, He is the one; seize Him and lead Him away under guard." After coming, Judas immediately went to Him, saying, "Rabbi!" and kissed Him. They laid hands on Him and seized Him”.
+Following the Bolshevik revolution in Russia, the Bolsheviks went after the royal family, a member of which was Elizabeth Feodorovna. Since her husband’s death, Elizabeth became a nun devoting all her being to the aid of others. She did not accept to leave Russia for her personal safety in order to remain with her fellow community members in Moscow. Elizabeth was caught by the Bolsheviks and after a whole year of house arrest she was brutally murdered. People still loyal to the Tsar found the Princess’ body, asked to arrange her a proper burial. Her body was first transferred to Siberia, later to the royal family’s graveyard in China and in 1920, under her young sister Victoria’s instruction and respecting Elizabeth’s own will, her remains were transferred for the last time to be buried in the church of Mary Magdalene. Elizabeth is recognized as a new saint for Russian Orthodoxy.`,
       image: "02-holyPlace",
     },
     {
       name: "world.the22",
       id: "Compound-in-Nazareth",
-      info: `<b>Русское  подворье в Назарете</b> - 
-      Место под застройку было приобретено русским консульским агентом К. Аверино  в 1864 г. для постройки паломнического подворья. Но прошло 20 лет прежде чем участком стало заниматься ИППО.  Советом Общества было дано поручение первому уполномоченному ИППО Смышляеву провести обследование участка, который в тот момент находился ещё в ведении Палестинской комиссии. В 1889 году недвижимость и капиталы Палестинской комиссии перешли в ведение ИППО. С этого момента Общество полномасштабно приступило к подготовке строительствабудущего подворья и, прежде всего, вступило через Поссийское Императорское посольство в Константинополе в переговоры с властями Османской империи по вопросу получения султанского разрешения-фирмана на строительство.
-      Строительство подворья было обусловлено увеличением чмсла паломников, стремящихся посетить Назарет на праздник Благовещения. 
-      Добиться успеха Общество смогло только в 1901г.  Договор на постройку был заключён с немецким архитектором, инженером и археологом из Хайфы Готлибом Шумахером. 6 июня 1901 г. состоялась торжественная церемония закладки подворья. Строительство было осуществлено в течение трёх лет.
-      Большой многофункциональный комплекс подворья вместил в себя:
-      общие палаты  для паломников, рассчитанные на 700 -800 человек и мастерские для ручного труда воспитанников Назаретской учительской семинарии,
-      амбулаторию для приёма больных с аптекой,
-      женскую школу  с помещениями для учениц.
-      После гибели первого председателя ИППО – великого князя Сергея Александровича, подворье получило его имя.
-      Местные жители также называют подворье «Московией».
-      В настоящее время здание принадлежит муниципалитету Назарета.
-      
+      info: `<b>Nazareth Courtyard</b> - 
+      A complex of edifices purchased on the name of Vasily Nikolayevich Khitrovo and were intended to be used as the facility of the Orthodox school for the the local Orthodox community.
+The courtyard was designed and built based on a German architect’s plans from Haifa, Gottlieb Schumacher.
+In 1901 the cornerstone of the school was laid; for the first year of the school 35 pupils were registered. Russian activity and investments gradually escalating; the school became a teachers seminar for other schools founded in the Middle East and gradually more buildings were added such as an infirmary, a church, an artists studio and a hostel for pilgrims that could host 700 people at its peak. Following the assassination of the IOPS’s chairman Grand Duke Sergey Alexandrovich, the hostel in Nazareth received his name. Unsurprisingly, this area in Nazareth is called by locals al-Moskobiya. This building hosts today the municipality of Nazareth.
       `,
       image: "03-holyPlace",
     },
     {
       name: "world.the22",
       id: "Alexanders-Court",
-      info: `<b>Александровское подворье, церковь Александра Невского</b> - 
-      Единственное в Старом городе Иерусалима  и самое близкое к Храму Гроба Господня русское владение. Представляет собой археологический и архитектурный комплекс, включающий в себя порог Судных Врат со знаменитыми «игольными ушами».
-      Земля, на которой стоит подворье, была приобретена у коптского духовенства в 1859 г. Российским консульством и первоначально предназначалась для здания Консульства.
-      Однако, Консульство для удобства было построено не здесь, а на Русских постройках, за пределами Старого города.
-      В 1881 г после паломнической поездки на Святую землю великого князя Сергея Александровича на участке начались обширные археологические раскопки под руководством архимандрита Антонина Капустина, поскольку обнаружилось, что на участке сохранилось множество древностей. В 1883 г. был обнаружен фрагмент второй обводной иерусалимской стены с Порогом Судных Врат, построенный в 5 – 4 вв. до нашей эры, арка храма Адриана, фрагменты стен и остатки двух колонн базилики Храма Воскресения времён правления императора Константина Великого, а также остатки других сооружений VII – VIII вв. После завершения раскопок прямо над ними началось строительство  подворья, которое завершилось  в 1891 г. 22 мая 1896 г. на подворье освятили домовую церковь в честь святого Александра Невского.
-      
+      info: `<b>Alexander Courtyard, Alexander Nevsky Church</b> - 
+      This plot of land was purchased by Tsarist Russia in 1859 from the Ethiopian Church in order to install there the Russian consulate in Jerusalem. During the construction of the consulate powerful archaeological discoveries were made; an ancient gate and a sarcophagus believed to contain Jesus’ shroud. Owing to the unearthing of the findings, it was decided to erect a church in the aforementioned plot of land instead of the planned consulate. Archim. Kapustin together with the renowned archaeologist Conrad Schick continued the excavations, which revealed findings that correspond to the “Gates of Justice” literally portrayed in the New Testament, through which crucified Jesus passed to get to the hill of Golgotha to his death. In addition to the church, a monastery and hostel were built in Alexander’s Courtyard. The building is made of pink and red marble following the ablaq technique, typical of the Mameluke period.
       `,
       image: "05-holyPlace",
     },
     {
       name: "world.the22",
       id: "Russian-Compound",
-      info: `<b>Русское подворье</b> -
-      В 1857г. Османские власти согласились продать России участок земли площадью 68 дунамов вблизи  западной части Иерусалимских стен. Российский император заплатил за пять шестых участка, а одну шестую получил в подарок. Это был экстраординарный шаг османских властей: участок находился в стратегической близости от Старого города, вблизи от центральной улицы Яффо. Османским властям пришлось освободить центральную площадь, на которой происходили праздники, церемонии и военные парады. Фактически, это был первый участок, проданный России в непосредственной близости к Старому городу.
-      Так началось осуществление плана строительства городка для русских паломников на Святой земле.
-       Здесь находятся Свято-Троицкий  собор, больницу, Мариинский и Елизаветинский хостели, Русская духовная миссия Московского патриархата в Иерусалиме, здание Российского консульства и водохранилища.           
+      info: `<b>The Russian Compound</b> -
+      In 1857 the Ottomans were willing to sell to Russia a land plot of 68 square kilometers located adjacent to the old city walls to the west. The Tsar paid, as a matter of fact, for five sixths of the land value, and the remaining sixth was granted to him as a present by the Ottomans. This was an extraordinary move, because this plot outmatches the old city from a strategic point of view; it is very close to the central Jaffa road, and compelled the Ottoman authorities to vacate the square that was used for celebrations, ceremonies and military parades. Actually, the Russian Compound was the first site with great proximity to the old city walls in which the Ottomans permitted constructions. The vision of Russian Palestine begins to materialize in a prime location of developing Jerusalem.
+The plan was to create a kind of a small town that serves Russian pilgrims that sojourn the Holy Land. It included the church of the Holy Trinity, a hospital, the hostels in honor of Maria and Elizabeth, a building hosting the ecclesiastical mission, the edifice of the Russian consulate and water reserves.   
         `,
       image: "painting-russian-compound",
     },
     {
       name: "world.the22",
       id: "Russian-Spiritual-Mission",
-      info: `<b>Здание духовной миссии</b> -
-      Здание было построено для членов Русской духовной миссии на Ближнем Востоке. Отсюда координировалась деятельность миссии в Палестине, Ливане и Сирии, спальни и гостиные для высокопоставленных гостей, комната для приёмов и библиотека. Двухэтажная постройка состоит из четырёх длинных коридоров, в центре которых находится часовня.
-      Самым примечальным в здании стала огромная библиотека, содержащая архивные сокровища Русской православной церкви в Израиле, а также тысячи книг и рукописей, пожертвованных Великим князем Константином. Библиотека, содержащая около 17,000 томов, существует и функционирует и по сей день.
-      В здании проживают в течение последних 150 лет представители Русской церкви. За эти годы трижды поменялась власть в стране: турецкая, английская и, наконец, израильская.
-      
-        `,
+      info: `<b>Building of the Ecclesiastical Mission</b> -
+      The building was constructed in order to host the members of the Russian Middle East Ecclesiastical Mission. It incorporated the offices that concentrated the activities in the Holy Land, Lebanon and Syria, dormitories and guest rooms for highly ranked guests, a reception and a library. The building’s configuration is in the form of four long two-story corridors in the middle of which stood a chapel for prayers.
+The crown jewel of the edifice was the extensive and diverse library that contains the archive collection of the Russian Church in Israel to this day and also thousands of books and other titles that were donated by Price Konstantin. Currently the library is still active and contains over 17,000 titles. The building remains occupied by representatives of the Russian Church for more than 150 years, since its erection to this day. In this period of time the authority over the Land of Israel has changed hands several times, from Ottoman rule to the British mandate and finally the state of Israel. Part of the building houses today the regional court of Jerusalem.`,
       image: "04-holyPlace",
     },
     {
       name: "world.the22",
       id: "elizabethan-compound",
-      info: `<b>Елизаветинское подворье</b> -
-      Построено в 1864 г. архитектором Мартином Ивановичем Эппингером для размещения русских православных паломников-мужчин. Это одноэтажное здание на 300 мест построено в стиле русского Ренессанса. Несмотря на большое количество кроватей, в период с октября до апреля, подворье было заполнено паломниками, дополнительные кровати стояли в коридорах, а палатки разбивали под открытым небом.
-Подворье было названо в честь матери Иоанна Крестителя – Праведной Елисаветы.
+      info: `<b>Elizabeth’s Courtyard</b> -
+      It was built in 1864 by the architect Martin Ivanovich Eppinger as a men’s hostel of one floor providing 300 beds and designed according to the Russian Renaissance style. Despite the big quantity of beds, during the pilgrimage period between October and April the hostel’s occupancy was full. Additional beds were being placed in the corridors and even tents were set up in order to host tens of pilgrims. The hostel is named after Elisheva, John the Baptist’s mother, who is called Elizabeta in Russian.
       `,
       image: "elizabeth-yard",
     },
     {
       name: "world.the22",
       id: "womens-hostel-maria",
-      info: `<b>Женское общежитеи имени Марии</b> -
-      Общежитие для паломниц, названное в честь Марии Фёдоровны, жены царя Александра Третьего и матери последнего русского царя Николая Второго.
-Здание спроектировано «придворным архитектором» ИППО  Мартином Ивановичем Эппингером. Здание состоит из двух кубических строений, соединённых между собой. В центре каждого Куба есть внутренний двор, в котором паломницы могли погреться на солнце, так как в комнатах было очень холодно из-за толстых стен.
-Строительство было завершено в 1864 г. Помимо общежития и внутренних двориков, были две кухни, в которых подавалась горячая простая еда. Спальни были очень простые, в больших помещениях стояли десятки кроватей. 
-В 1914 г., во время Первой Мировой войны, в здании расположились немецкие службы тыла. Германия была союзницей Турции в войне.  Монахам и другим служителям церкви разрешили вернуться в страны исхода, а паломниц выгнали прямо на улицу в одних ночных рубашках.
-В общежитии разместили немецкие кавалерийские конюшни.
-В конце 1917 г., после победы Великобритании в войне, англичане решили, что  их учреждения будут расположены на Русском подворье, а общежитие было превращено в тюрьму. В период английского мандата здание превратилось в дом предварительного заключения, там было повешено около сотни арабских заключённых. Множество участников еврейского подполья также содержались в камерах Русского подворья, но не были казнены. Двое еврейских заключённых, приговорённых к смертной казни (Моше Баразани и Меир Файнштейн), подорвали себя гранатой, чтобы не принять смерть от врагов.
+      info: `<b>Women’s Hostel named after Maria</b> -
+      The “Women Pilgrims’ Hostel” named after Maria Feodorvna, wife of Tsar Alexander III and mother of  the last Tsar Nikolai II. The building was planned by the “house architect” Martin Ivanovich Eppinger. It consists of two square edifices connected to each other; in the middle of each square there is a yard, in which the female pilgrims would do laundry and get warm under the sun, since the building’s thick walls caused the rooms to be especially cool.
+The construction of the complex was completed in 1864 and, apart from the hostel and the yards, there were two kitchens in the complex that served hot simple meals. The guesthouse area was very basic and included big spaces that contained tens of beds.
+In the summer of 1914, during WWI, the complex was conquered by the German command; the monks, priests and the rest of the people of the church were allowed to return to their country of origin, while the female pilgrims were thrown to the streets in just in their nightgowns upon their skin. The women pilgrims’ hostel became a stable for the horses of the German corps, who fought side by side with the Ottomans. By the end of 1917, after Britain’s victory, the English set their headquarters on the grounds of the Russian Compound and converted Maria’s courtyard to a jail.
+
+During the period of the British Mandate the place served as a detention center and approximately a hundred Arab prisoners were hanged on its grounds. Many of the prisoners coming from Jewish underground organizations were also imprisoned in that detention center, but were not executed. Two Jewish prisoners who were about to get hanged there (Moshe Barazani and Meir Feinstein) commited suicide using a grenade before their execution, so that they do not die in their captors’ hands.
       `,
       image: "07-holyPlace",
     },
     {
       name: "world.the22",
       id: "nikolev-compound",
-      info: `<b>Николаевское подворье</b> -
-      Последнее и самое большое общежитие для паломников, построенное ИППО в Иерусалиме и названное в честь последнего русского царя Николая Второго. Здание спроектировано питербургским архитектором А.Е. Элкиным. На подворье есть 1200 мест трёх разных классов. Места третьего класса стоили 13 копеек за ночь, места второго класса – 2 рубля за ночь, места  первого класса – 4 рубля за ночь.
-      Деньги на строительство   здания в сумме  432,000 франков (2,8 миллиона евро сегодня), были пожертвованы ИППО.
+      info: `<b>Nikolai’s Courtyard</b> -
+      The last hostel for pilgrims built and the biggest one of all constructed in Jerusalem by the IOPS (Imperial Orthodox Palestine Society) and bears the name of Russia’s last Tsar, Nikolai II. The building was planned by the Saint-Peterburg architect Alexey Efimovich Elkin to contain 1,200 beds in three different levels of accommodation. The basic level cost 13 kupikas per night, the medium level cost 2 rubles per night and the prime level, intended for established people, cost 4 rubles per night.
+The total construction cost of the courtyard added up to 432,000 francs (equivalent to 2.8 million euros today) which were donated by the IOPS.
       `,
       image: "06-holyPlace",
     },
     {
       name: "world.the22",
       id: "russian-hospital",
-      info: `<b>Русская больница в Иерусалиме </b> - 
-       Первая больница, построенная за стенами Старого города. Была построена по приказу царицы Марии Александровны для оказания медицинских услуг российским паломникам, ослабевших  после долгой дороги до Иерусалима  и страдавших от распространённых в то время на Ближнем Востоке малярии, тифа и дизентирии.
-      К моменту открытия в больнице было 35 мест и самое современное оборудование. Двери больницы были открыты не только для паломников, но и для всех нуждавшихся в медицинской помощи. Постепенно количество мест в больнице увеличилось до 75. К концу 19 века она стала самой большой  больницей в городе. После Первой Мировой войны, во времена английского мандата больница стала центральной государственной больнице . Во время Войны за Независимость больница служила военным госпиталем для солдат Цахала.
-      После создания Государства Израиль больнице было присвоено имя «Авихиль», она служила лабораторией для больницы «Адасса», а также моргом. В настоящее время в здании размещается  отдел парковок Иерусалимского муниципалитета.
-      
+      info: `<b>The Russian Hospital in Jerusalem</b>
+      The first hospital to be built in Jerusalem outside the old city walls. It was constructed under orders of the Tsarina Maria Alexandrovna. Initially it was intended to provide medical services to Russian pilgrims that suffered from the lengthy journey from Russia to Israel and from the diseases that were commonplace in the region, such as malaria, typhus and dysentery. On the day of its inauguration the hospital has at its disposal 35 hospital beds and brand-new equipment. In spite of the fact that the hospital was supposed to serve the Russian pilgrims, its gates were open to all people who needed treatment and aid. The number of beds gradually rose to 75 and towards the end of the 19th century the hospital was the biggest one in the city. Following WWI, during the British mandate, the hospital constituted the central state hospital of the authorities in charge. Later, during the Independence War, the hospital served the IDF as a military hospital, and following the establishment of the State of Israel, it got the Hebrew name Avihail and served as a laboratory for Hadasa hospital and after that as a mortuary. Today the building houses the parking department of Jerusalem’s municipality.
       `,
       image: "08-holyPlace",
     },
     {
       name: "world.the22",
       id: "holy-trinity-cathedral",
-      info: `<b>Собор Святой Троицы</b> -
-       Одно из первых строений  принадлежавших Российской империи, часть малого города на «Московской» площади. Собор был спроектирован архитектором Мартином Ивановичем Эппингером.
-      Свято-Троицкий собор представляет собой храм в неовизантийском стиле с десятью главами, двумя приделами и двумя колокольнями. Собор облицован  розовато-кремовым камнем,   10 зелёных куполов покрыты тульским бронзовым литьём. На куполах установлены православные кресты. 
-      Собор напоминает Церковь Вознесения, находящуюся в Московском Кремле.
-      Изначально Собор был построен для паломников, проживающих на Русском подворье. Предполагалось, что паломники будут, в основном, молиться в древних храмах Старого города. Поэтому Собор небольшой, он является самым малым сооружением Русского подворья, однако его высота, расположение и величественный стиль делают его выделяют его на фоне окружающих строений.
-      
+      info: `<b>The Church of the Holy Trinity</b>
+      One of the first buildings created by the Russian Empire as part of the little town that rose in Moscow square was the church of the Holy Trinity. It was planned by the architect Martin Ivanovich Eppinger as  a basilica including the nave with two long side aisles, a round arcade on the facade, and round rooms at the sides. The church, built using white stone, has eight towers and on top of each a dome; all eight domes were painted green for a long period of time but currently they have been coated with copper and crosses have been placed on top of them. The church bears great similarity to the Ascension Convent located in the Kremlin in Moscow.
+
+      Initially the church was built for the use of the pilgrims hosted in one of the hostels of the Russian Compound. The assumption was that the pilgrims will prefer to have their important prayers in the historic churches in the old city. Therefore, the church is relatively not very big, and actually it is the smallest edifice as far as surface area is concerned out of all the constructions carried out in the Russian Compound. However, its height, position and luxurious style turn it into a remarkable edifice.      
       `,
       image: "holy-trinity",
     },
     {
       name: "world.the22",
       id: "benjamin-compound",
-      info: `<b>Вениаминовское подворье в Иерусалиме</b> - 
-      Названо в честь иеромонаха Вениамина, впервые прибывшего на Святую землю в 1846 г. и влюбившегося в неё подобно многим другим. Во время русско-турецкой войны лечил раненых на фронте и заслужил звание Героя.
-      В 1887 г. Вениамин открыл на собранные им пожертвования общежитие в Западном Иерусалиме. В отличие от сезонных общежитий (сезон паломничества длился с октября до мая) ИППО, общежитие Вениамина стало приютом для тех, кто хотел остаться и жить в Иерусалиме. За символическую плату они могли снять там комнату. Кроме того, на подворье были комнаты, в которых могли бесплатно проживать члены ИППО. Вениамин был очень уважаем Иерусалимским духовенством, его похоронили в Свято-Троицком Соборе.
-      Подворье Вениамин завещал ИППО и переписал его на имя председателя – Великого князя Сергея Александровича. 
-      На протяжении многих лет на подворье размещалась гуманитарная организация «Йад Сара».
+      info: `<b>Benjamin’s Courtyard</b> 
+      Named after the Christian monk Benjamin who firstly arrived to Palestine in 1846 and, like others, fell in love with the Holy Land. During the Ottoman-Russian war he treated injured soldiers in the Ottoman front and for that he was awarded a medal of honor.
+In 1887, using funds he raised by himself, Benjamin opened a hostel in the Jewish quarter in the old city. Contrary to the seasonal hostels (pilgrimage season usually stretches from October to May) of the IOPS, Benjamin’s hostel was intended to be a kind of shelter for people who wanted to spend the rest of their days in Jerusalem; in return of a minimal payment every person could let a room. There were also shared rooms in the hostel in which the people of the IOPS could stay free of charge. The monk Benjamin was very dear to the clergy and his funeral was performed in the church of the Holy Trinity. He passed the ownership of his hostel to the IOPS and wrote the rights of the asset to the chairman of the Society, Sergey Alexandrovich.
+
+Over the course of many years the building housed the NGO “Yad Sarah”.
+
       `,
       image: "09-holyPlace",
     },
     {
       name: "world.the22",
       id: "beit-jala",
-      info: `<b>Женская семинария  в Бейт Джала </b> -
-      Бейт Джала – городское поселение между Иерусалимом и Иерихоном.
-      В этом месте, по преданию, похоронен Иессей – отец царя Давида, который считается одним из отцов Иисуса. Неудивительно, что Бейт Джала привлёк внимание архимандрита Антонина Капустина. В 1886 г.  был приобретён участок земли на пожертвование Великой княгини Марии Фёдоровны и открыта женская православная школа.
-      Позднее, по примеру Назарета школа превратилась в женскую учительскую семинарию. Здание было расширено, открылись амбулатория, пансион и часовня. Они были построены на средства Ольги Путятиной, дочери адмирала и дипломата Е.В. Путятина – одного из главных создателей ИППО.      
+      info: `<b>The Education Complex in Beit Jala</b>
+      Beit Jala is a town between Jerusalem and Bethlehem. The location popped up the map of Christianity because, tradition has it that Yishai, King David’s father, is buried there; David is considered as one of Jesus’ predecessors. Consequently, it is not surprising that Beit Jala caught Archim. Kapustin’s attention. In 1886 the land plot in Beit Jala was purchased with capital from donations made by Tsarina Maria Feodorovna and an Orthodox female school is opened. Later, as happened in Nazareth, the school became a teachers seminar (female), the building was expanded and in it an ambulatory clinic, a hostel and a chapel were arranged. The latter were built by the support of Olga Putyatin, the daughter of admiral and diplomat Yevfimiy Vasilyevich Putyatin who was a prominent figure in the foundation of the IOPS.     
       `,
       image: "10-holyPlace",
     },
     {
       name: "world.the22",
       id: "jaffa-church",
-      info: `<b>Церковь Святого Петра </b> -
-      Храм святого апостола Петра  и праведной Тавифы расположен в южной части Тель Авива – Яффо. Особое значение, культурное и административное он приобрёл для паломников, приплывающих в Яффо на пароходах.
-      Участок земли был приобретён в 1868 г. архимандритом  Антонином Капустиным, на нём был возведён храм святого апостола Петра для тысяч паломников, завершивших изнурительное двухнедельное морское путешествие из Одессы в Яффо. Паломников встречали в храме горячей едой за символическую плату, после которой следовала общая молитва, освящающая начало путешествия по Святой земле.
-      На территории храма похоронена Тавифа, на иврите Цвийя, христианская праведница, одна из первых последовательниц Христа при его жизни.
-      «И ученица в Яффо и имя её Тавифа, в переводе Цвийя и исполнена она добротой и праведными делами».
-      Святой Пётр был одним из двенадцати апостолов , на этом месте, по преданию, он оживил Тавифу.
-      «Пётр выслал всех вон и, преклонив колени, помолился, и, обратившись к телу, сказал: Тавифа! Встань. И она открыла глаза свои и, увидев Петра, села.
-      Он, подав ей руку , поднял её, и, призвав  святых и вдовиц, поставил её перед ними живою. 
-      Это сделалось известным по всей Иоппии, и многие уверовали в Господа.»
+      info: `<b>Church of St. Peter in Abu Kabir, Tabitha’s Grave</b>
+      This church, located in the southern part of the city of Tel Aviv, combines elements of profound faith and of rich folklore. The land was purchased by the accomplished and renowned Archim. Antonin Kapustin in 1868; St. Peter’s church was built on it for the sake of thousands of pilgrims whose long journey on a steamboat from Odessa came to an end in the port of Jaffa.
+Upon the completion of their journey to Palestine that lasted at least two weeks on board, the pilgrims would get a warm welcome in Russian in the church that included a hot meal at a symbolic price and a common prayer to commence their quests in the Holy Land.
+On the church grounds one can also find the grave of Tabitha, or Tzvia in Hebrew, a Christian saintly figure, one of the first individuals to believe in Jesus during his lifetime.
+“Now in Jaffa there was a disciple named Tabitha, which translates as Tzvia; this woman was abounding with deeds of kindness and charity which she continually did”.
+St. Peter, after whom the church is named, was one of the 12 apostles and, according to Orthodox faith, this is the location where he resurrected Tabitha.
+“But Peter sent them all out and knelt down and prayed, and turning to the body, he said, "Tabitha, arise." And she opened her eyes, and when she saw Peter, she sat up. And he gave her his hand and raised her up; and calling the saints and widows, he presented her alive. It became known all over Jaffa, and many believed in the Lord” - from the New Testament.
       
       `,
       image: "11-holyPlace",
@@ -451,44 +431,37 @@ By the time the Society was established Khitrovo was appointed deputy chairman o
       name: "world.the22",
       id: "hevron",
       info: `<b>Хеврон, монастырь Святой Троицы Мамврийский дуб</b> - 
-      Недалеко от города Хеврона, рядом с Мамврийским дубом, возраст которого около 5000 лет, под которым, по преданию, Авраам принимал явившихся к нему трёх ангелов, сообщивших ему, что его бездетная жена Сара родит ребёнка в следующем году. Авраам считается «праведным отцом» в ортодоксальном христианстве, его память увековечена дважды в год:  9 октября (по Юлианскому календарю) и в «Неделю праотцов» во второе воскресение перед Рождеством Христовым.
-      Место считалось священным уже в древние времена, когда римский император Константин построил тут базилику, паломник Даниил упомянул его в своих писаниях, как и  древний историк Иосиф Флавий.
-      В 1868 году, на расстоянии от шатра Авраама, архимандрит Антонин Капустин приобрёл участок земли, на котором был позднее построен Монастырь Святой Троицы памяти праотца Авраама.
-      
-      
-      Картина Рембрандта с изображением Авраама и трёх ангелов и Монастыря.      
+      Adjacent to the city of Hebron, next to an ancient oak tree estimated to be 5,000 years old, stood the tent of Abraham, the biblical forefather, according to tradition. The tradition also has it that at this location Abraham received three angels that gave him news that Sarah, his barren wife, would bear a child the year to come. Abraham is considered to be “our righteous father” in Orthodox Christianity and he is commemorated twice in the Orthodox calendar. This location has been considered holy since ancient times; Roman Emperor Constantine built a basilica at it, Bishop Daniel the Pilgrim makes reference of the place in his manuscripts, as does the ancient historian Josephus Flavius (Yossef Ben Matithyahu in Hebrew). 
+In 1868, at some distance from Abraham’s tent, Archim. Antonin Kapustin purchased a land plot on which the Monastery of the Holy Trinity was erected in remembrance of Abraham the forefather.    
       `,
       image: "12-holyPlace",
     },
     {
       name: "world.the22",
       id: "tiberias",
-      info: `<b>Тверия</b> - 
-      На берегу Тибериадского озера, среди Галилейских пейзажей, находится подворье Марии Магдалены. В 1908 г. архимандритом Леонидом Сенцовым был приобретён участок земли, на котором позднее было построено подворье. Так он описал это место: «чудный оазис на  пустынных берегах озера».
-      По преданию, именно на месте нынешнего расположения храма, названного в её честь, произошло чудо изгнания из Марии Магдалены семи бесов.
-      «После сего он проходил по городам и селениям, проповедуя и благовествуя Царствие Божие, и с ним двенадцать, и некоторые женщины, которых он исцелил от злых духов и болезней: Мария, называемая Магдалиной, из которой вышли семь бесов…» (Евангилие от Луки).
-      Русские монашки ухаживают за этим прекрасным местом у подножия Галилеи.
+      info: `<b>Tiberias</b> - 
+      On the shore of the Sea of Galilee (Kinneret) surrounded by the breathtaking view of the Galilee the church of Mary Magdalene was built. In 1908 Archim. Leonid Sentsov acquired the land on which the church was built some years later; he described the place as such: “A magnificent oasis next to a lake”.
+According to Christian tradition, this is the place where Jesus healed Mary Magdalene (Myriam of Magdala).
+“And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils” - Gospel of Luke
+Russian Orthodox nuns look after this gorgeous place on the Galilee hillside.
       `,
       image: "13-holyPlace",
     },
     {
       name: "world.the22",
       id: "haifa-church",
-      info: `<b>Собор Святого Пророка Илии в Хайфе или церковь Илии Пророка </b> - 
-      В связи с увеличением потока паломников в Палестину, достигшим рекорда в 1913 г., пароходы начали прибывать в Хайфский порт.
-      Архимандрит Леонид Сенцов приобрёл здесь участок земли для строительства храма и приюта для паломников.
-      Поначалу Османские власти отказывались дать разрешение на строительство, но в конце концов, согласились, и на 300-ю годовщину царствования дома Романовых Собор открылся для широкой публики.
-      Илия Пророк считается в христианстве важной фигурой. Согласно некоторым преданиям Илия Пророк и Иоанн Креститель – одно и то же лицо. Также считается, что Пророк Илия боролся с идолопоклонством.      
+      info: `<b>St. Elijah’s Cathedral in Haifa</b> 
+      As time passed and the pilgrimage movement to the Holy Land got stronger, the presence of the pilgrims in Palestine culminated in 1913 and many pilgrims began to arrive to the port of Haifa in addition to the port of Jaffa. As a result, an additional plot of land was purchased by Archim. Leonid Sentsov in order to provide a church and shelters for the pilgrims. Initially, the Ottoman authorities denied granting a permit for the place, but eventually, they acceded; on the day that marked 300 years of the Romanov dynasty, the site of St. Elijah in Haifa opened for the general public.
+Prophet Elijah, after whom the church is named, holds an honorary place in Christianity as according to specific sources, John the Baptist and St. Elijah were the same person and also thanks to Elijah’s war on idolatry.     
       `,
       image: "church-prophet-elijah",
     },
     {
       name: "world.the22",
       id: "jerico-compound",
-      info: `<b>Иерихон</b> - 
-      Особое место для христиан, где находится «древо Закхея», упомянутое в Евангелии от Луки.
-      Согласно преданию, когда Иисус проходил через Иерихон, направляясь в Галилею, его окружало множество людей. Один из них, по имени Закхей был местным сборщиком налогов (мытарем), взбирался на фиговое дерево, чтобы лучше слышать Иисуса. Иисус, увидев это, попросил остановиться в доме Закхея, несмотря на то, что в общине его ненавидели  (как сборщика налогов для римлян). Закхей так расчувствовался, что решил пожертвовать бедным половину своего имущества. 
-      Участок в Иерихоне был приобретён архимандритом Антонином Капустиным в 1873 г., на нём построено небольшое подворье на месте, где, по преданию, находился дом мытаря Закхея.      
+      info: `<b>Jericho</b> - 
+      Jericho is the place where a very special site for Christianity stands which is called “the tree of Zacchaeus”, mentioned in the Gospel of Luke. When Jesus passed from Jericho on his way to the Galilee, crowds kept surrounding him and one man called Zacchaeus, a local tax collector, would climb up a fig tree in order to manage to see Jesus. When Jesus noticed him, he requested, on purpose, to be hosted at Zacchaeus home, even though he was detested by his community (as he was a tax collector for the Romans). Zacchaeus got so excited and spirited from that status that he decided to donate half of his possessions to the poor.
+The land plot in Jericho was acquired by Archim. Kapustin in 1873 and on it he had a small chapel built in memory of the tax collector.     
       `,
       image: "jerico-compound",
     },
