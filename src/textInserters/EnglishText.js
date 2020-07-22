@@ -1,4 +1,6 @@
 import humanitarianBuildings from "../assets/10-humanitarian-buildings.png";
+import morImage from "../assets/IPPO-mor.png";
+import chartImage from "../assets/IPPO-chart.png";
 const englishText = {
   id: "russianText",
   titles: {
@@ -91,9 +93,11 @@ Education, medicine, archaeology, support to Orthodox pilgrims in their journeys
 In the rise of the 19th century Jerusalem, with its 2,500 years of history, stands neglected and forgotten, as a part of the ancient world that did not manage to perform the transition to modern times that characterized other European cities. The Ottoman Empire, which has been ruling the city for around 400 years (since 1517), is experiencing an economical and cultural decline that ultimately brings to the end of the Empire’s sovereignty over the Middle East.
 
 
-
-<b> insert images </b>
-
+<img
+src=${morImage}
+alt="humanitarian buildings"
+class="humanitarianBuildings"
+/>
 
 
 The ruins of the Muristan square and the church of the Holy Sepulchre – 1860.
@@ -121,11 +125,11 @@ Saint Peterburg’s high society begins to get very interested in visiting the H
 Since 1897, the Society organizes lectures on holy sites in Palestine as a preparation for the pilgrimage journey in the Holy Land. Thousands arrive to the lectures and five years later, the total number of people that had attended these preparatory lectures came up to five million.
 The churches chosen to host these lectures are far from being able to contain the enormous numbers of people and, having no other choice, the lectures are carried out in the open sky.
 
-
-
-<b> insert images </b>
-
-
+<img
+src=${chartImage}
+alt="humanitarian buildings"
+class="humanitarianBuildings"
+/>
 
 The manifest of the IOPS approved by the Holy Synod in 1882
 
