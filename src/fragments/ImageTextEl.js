@@ -1,12 +1,23 @@
-import React, { useContext } from "react";
+import React, { useContext, useRef, useState, useEffect } from "react";
 import LangContext from "../IppoContext";
+import { timer, removeTimer } from "../TimerHundler";
 import englishText from "../textInserters/EnglishText";
 import hebrewText from "../textInserters/HebrewText";
 import russianText from "../textInserters/RussianText";
 import "../App.css";
 
-function ImageTextEl({ subject }) {
+function ImageTextEl({ subject, homeBtnLogic }) {
   const lang = useContext(LangContext).lang;
+  const [isScrollDebounce, setIsScrollDebounce] = useState(true);
+  const tempTimer = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      clearTimeout(tempTimer.current);
+    };
+    // eslint-disable-next-line
+  }, []);
+
   function createMarkup(str) {
     return { __html: str };
   }
@@ -44,9 +55,28 @@ function ImageTextEl({ subject }) {
     position: "relative",
     top: "35px",
   };
+
+  function resetTimer() {
+    removeTimer();
+    timer(homeBtnLogic);
+  }
+
+  function handleScroll() {
+    if (isScrollDebounce) {
+      setIsScrollDebounce(false);
+      resetTimer();
+      tempTimer.current = setTimeout(function () {
+        setIsScrollDebounce(true);
+      }, 10000);
+    }
+  }
   return (
     <>
-      <div id="imageTextContainer" className="image-text-container">
+      <div
+        id="imageTextContainer"
+        className="image-text-container"
+        onScroll={handleScroll}
+      >
         {subject === "importentStructures" ? (
           <p
             className={isLeftToRight() ? "heads-text" : "heb-heads-text"}

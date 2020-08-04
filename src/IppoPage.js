@@ -16,11 +16,10 @@ function IppoPage({ homeBtn }) {
     timer(homeBtn);
 
     return () => {
-      // Return callback to run on unmount.
-
       removeTimer();
     };
-  }, [homeBtn]);
+    // eslint-disable-next-line
+  }, []);
 
   function isImageText() {
     if (
@@ -42,9 +41,9 @@ function IppoPage({ homeBtn }) {
       />
 
       {isImageText() ? (
-        <ImageTextEl subject={whichIsActive} />
+        <ImageTextEl subject={whichIsActive} homeBtnLogic={homeBtn} />
       ) : (
-        <TextInserter subject={whichIsActive} />
+        <TextInserter subject={whichIsActive} homeBtnLogic={homeBtn} />
       )}
       <ScrollingBtns homeBtnLogic={homeBtn} whichIsActive={whichIsActive} />
     </div>

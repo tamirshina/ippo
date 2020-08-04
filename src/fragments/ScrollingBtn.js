@@ -1,17 +1,10 @@
 import React from "react";
 import scrollUpImg from "../assets/08-UP.png";
 import scrollDwonImg from "../assets/07-down.png";
-import { timer, removeTimer } from "../TimerHundler";
 import "../App.css";
 
-function ScrollingBtn({ homeBtnLogic, whichIsActive }) {
-  function resetTimer() {
-    removeTimer();
-    timer(homeBtnLogic);
-  }
-
+function ScrollingBtn({ whichIsActive }) {
   function scrollDown() {
-    resetTimer();
     if (
       whichIsActive === "headsOf" ||
       whichIsActive === "importentStructures"
@@ -29,7 +22,6 @@ function ScrollingBtn({ homeBtnLogic, whichIsActive }) {
   }
 
   function scrollUp() {
-    resetTimer();
     if (
       whichIsActive === "headsOf" ||
       whichIsActive === "importentStructures"
