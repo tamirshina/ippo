@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import IppoPage from "./IppoPage";
 import FrontPage from "./FrontPage";
@@ -8,6 +8,16 @@ import LanguageButtons from "./fragments/LanguageButtons";
 function App() {
   const [isIppoPage, setIsIppoPage] = useState(false);
   const [isFrontPage, setIstFrontPage] = useState(true);
+
+  useEffect(() => {
+    window.addEventListener("contextmenu", blockContextMenu);
+
+    // eslint-disable-next-line
+  }, []);
+
+  const blockContextMenu = (evt) => {
+    evt.preventDefault();
+  };
 
   const homeBtn = () => {
     setIstFrontPage(true);
