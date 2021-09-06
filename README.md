@@ -8,7 +8,7 @@
 
 * It is maintained by me :) 
 
-* Each project is run by a script located on the desktop of each allInOne machine at the hote, the script basiclly -
+* Each project is run by a script located on the desktop of each allInOne machine at the hotel, the script basiclly -
 
 open cmd in the right folder -> npm run build -> serve -s build -> opens Crome **full page** on localhost:3000.
 
