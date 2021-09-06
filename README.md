@@ -1,4 +1,4 @@
-Ippo is one of seven media centers located in Sergi- courtyard  hotel in Jerusalem. 
+# Ippo is one of seven media centers located in Sergi- courtyard  hotel in Jerusalem. 
 
 * Each media center aims to deliver information about the Russian presents in the holy land from the 19th century till the first world war.  
 
